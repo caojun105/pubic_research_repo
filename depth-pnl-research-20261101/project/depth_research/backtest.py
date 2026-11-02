@@ -48,7 +48,7 @@ def summarize(trades, equity, rejections, unresolved=None):
 
 def simulate(states, start, end, params, qty, latency_ms=100, fee_bps=0,
              max_hold_s=30, entry_sustain_ms=500, exit_sustain_ms=300,
-             close_reserve_s=2, benchmark=False):
+             close_reserve_s=2, benchmark=False, signal_key=None):
     import collections
     latency = round(latency_ms * 1e6)
     close_time = end - round(close_reserve_s * NS)
@@ -120,7 +120,10 @@ def simulate(states, start, end, params, qty, latency_ms=100, fee_bps=0,
             elif not benchmark and t - pos['t'] >= max_hold_s * NS:
                 reason = 'max_hold'
             elif not benchmark:
-                weak = r['bid1'] < params['bid1_min'] or (r['A'] > 0 and r['B'] <= params['ratio_out'] * r['A'])
+                if signal_key is None:
+                    weak = r['bid1'] < params['bid1_min'] or (r['A'] > 0 and r['B'] <= params['ratio_out'] * r['A'])
+                else:
+                    weak = r[signal_key] is None or r[signal_key] <= params['exit']
                 if weak:
                     if out_since is None:
                         out_since = t
@@ -131,7 +134,10 @@ def simulate(states, start, end, params, qty, latency_ms=100, fee_bps=0,
             if reason:
                 order = {'side': 'sell', 'due': t + latency, 'signal_t': t, 'signal_utc': r['utc'], 'reason': reason}
         elif t < entry_cutoff:
-            ok = r['bid1'] >= params['bid1_min'] and r['A'] > 0 and r['B'] >= params['ratio_in'] * r['A']
+            if signal_key is None:
+                ok = r['bid1'] >= params['bid1_min'] and r['A'] > 0 and r['B'] >= params['ratio_in'] * r['A']
+            else:
+                ok = r[signal_key] is not None and r[signal_key] >= params['entry']
             if benchmark:
                 ok = not attempted_benchmark
             if ok:

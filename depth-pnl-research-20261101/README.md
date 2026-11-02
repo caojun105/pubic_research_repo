@@ -2,6 +2,10 @@
 
 本目录包含 2026-11-01 的一小时采集原始数据、完整可运行项目和全部回测产物。严格回测窗口为 UTC 03:12:26.715261–04:12:26.715261，前40分钟训练、后20分钟测试。
 
+## 持续研究入口
+
+最新进度见 [项目概要](PROJECT_OVERVIEW.md)。2026-11-02 已新增 R01 七个算法版本及对照研究；下面的压缩包和历史结果仍是原始归档。
+
 ## 下载内容
 
 - [raw-data.tar.gz](raw-data.tar.gz)：完整采集目录，含 Binance 快照/增量/成交原始流、秒级对齐数据、Variational 报价和原始流、时钟探测、元数据、采集状态、旧版分析结果及参考脚本。解压到 `data/`。
@@ -19,13 +23,16 @@
 ```bash
 sha256sum -c SHA256SUMS
 tar -xzf raw-data.tar.gz
-tar -xzf project-complete.tar.gz
 python3 verify_bundle.py
 cd project
 python3 -m unittest discover -s tests -v
 python3 -m depth_research --data ../data/full_var_20261101T031206Z --config config.json --output reproduced
 python3 scripts/verify_results.py --data ../data/full_var_20261101T031206Z --results reproduced
+python3 -m depth_research.explore --data ../data/full_var_20261101T031206Z
+python3 scripts/verify_exploration.py --data ../data/full_var_20261101T031206Z
 ```
+
+不要将旧 `project-complete.tar.gz` 解压覆盖已更新的 `project/`。如需复原历史版本，请解压到独立目录。`verify_bundle.py` 默认验证原始压缩包及包内文件；`--extracted-root` 可额外验证独立的原始解压目录。新实验结果由各自验证器和哈希核验。
 
 项目仅使用 Python 标准库。复现结果写入 `reproduced/`，保留原始 `results/`。历史结果的校验脚本记录了原运行机路径，因此跨机器应验证新生成的 `reproduced/`；已归档历史结果的文件完整性由 `verify_bundle.py` 验证。
 

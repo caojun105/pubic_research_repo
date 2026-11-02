@@ -1,0 +1,39 @@
+{
+  "parameters": {
+    "qi": {
+      "entry": 0.2,
+      "exit": 0
+    },
+    "obi6": {
+      "entry": 0.4,
+      "exit": 0
+    },
+    "weighted6": {
+      "entry": 0.2,
+      "exit": 0
+    },
+    "ofi1": {
+      "entry": 0.25,
+      "exit": 0
+    },
+    "ofi5": {
+      "entry": 0.5,
+      "exit": 0
+    },
+    "combo": {
+      "entry": 1,
+      "exit": 0
+    },
+    "momentum1": {
+      "entry": 0.1,
+      "exit": 0
+    },
+    "original": {
+      "bid1_min": 0.5,
+      "ratio_in": 2.0,
+      "ratio_out": 1.0
+    }
+  },
+  "training_champion": "obi6",
+  "selection_uses_test": false
+}

@@ -1,0 +1,18 @@
+{
+  "id": "R01", "date": "2026-11-02", "status": "exploratory_already_seen_hour",
+  "train_seconds": 2400, "window_seconds": 3600,
+  "quantity_btc": "0.01", "max_hold_s": 30, "entry_sustain_ms": 500,
+  "exit_sustain_ms": 300, "close_reserve_s": 2,
+  "selection": "max training zero-fee PnL at 100ms; minimum 5 complete trades; ties first; no-trade if none positive",
+  "families": {
+    "qi": [0.2, 0.4, 0.6], "obi6": [0.2, 0.4, 0.6],
+    "weighted6": [0.2, 0.4, 0.6], "ofi1": [0.25, 0.5, 1.0],
+    "ofi5": [0.25, 0.5, 1.0], "combo": [1, 2, 3],
+    "momentum1": [0.1, 0.25, 0.5]
+  },
+  "exit_threshold": 0,
+  "latencies_ms": [0, 100, 250, 500], "fees_bps": [0, 0.1, 0.2, 1],
+  "prediction_horizons_s": [1, 5, 30], "quantities_btc": ["0.01", "0.1", "1"],
+  "original_reference": {"bid1_min": 0.5, "ratio_in": 2.0, "ratio_out": 1.0},
+  "notes": "Grids fixed before R01 runs; seven families/21 candidates. Original reference selected in prior 32-candidate research; not a fresh control. Full history up to decision time may warm up features; positions/signal persistence restart at split. No test-based winner selection. Spot long/flat only."
+}
