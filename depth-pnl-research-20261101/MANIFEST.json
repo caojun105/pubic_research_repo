@@ -1,0 +1,729 @@
+{
+  "raw-data.tar.gz": {
+    "bytes": 3911534,
+    "sha256": "6f89f23e7f78c15ffbc2d866152e2aa5d61f4a0a4c07e60508f333d5e55d196e",
+    "files": [
+      {
+        "path": "data/full_var_20261101T031206Z/aligned_1s.jsonl",
+        "bytes": 13678494,
+        "sha256": "cd4bea0cb608055933f9a1215f8b5c60db0b854dffdf1d2af100acf03731632e"
+      },
+      {
+        "path": "data/full_var_20261101T031206Z/binance_raw.jsonl",
+        "bytes": 25754627,
+        "sha256": "4d97b775085053078ff87d9c00bf3fd846aa9dbada27a90cd45907bd8961c930"
+      },
+      {
+        "path": "data/full_var_20261101T031206Z/binance_snapshots.jsonl",
+        "bytes": 320325,
+        "sha256": "772f673ea8e1266a1d474ee881f20e958d7357d16a2ad0fcb3ceaab2d6e31c00"
+      },
+      {
+        "path": "data/full_var_20261101T031206Z/clock_probes.jsonl",
+        "bytes": 17973,
+        "sha256": "b870d6183081256ee72258234d9e366bcc770dbbde8987a47b92261f50cb90f9"
+      },
+      {
+        "path": "data/full_var_20261101T031206Z/connections.jsonl",
+        "bytes": 501,
+        "sha256": "ce2891088cbca452627912d07916d466fa91708b5d0c6bc54b2ac2a2d8146a9b"
+      },
+      {
+        "path": "data/full_var_20261101T031206Z/metadata.jsonl",
+        "bytes": 773,
+        "sha256": "bab617c921ac1b8db43b8dd58d5032c68286bf060e65072a681949d185d0c046"
+      },
+      {
+        "path": "data/full_var_20261101T031206Z/schedule.json",
+        "bytes": 225,
+        "sha256": "a94d7d83b78d309e62b97bacb446fcf1f4cbd2eabfa742087608a89970607529"
+      },
+      {
+        "path": "data/full_var_20261101T031206Z/status.json",
+        "bytes": 598,
+        "sha256": "6db8eaf64d151a200bf44d9e838c9cac93a49298ed8bdc9ff8b28d0327679f7d"
+      },
+      {
+        "path": "data/full_var_20261101T031206Z/strategy_depth_1h/summary.json",
+        "bytes": 962,
+        "sha256": "6cfdbce5a84ca6de778b54eb83b19ba1994f7544214c66f266ac9e66762e11fa"
+      },
+      {
+        "path": "data/full_var_20261101T031206Z/strategy_depth_1h/trades_best.csv",
+        "bytes": 1986,
+        "sha256": "ac1e1de9611ac633c7fbc135ee6623df656ca1d7ae00211174a60a51d2458f19"
+      },
+      {
+        "path": "data/full_var_20261101T031206Z/var_quotes.jsonl",
+        "bytes": 52028,
+        "sha256": "78513e72c7c753f924c34c7f037ebf3cbbdd53d705d3c4ce6cb936f68ecf6ec7"
+      },
+      {
+        "path": "data/full_var_20261101T031206Z/var_ws_raw.jsonl",
+        "bytes": 1469377,
+        "sha256": "c392c68f8c83f76549fc5680797df609f863e68356bc27fdaa63690a5a1e71ce"
+      },
+      {
+        "path": "data/depth_strategy_1h.py",
+        "bytes": 13468,
+        "sha256": "27c171ee26da120e86aa75eb126565bebc7b55ee7b51dfaf54e10a4d55a707e0"
+      }
+    ]
+  },
+  "project-complete.tar.gz": {
+    "bytes": 5199583,
+    "sha256": "57e0c3ef9cecdf9e580770321d356d4a3c065cbed7935a19709aa46b1c6017ed",
+    "files": [
+      {
+        "path": "project/.gitignore",
+        "bytes": 19,
+        "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793"
+      },
+      {
+        "path": "project/README.md",
+        "bytes": 10599,
+        "sha256": "df787f0fc78514ca25c6b862405b6a56941b0fd6c4e7102f21589de4e1a5993f"
+      },
+      {
+        "path": "project/TASK.txt",
+        "bytes": 2912,
+        "sha256": "9c3b17cbfd40fb12eb18ac679d45dd8ba0e5621da822210dbe0d602b12da34a2"
+      },
+      {
+        "path": "project/config.json",
+        "bytes": 420,
+        "sha256": "1e79f96abfa56c0b87918daf5940b43dde669deed3806346a2e0873bf89fb635"
+      },
+      {
+        "path": "project/depth_research/__init__.py",
+        "bytes": 68,
+        "sha256": "672770694c8eabd090c2375ea93e0954377b8d5573d10b89531b81762722b1c2"
+      },
+      {
+        "path": "project/depth_research/__main__.py",
+        "bytes": 10401,
+        "sha256": "3359597e6a9dd0b5aaa50a103fb816f1bda34103b2a3408e439576cb1b718f19"
+      },
+      {
+        "path": "project/depth_research/backtest.py",
+        "bytes": 8184,
+        "sha256": "63d25144d4651412e8b9e704ce7a36dbbd9e15cdc34ed630ab66d96c56745c16"
+      },
+      {
+        "path": "project/depth_research/data.py",
+        "bytes": 9690,
+        "sha256": "7ebb2ca3e6c3621c60729245a60b79c23cb2909615740c86fc202794fbed881c"
+      },
+      {
+        "path": "project/depth_research/report.py",
+        "bytes": 10726,
+        "sha256": "429d0843293ef07a52d6cac75c8bb8cb872203bd9404c0330b99003ccfee1d7e"
+      },
+      {
+        "path": "project/requirements.txt",
+        "bytes": 66,
+        "sha256": "1c96073f91f05e4367136f20526e24dbce3592c1adf3adbcb667d47d0c5903b9"
+      },
+      {
+        "path": "project/results/audit.json",
+        "bytes": 8575,
+        "sha256": "ca65944089458df899b983d220bc924b9399f023d18290135052c491bf3bf918"
+      },
+      {
+        "path": "project/results/book_features.csv",
+        "bytes": 7423402,
+        "sha256": "e71e1edf47a2ed2a8674a10585e25c9920c0a6395f541bca4ee1d10d36e66da8"
+      },
+      {
+        "path": "project/results/buy_hold_equity.csv",
+        "bytes": 1100028,
+        "sha256": "46ef866e2b7cd62dd311b98bc28713567edf67d4ac5df0ab2c829a42136c8e5e"
+      },
+      {
+        "path": "project/results/buy_hold_trades.csv",
+        "bytes": 644,
+        "sha256": "6a65834fb86f63a07dc3379d66aa375bb3f46d3e18d7ddcf16e9de545df985da"
+      },
+      {
+        "path": "project/results/lat0_fee0_buy_hold_trades.csv",
+        "bytes": 643,
+        "sha256": "0bc9e9c1685c37fdef8f152346e2af0fed875488489b19f004b35dbfe21ff9c6"
+      },
+      {
+        "path": "project/results/lat0_fee0_equity.csv",
+        "bytes": 1333293,
+        "sha256": "1c7ed7f87c9ae8f958a49e21da788c9df0d81a78c24403e9f72253a339eb2ec9"
+      },
+      {
+        "path": "project/results/lat0_fee0_summary.json",
+        "bytes": 2381,
+        "sha256": "b1f2144b152c3ea3daf0a9728e56012e6b83f0c7886b89f558236fb3844d4e16"
+      },
+      {
+        "path": "project/results/lat0_fee0_trades.csv",
+        "bytes": 5841,
+        "sha256": "3e85a8cb8d65956744d11df84098db721e61b210c5d2f74b6decc56d5628e080"
+      },
+      {
+        "path": "project/results/lat0_fee0_train_trades.csv",
+        "bytes": 16516,
+        "sha256": "ab48e580e4afb69e14cfef8a984e1974937d4b0829f6df950098635f193b6551"
+      },
+      {
+        "path": "project/results/lat0_fee10_buy_hold_trades.csv",
+        "bytes": 664,
+        "sha256": "b3ee03313f34726a8a7994d50609ded80251119aae5c4be382acaedb8d6b4584"
+      },
+      {
+        "path": "project/results/lat0_fee10_equity.csv",
+        "bytes": 1325138,
+        "sha256": "5b27ff12c4ff3c5d703f2329b0e61afbb9c890be2e19369c88c61701bf46cbff"
+      },
+      {
+        "path": "project/results/lat0_fee10_summary.json",
+        "bytes": 2351,
+        "sha256": "5c10d6f1b1ae51441c695f87c35d864384a88ba8c13b9d057d94fd5f5a95397d"
+      },
+      {
+        "path": "project/results/lat0_fee10_trades.csv",
+        "bytes": 6191,
+        "sha256": "e9f0c310c3865b109d999a272a8f97745b230af28f843d834ba66a32081153e9"
+      },
+      {
+        "path": "project/results/lat0_fee10_train_trades.csv",
+        "bytes": 17583,
+        "sha256": "09b73ad4ebabc455d55804459350a357c8ad5f509a700e57c5050b9f43999f96"
+      },
+      {
+        "path": "project/results/lat0_fee1_buy_hold_trades.csv",
+        "bytes": 675,
+        "sha256": "dba69959677a8079bbe22a6760faef26fd7d9cf2c71eb73464b3552d9950a293"
+      },
+      {
+        "path": "project/results/lat0_fee1_equity.csv",
+        "bytes": 1330890,
+        "sha256": "1b5c3f312962eebb8b5bb3c1af9ede446c0028a5ba7f425bd52ba56e9c6f3404"
+      },
+      {
+        "path": "project/results/lat0_fee1_summary.json",
+        "bytes": 2459,
+        "sha256": "d2bbd227173a818e6086540bc310fb3323e4bd36628aabbdfdf2779af8b3c443"
+      },
+      {
+        "path": "project/results/lat0_fee1_trades.csv",
+        "bytes": 6102,
+        "sha256": "8012c11f8b4e1f6e6253e416df23f9298d61e10390cdaa95d779a93e1a9f554f"
+      },
+      {
+        "path": "project/results/lat0_fee1_train_trades.csv",
+        "bytes": 17409,
+        "sha256": "f6ccc70c2410d752faa7316b4d55a9f0607edc2a3c62a6c5f8391e9973c0052d"
+      },
+      {
+        "path": "project/results/lat0_fee2_buy_hold_trades.csv",
+        "bytes": 675,
+        "sha256": "51496c5565424b46cafbfb21bea53295b63795a78fd2654b3c2595c116b3d763"
+      },
+      {
+        "path": "project/results/lat0_fee2_equity.csv",
+        "bytes": 1321615,
+        "sha256": "f520de5389a63f14427b61d14e2b12238694dccba97eb784319833353e415d9d"
+      },
+      {
+        "path": "project/results/lat0_fee2_summary.json",
+        "bytes": 2370,
+        "sha256": "c632afc4911a8e0c53fdff3bfc52fedcddfec9ac09b6db69001f9ebe4754ad55"
+      },
+      {
+        "path": "project/results/lat0_fee2_trades.csv",
+        "bytes": 6094,
+        "sha256": "3edc4570bb83fa82c1a74cb8284c71cd4804ff69e7420b6d45de87cb68b27267"
+      },
+      {
+        "path": "project/results/lat0_fee2_train_trades.csv",
+        "bytes": 17405,
+        "sha256": "4b0121766789e4430fe0bd4b5c51fcd9032657e17b312c46f8a3585cab19fdd8"
+      },
+      {
+        "path": "project/results/lat0_fee5_buy_hold_trades.csv",
+        "bytes": 666,
+        "sha256": "32cddf2466dde294c0c8977aecf3abaca3d2a7e183cf2829a16307d58ee82e5b"
+      },
+      {
+        "path": "project/results/lat0_fee5_equity.csv",
+        "bytes": 1310363,
+        "sha256": "27ae34f663df94fc0b4809539aacf30ce5a6d94dd88c76cca27868fa559784ce"
+      },
+      {
+        "path": "project/results/lat0_fee5_summary.json",
+        "bytes": 2354,
+        "sha256": "68789a111449af8f3c807d424b63ca9b3c4fff4c238d5ef3c3e5dc20be84be3a"
+      },
+      {
+        "path": "project/results/lat0_fee5_trades.csv",
+        "bytes": 6211,
+        "sha256": "469181d6de8fa3df643b573e2c6f7683958609a741215a73e55af35ffa3b18ad"
+      },
+      {
+        "path": "project/results/lat0_fee5_train_trades.csv",
+        "bytes": 17663,
+        "sha256": "18a3c3fbaacf5d31022ba2bde60986470f574f05ef540089f547190a636f3bea"
+      },
+      {
+        "path": "project/results/lat100_fee0_buy_hold_trades.csv",
+        "bytes": 644,
+        "sha256": "6a65834fb86f63a07dc3379d66aa375bb3f46d3e18d7ddcf16e9de545df985da"
+      },
+      {
+        "path": "project/results/lat100_fee0_equity.csv",
+        "bytes": 1320666,
+        "sha256": "8d3339ba90cab161f0873d07e8bcfc5322523bc0a15a0daff618090f836e0dc3"
+      },
+      {
+        "path": "project/results/lat100_fee0_summary.json",
+        "bytes": 2383,
+        "sha256": "0df5814adfa26942463ece9a10e00ac96816d7c78c2525bbc5fd1e7c2bd6380c"
+      },
+      {
+        "path": "project/results/lat100_fee0_trades.csv",
+        "bytes": 5860,
+        "sha256": "25af0e05209382b635482702cbc2653289d17b23ea1c968e894b62cce7f29f9e"
+      },
+      {
+        "path": "project/results/lat100_fee0_train_trades.csv",
+        "bytes": 16580,
+        "sha256": "848455d2117c4dab0bfa53ba8e241e3cf0b70679bb6a77ccffbc784c2f7153b0"
+      },
+      {
+        "path": "project/results/lat100_fee10_buy_hold_trades.csv",
+        "bytes": 665,
+        "sha256": "d0e735b39597c431de6b199ffcfdbd22e7c457506963cba607cf7383c0490a12"
+      },
+      {
+        "path": "project/results/lat100_fee10_equity.csv",
+        "bytes": 1320501,
+        "sha256": "aa98b63b6e0184f9d84fc26e8ed83dd360d50fa7957d01f05359d1d8d0cb61bf"
+      },
+      {
+        "path": "project/results/lat100_fee10_summary.json",
+        "bytes": 2351,
+        "sha256": "c4b3625d014968e858253804ccbe161eb40bbeda5c8b566864f4e4433fb924fa"
+      },
+      {
+        "path": "project/results/lat100_fee10_trades.csv",
+        "bytes": 6202,
+        "sha256": "f7f9d0a52f8e2bdfb525a24b1faa8cf4ce033d09a7eecef65039a4e47f311b78"
+      },
+      {
+        "path": "project/results/lat100_fee10_train_trades.csv",
+        "bytes": 17647,
+        "sha256": "4e606985483cfc3771dc6604ce6ec0ad5e3e9b1e02a605b824ff27ea066fc427"
+      },
+      {
+        "path": "project/results/lat100_fee1_buy_hold_trades.csv",
+        "bytes": 676,
+        "sha256": "9c5d73c00926c87cff0a082addf7e3a809eb0d31636869c4bb961f0fdabbe5d4"
+      },
+      {
+        "path": "project/results/lat100_fee1_equity.csv",
+        "bytes": 1329571,
+        "sha256": "d953d301d9a165f34c24a0f9c00c235fcfaadbe162da9fb49aad48b194a80f8b"
+      },
+      {
+        "path": "project/results/lat100_fee1_summary.json",
+        "bytes": 2461,
+        "sha256": "9ddcbbe211d6911c4e36d8a7d38851257e0746e8bef0941f1d540d5cb3ce5035"
+      },
+      {
+        "path": "project/results/lat100_fee1_trades.csv",
+        "bytes": 6120,
+        "sha256": "a098d4bf435e50b2247faee6737c003503047ba047b14aefadcce1c1de0c6246"
+      },
+      {
+        "path": "project/results/lat100_fee1_train_trades.csv",
+        "bytes": 17473,
+        "sha256": "43e5ae3c3e07ff05c3da203dc7dc84ba20fe6481bfbb1e0c1a9810d4f910a132"
+      },
+      {
+        "path": "project/results/lat100_fee2_buy_hold_trades.csv",
+        "bytes": 676,
+        "sha256": "4a8bfe29761c23552a91035095399f8749cc2bb884c085943bafbd1fa75dc9e4"
+      },
+      {
+        "path": "project/results/lat100_fee2_equity.csv",
+        "bytes": 1322195,
+        "sha256": "13f3770ff1d5a15555b05cafcb03d940157334831a35e7da61f8a6ddb7f6bc3b"
+      },
+      {
+        "path": "project/results/lat100_fee2_summary.json",
+        "bytes": 2371,
+        "sha256": "1be23d1ee9e869bb0f89f3f2acb1ec931221b5547d2e38c952364fbdcdcb24d4"
+      },
+      {
+        "path": "project/results/lat100_fee2_trades.csv",
+        "bytes": 6112,
+        "sha256": "c64a56e41b123ea8185c6b72df4848633841c695146c1716be0b0296fc411d84"
+      },
+      {
+        "path": "project/results/lat100_fee2_train_trades.csv",
+        "bytes": 17469,
+        "sha256": "ba212d22fc32cb4b7c06c3904a4c47eda748169914a550fd394c45102a1edba4"
+      },
+      {
+        "path": "project/results/lat100_fee5_buy_hold_trades.csv",
+        "bytes": 667,
+        "sha256": "a7befa9ace2a8beb0333cb291d3777fe36e3e65979a53e92bb2d6507d2ca0b14"
+      },
+      {
+        "path": "project/results/lat100_fee5_equity.csv",
+        "bytes": 1310049,
+        "sha256": "85ca2f46e3af212ceaf3c3b7313653f6cf27ddd96a9a43e630f26d23e6b8bf0f"
+      },
+      {
+        "path": "project/results/lat100_fee5_summary.json",
+        "bytes": 2352,
+        "sha256": "988df7eed48188ab16916607ec834bdde9ee519bb6faa68415a45cb1bc21d173"
+      },
+      {
+        "path": "project/results/lat100_fee5_trades.csv",
+        "bytes": 6223,
+        "sha256": "86ef5f065924fdb3d098b050d57c665268a4305b9c3c4bf7dad6c8af5bf33001"
+      },
+      {
+        "path": "project/results/lat100_fee5_train_trades.csv",
+        "bytes": 17727,
+        "sha256": "7087f7cc57f290951ad16644fa828e90e06d860d1e5d0e2365e48ee9dbbb9a14"
+      },
+      {
+        "path": "project/results/lat250_fee0_buy_hold_trades.csv",
+        "bytes": 645,
+        "sha256": "3f383e0160c1e89cfdad7fc7fd785366e9343bd7c72e6b3a92e535e41bdd600e"
+      },
+      {
+        "path": "project/results/lat250_fee0_equity.csv",
+        "bytes": 1330581,
+        "sha256": "6b2adc7bd2de674aa29e30c35906878d63eb3d81412aeee89a40e676dee13856"
+      },
+      {
+        "path": "project/results/lat250_fee0_summary.json",
+        "bytes": 2386,
+        "sha256": "7361602c11132d224240c2cba25ed0f70f3fb4946c7ad7d4818e4344a659aecd"
+      },
+      {
+        "path": "project/results/lat250_fee0_trades.csv",
+        "bytes": 5855,
+        "sha256": "fe8b83dbae0dda85d16780b20454a76cc21a25c53739a739c7d1abc674aa264e"
+      },
+      {
+        "path": "project/results/lat250_fee0_train_trades.csv",
+        "bytes": 16579,
+        "sha256": "c68e107db0703f186bd7ce688906d0074d36fdaf31394a624afd4ee12412b73b"
+      },
+      {
+        "path": "project/results/lat250_fee10_buy_hold_trades.csv",
+        "bytes": 666,
+        "sha256": "c4d395e6c092444cbdb0454a127051ed4f19c46fa3d2a62b5daf89af94c54927"
+      },
+      {
+        "path": "project/results/lat250_fee10_equity.csv",
+        "bytes": 1310639,
+        "sha256": "bb89bec1321731536942446ced689bea25c52fef2e37a110f3f46c6ca67cd307"
+      },
+      {
+        "path": "project/results/lat250_fee10_summary.json",
+        "bytes": 2348,
+        "sha256": "9d26bdc9b63d72feda65942d6108f5a7aa9403d960fe53ead48380e46bdabf95"
+      },
+      {
+        "path": "project/results/lat250_fee10_trades.csv",
+        "bytes": 6213,
+        "sha256": "b24bace5cdd706d9114d8d3655dceb5727ec08b24e4fc82cf10ba06cf5b967d3"
+      },
+      {
+        "path": "project/results/lat250_fee10_train_trades.csv",
+        "bytes": 17646,
+        "sha256": "6c1ad1fa3addb05793b5a9ad0237734f16beb987e7e61286c262e5fd919c409c"
+      },
+      {
+        "path": "project/results/lat250_fee1_buy_hold_trades.csv",
+        "bytes": 677,
+        "sha256": "f8eb5fdece0aeedb57695f5b6b2245fd8e255c8ae01358412d6f52e1035ed29f"
+      },
+      {
+        "path": "project/results/lat250_fee1_equity.csv",
+        "bytes": 1340226,
+        "sha256": "0e4b1905b5599a2a114b58a4255e1b554a529a3e8ddbfaecedfca10368a8c551"
+      },
+      {
+        "path": "project/results/lat250_fee1_summary.json",
+        "bytes": 2449,
+        "sha256": "4467475defd9dabbc711dc0a4f3266b0f49b7b97cf939a7d419ab4b16287aa59"
+      },
+      {
+        "path": "project/results/lat250_fee1_trades.csv",
+        "bytes": 6135,
+        "sha256": "00b885d9674efb612f73a5b959dc0f6e9a49657b1105648b2e4fd6f34be69889"
+      },
+      {
+        "path": "project/results/lat250_fee1_train_trades.csv",
+        "bytes": 17461,
+        "sha256": "14e8559d8eb6d0c677e7b4f7a5bdfe0063e8e394e0918629cf76c9c2905e5714"
+      },
+      {
+        "path": "project/results/lat250_fee2_buy_hold_trades.csv",
+        "bytes": 677,
+        "sha256": "a28596d7a49b1bd1505c5f1664f2c1bfe20907734a2cbc14d09da6a3735bc31b"
+      },
+      {
+        "path": "project/results/lat250_fee2_equity.csv",
+        "bytes": 1332766,
+        "sha256": "7a3366fa04803575d90ceef8cb9b0054e42bff3c126929d81acc9debdcd53ffc"
+      },
+      {
+        "path": "project/results/lat250_fee2_summary.json",
+        "bytes": 2340,
+        "sha256": "a4f4ca1e05185cd1114439174f719ee3002bd440940f61de8ad5824d203f6746"
+      },
+      {
+        "path": "project/results/lat250_fee2_trades.csv",
+        "bytes": 6129,
+        "sha256": "14a2e821b30336298b0352c6a65cf7501aa931467ac3bc7772bac9335f50939a"
+      },
+      {
+        "path": "project/results/lat250_fee2_train_trades.csv",
+        "bytes": 17457,
+        "sha256": "b1a4589f5fbad4f9c7896adfc4aade49c71113a964aaacdec437d2986a6f0571"
+      },
+      {
+        "path": "project/results/lat250_fee5_buy_hold_trades.csv",
+        "bytes": 668,
+        "sha256": "bf88969e6a4e6d21fc66f0db860a4f79bf36a9612b07f14ceaee12ab8c55317b"
+      },
+      {
+        "path": "project/results/lat250_fee5_equity.csv",
+        "bytes": 1306901,
+        "sha256": "eb84abd87b676514087b9003594db243eb762c430558d250377f518fa120b6ce"
+      },
+      {
+        "path": "project/results/lat250_fee5_summary.json",
+        "bytes": 2356,
+        "sha256": "b346cd9868e48e1bbfba1a651ae0ae732a41aefe3f8c8bcabbeab8b21dea80c4"
+      },
+      {
+        "path": "project/results/lat250_fee5_trades.csv",
+        "bytes": 6234,
+        "sha256": "dc4dea7152309e43a99e8835b98f4bbdd767ffe2203fad8f6e603c987b6e5178"
+      },
+      {
+        "path": "project/results/lat250_fee5_train_trades.csv",
+        "bytes": 17727,
+        "sha256": "3854489fb54a397919bff5c5f53990a8656282568e05bb601b3259e2cbf39d2e"
+      },
+      {
+        "path": "project/results/lat500_fee0_buy_hold_trades.csv",
+        "bytes": 645,
+        "sha256": "e783bd7e73b937c7c904b420dbce8434edb3ccb79796c3bb0818731c4dcafbbe"
+      },
+      {
+        "path": "project/results/lat500_fee0_equity.csv",
+        "bytes": 1324795,
+        "sha256": "55a5c5cfc86c298516297a3ef4be870703b3f199768e8c5d9402acf5cca9620d"
+      },
+      {
+        "path": "project/results/lat500_fee0_summary.json",
+        "bytes": 2401,
+        "sha256": "6a3585b095c03423d3d0663a339992966c7cee9ce7aeb0ace5d3415c4e3c9a20"
+      },
+      {
+        "path": "project/results/lat500_fee0_trades.csv",
+        "bytes": 5855,
+        "sha256": "06b4b7c4d9b138361a3f411cb3bb1b6c885bd1fb05634b61bfe140e767cca6c9"
+      },
+      {
+        "path": "project/results/lat500_fee0_train_trades.csv",
+        "bytes": 15954,
+        "sha256": "8355dcda17e2e32ce5c7e722bcac466724768d961dabb4bf0910c8064ae0027d"
+      },
+      {
+        "path": "project/results/lat500_fee10_buy_hold_trades.csv",
+        "bytes": 666,
+        "sha256": "7e49ed242c6adb9f7963e9891a881ae8b32d9a8f8cb66c5c13cec9505619ec95"
+      },
+      {
+        "path": "project/results/lat500_fee10_equity.csv",
+        "bytes": 1321408,
+        "sha256": "5566646c6e519b5ebc29b13de1e83ed9018d769fcf433784d6659a4d1499e155"
+      },
+      {
+        "path": "project/results/lat500_fee10_summary.json",
+        "bytes": 2295,
+        "sha256": "417030a2a5c60c04d334037e8b7f036d07e44fdc04cae088af9fbe58bc90eb45"
+      },
+      {
+        "path": "project/results/lat500_fee10_trades.csv",
+        "bytes": 6202,
+        "sha256": "cf921cfc181c8390e0ce375729675826a6f4495bde539181dc248b10802a210c"
+      },
+      {
+        "path": "project/results/lat500_fee10_train_trades.csv",
+        "bytes": 16951,
+        "sha256": "8def3c4fb0eebe7689c2396d5ecb4d7a8c6e1063194c4fe4b8531a9b750b93ff"
+      },
+      {
+        "path": "project/results/lat500_fee1_buy_hold_trades.csv",
+        "bytes": 677,
+        "sha256": "96f4ea62a04e2e3a36a3d6f6d9a96e3570ce369aba0005a69adedccfaac314fc"
+      },
+      {
+        "path": "project/results/lat500_fee1_equity.csv",
+        "bytes": 1342695,
+        "sha256": "fcb9c57494d61d4cb8f5ff83e11336a78afc6bae6f2cab4163966e19973eb3ef"
+      },
+      {
+        "path": "project/results/lat500_fee1_summary.json",
+        "bytes": 2474,
+        "sha256": "9d2c39ae5b3397d12845d4b474a5ac93678d3bffb3d37e29c1f506688308ba00"
+      },
+      {
+        "path": "project/results/lat500_fee1_trades.csv",
+        "bytes": 6143,
+        "sha256": "09e1868fb671feb36ffa6c2b7c456c746a6f1c4fd6f49573e623b54259e54314"
+      },
+      {
+        "path": "project/results/lat500_fee1_train_trades.csv",
+        "bytes": 16778,
+        "sha256": "db45de3eefbdf43ec839a671f83046a9129f3dd05ad7111e977a4d512b9ff585"
+      },
+      {
+        "path": "project/results/lat500_fee2_buy_hold_trades.csv",
+        "bytes": 677,
+        "sha256": "1f4d5fa7e4d3921ca352a92f32b1e4e7e4187bed095acfb4e02185a3aae5f144"
+      },
+      {
+        "path": "project/results/lat500_fee2_equity.csv",
+        "bytes": 1322902,
+        "sha256": "b0307945efe910d66a4ae9d31439ae56c854f546edce37b35a8880ad3c151aeb"
+      },
+      {
+        "path": "project/results/lat500_fee2_summary.json",
+        "bytes": 2345,
+        "sha256": "1717596b8ba558acf27b80778eaff2ebb560bd5d8d1ab1ae076ec668c6d188ef"
+      },
+      {
+        "path": "project/results/lat500_fee2_trades.csv",
+        "bytes": 6137,
+        "sha256": "46754c2fca90bf558cc2e702e8c1dceb12d24f98914fe6174797a9894dfda420"
+      },
+      {
+        "path": "project/results/lat500_fee2_train_trades.csv",
+        "bytes": 16773,
+        "sha256": "59b668759af495cb1ed085d02e163833d257a2384d4c355e33e8662914d0ad01"
+      },
+      {
+        "path": "project/results/lat500_fee5_buy_hold_trades.csv",
+        "bytes": 668,
+        "sha256": "7768608bcde2515d082090211d188769d8e7d3c4ad5ea22e5ad490277de07fda"
+      },
+      {
+        "path": "project/results/lat500_fee5_equity.csv",
+        "bytes": 1314138,
+        "sha256": "646cef612ed1e92043f718ee60e61dfbc1cd25d1ebd0b91d852f53becf72e8ac"
+      },
+      {
+        "path": "project/results/lat500_fee5_summary.json",
+        "bytes": 2329,
+        "sha256": "9e3a95baaba2cfcad345210bd2d423cd7e2558ef08d333c1462997684e8d46da"
+      },
+      {
+        "path": "project/results/lat500_fee5_trades.csv",
+        "bytes": 6222,
+        "sha256": "040bbf10847727ccd5a658d2fa0f516967f320b84c4a057d05296ef6031a29ba"
+      },
+      {
+        "path": "project/results/lat500_fee5_train_trades.csv",
+        "bytes": 17028,
+        "sha256": "77f7cbcb000e48213da68c315b1b26b2a8e2a95c68d1fde068a8d02fee459707"
+      },
+      {
+        "path": "project/results/report.html",
+        "bytes": 152984,
+        "sha256": "f786ccb063eac57bd53ef9ee7bc58c6399ee414f0aecaa23930ffe6bbf2c1ce5"
+      },
+      {
+        "path": "project/results/sensitivity.csv",
+        "bytes": 7140,
+        "sha256": "923dd5c9364f19c2d16a26c7a846ed045becd7c3e148d8b380b2d41ae040dfd7"
+      },
+      {
+        "path": "project/results/stitched_hour_equity.csv",
+        "bytes": 3965782,
+        "sha256": "8c7e20c6bb2b64deb0fa747c470db21a1b1e32bb0d314cee258cbc1fca3b00ed"
+      },
+      {
+        "path": "project/results/stitched_hour_trades.csv",
+        "bytes": 22137,
+        "sha256": "4297fab0580d410b914f0eb5e047e5a3e8cda619dc0c7aa7aa5547ae06b102ec"
+      },
+      {
+        "path": "project/results/summary.json",
+        "bytes": 26766,
+        "sha256": "ebdbdefad62c7668f251c77985f3e501bf9fb1fcbc729c87f25fd604c8de4ff3"
+      },
+      {
+        "path": "project/results/test_equity.csv",
+        "bytes": 1320666,
+        "sha256": "8d3339ba90cab161f0873d07e8bcfc5322523bc0a15a0daff618090f836e0dc3"
+      },
+      {
+        "path": "project/results/test_trades.csv",
+        "bytes": 5860,
+        "sha256": "25af0e05209382b635482702cbc2653289d17b23ea1c968e894b62cce7f29f9e"
+      },
+      {
+        "path": "project/results/train_equity.csv",
+        "bytes": 2651163,
+        "sha256": "646caab1f09e39d00aad897c95ca5c13cccded15ec33375799b82654014eefd4"
+      },
+      {
+        "path": "project/results/train_trades.csv",
+        "bytes": 16580,
+        "sha256": "848455d2117c4dab0bfa53ba8e241e3cf0b70679bb6a77ccffbc784c2f7153b0"
+      },
+      {
+        "path": "project/results/training_grid.csv",
+        "bytes": 9904,
+        "sha256": "313f444f4748654dd0f15703be477eb884f4b02c63fefa66c99714011760788f"
+      },
+      {
+        "path": "project/results/validation.json",
+        "bytes": 141,
+        "sha256": "99065250fe33b85b6086791056e8e4a8e56ee7997e09e6f19ce4a3e05f106e9c"
+      },
+      {
+        "path": "project/run.log",
+        "bytes": 1876,
+        "sha256": "716ddac54ced6d09a499f114bfa0022f618f79c27445895ae0fba9f2e309f544"
+      },
+      {
+        "path": "project/scripts/verify_results.py",
+        "bytes": 5095,
+        "sha256": "fb75ddb868b51d01ba7385eeca3efba7c9539f9c05a25fc6d9f15c8dfd5272c1"
+      },
+      {
+        "path": "project/tests/test_research.py",
+        "bytes": 8193,
+        "sha256": "91ce1b84f4135592dfd1f4d6f3ee28bb8eeeb80a9fd1175de02681439f241f86"
+      },
+      {
+        "path": "project/tests.log",
+        "bytes": 2843,
+        "sha256": "f9a10dae15d8360117aaba5c4558f4e4c37aa29d1c813dbc33ed9d87215705f4"
+      },
+      {
+        "path": "project/validation.log",
+        "bytes": 141,
+        "sha256": "99065250fe33b85b6086791056e8e4a8e56ee7997e09e6f19ce4a3e05f106e9c"
+      }
+    ]
+  }
+}

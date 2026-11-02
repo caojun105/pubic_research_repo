@@ -1,0 +1,16 @@
+{
+  "quantity_btc": "0.01",
+  "window_seconds": 3600,
+  "start_offset_seconds": 0,
+  "train_seconds": 2400,
+  "max_receive_gap_ms": 1000,
+  "max_hold_s": 30,
+  "entry_sustain_ms": 500,
+  "exit_sustain_ms": 300,
+  "close_reserve_s": 2,
+  "bid1_min_grid": [0.5, 1.0, 2.0, 3.0],
+  "ratio_in_grid": [1.2, 1.5, 2.0, 3.0],
+  "ratio_out_grid": [1.0, 1.2],
+  "latencies_ms": [0, 100, 250, 500],
+  "fees_bps": [0, 1, 2, 5, 10]
+}

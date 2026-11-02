@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "assertions": 656033,
+  "scenarios": 20,
+  "source_hashes_unchanged": true,
+  "boundary_and_accounting_checks": true
+}

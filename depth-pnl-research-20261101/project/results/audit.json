@@ -1,0 +1,300 @@
+{
+  "files": {
+    "aligned_1s.jsonl": {
+      "bytes": 13678494,
+      "sha256": "cd4bea0cb608055933f9a1215f8b5c60db0b854dffdf1d2af100acf03731632e",
+      "rows": 3600,
+      "parse_errors": [],
+      "local_mono_ns": {
+        "first": 3638907424470212,
+        "last": 3642506424470212,
+        "min": 3638907424470212,
+        "max": 3642506424470212,
+        "backwards": 0,
+        "ties": 0
+      },
+      "local_utc_ns": {
+        "first": 1793502748000000000,
+        "last": 1793506347000000000,
+        "min": 1793502748000000000,
+        "max": 1793506347000000000,
+        "backwards": 0,
+        "ties": 0
+      },
+      "start_utc": "2026-11-01T03:12:28+00:00",
+      "end_utc": "2026-11-01T04:12:27+00:00",
+      "binance_status": {
+        "ok": 3600
+      },
+      "sample_sequence_errors": 0,
+      "grid_gap_errors": 0
+    },
+    "binance_raw.jsonl": {
+      "bytes": 25754627,
+      "sha256": "4d97b775085053078ff87d9c00bf3fd846aa9dbada27a90cd45907bd8961c930",
+      "rows": 62163,
+      "parse_errors": [],
+      "local_mono_ns": {
+        "first": 3638906040138318,
+        "last": 3642506459154546,
+        "min": 3638906040138318,
+        "max": 3642506459154546,
+        "backwards": 0,
+        "ties": 0
+      },
+      "local_utc_ns": {
+        "first": 1793502746615667838,
+        "last": 1793506347034684043,
+        "min": 1793502746615667838,
+        "max": 1793506347034684043,
+        "backwards": 0,
+        "ties": 0
+      },
+      "start_utc": "2026-11-01T03:12:26.615668+00:00",
+      "end_utc": "2026-11-01T04:12:27.034684+00:00",
+      "symbols": {
+        "BTCUSDT": 62163
+      },
+      "streams": {
+        "btcusdt@depth@100ms": 35740,
+        "btcusdt@trade": 26423
+      },
+      "sessions": {
+        "1": 62163
+      },
+      "max_depth_receive_gap_ms": 224.174129,
+      "exchange_event_backwards": 0,
+      "receive_minus_exchange_ms_range": [
+        0.694580078125,
+        59.031005859375
+      ]
+    },
+    "binance_snapshots.jsonl": {
+      "bytes": 320325,
+      "sha256": "772f673ea8e1266a1d474ee881f20e958d7357d16a2ad0fcb3ceaab2d6e31c00",
+      "rows": 1,
+      "parse_errors": [],
+      "local_mono_ns": {
+        "first": 3638906066969286,
+        "last": 3638906066969286,
+        "min": 3638906066969286,
+        "max": 3638906066969286,
+        "backwards": 0,
+        "ties": 0
+      },
+      "local_utc_ns": {
+        "first": 1793502746642498204,
+        "last": 1793502746642498204,
+        "min": 1793502746642498204,
+        "max": 1793502746642498204,
+        "backwards": 0,
+        "ties": 0
+      },
+      "start_utc": "2026-11-01T03:12:26.642498+00:00",
+      "end_utc": "2026-11-01T03:12:26.642498+00:00"
+    },
+    "clock_probes.jsonl": {
+      "bytes": 17973,
+      "sha256": "b870d6183081256ee72258234d9e366bcc770dbbde8987a47b92261f50cb90f9",
+      "rows": 60,
+      "parse_errors": [],
+      "local_mono_ns": {
+        "first": 3638905996501271,
+        "last": 3642447023643579,
+        "min": 3638905996501271,
+        "max": 3642447023643579,
+        "backwards": 0,
+        "ties": 0
+      },
+      "local_utc_ns": {
+        "first": 1793502746572030716,
+        "last": 1793506287599173292,
+        "min": 1793502746572030716,
+        "max": 1793506287599173292,
+        "backwards": 0,
+        "ties": 0
+      },
+      "start_utc": "2026-11-01T03:12:26.572031+00:00",
+      "end_utc": "2026-11-01T04:11:27.599173+00:00",
+      "offset_bounds_ms": [
+        -4.73583984375,
+        40.873779296875
+      ],
+      "rtt_ms_range": [
+        9.847933,
+        43.904227
+      ]
+    },
+    "connections.jsonl": {
+      "bytes": 501,
+      "sha256": "ce2891088cbca452627912d07916d466fa91708b5d0c6bc54b2ac2a2d8146a9b",
+      "rows": 3,
+      "parse_errors": [],
+      "local_mono_ns": {
+        "first": 3638905988584838,
+        "last": 3638906443366950,
+        "min": 3638905988584838,
+        "max": 3638906443366950,
+        "backwards": 0,
+        "ties": 0
+      },
+      "local_utc_ns": {
+        "first": 1793502746564113859,
+        "last": 1793502747018896714,
+        "min": 1793502746564113859,
+        "max": 1793502747018896714,
+        "backwards": 0,
+        "ties": 0
+      },
+      "start_utc": "2026-11-01T03:12:26.564114+00:00",
+      "end_utc": "2026-11-01T03:12:27.018897+00:00"
+    },
+    "metadata.jsonl": {
+      "bytes": 773,
+      "sha256": "bab617c921ac1b8db43b8dd58d5032c68286bf060e65072a681949d185d0c046",
+      "rows": 1,
+      "parse_errors": []
+    },
+    "schedule.json": {
+      "bytes": 225,
+      "sha256": "a94d7d83b78d309e62b97bacb446fcf1f4cbd2eabfa742087608a89970607529"
+    },
+    "status.json": {
+      "bytes": 598,
+      "sha256": "6db8eaf64d151a200bf44d9e838c9cac93a49298ed8bdc9ff8b28d0327679f7d"
+    },
+    "var_quotes.jsonl": {
+      "bytes": 52028,
+      "sha256": "78513e72c7c753f924c34c7f037ebf3cbbdd53d705d3c4ce6cb936f68ecf6ec7",
+      "rows": 122,
+      "parse_errors": [],
+      "local_mono_ns": {
+        "first": 3638906004590919,
+        "last": 3642464206268689,
+        "min": 3638906004590919,
+        "max": 3642464206268689,
+        "backwards": 0,
+        "ties": 0
+      },
+      "local_utc_ns": {
+        "first": 1793502746580120566,
+        "last": 1793506304781798439,
+        "min": 1793502746580120566,
+        "max": 1793506304781798439,
+        "backwards": 0,
+        "ties": 0
+      },
+      "start_utc": "2026-11-01T03:12:26.580121+00:00",
+      "end_utc": "2026-11-01T04:11:44.781798+00:00",
+      "http_status": {
+        "200": 65,
+        "429": 57
+      },
+      "valid_rows": 65
+    },
+    "var_ws_raw.jsonl": {
+      "bytes": 1469377,
+      "sha256": "c392c68f8c83f76549fc5680797df609f863e68356bc27fdaa63690a5a1e71ce",
+      "rows": 4270,
+      "parse_errors": [],
+      "local_mono_ns": {
+        "first": 3638906022611988,
+        "last": 3642506100761159,
+        "min": 3638906022611988,
+        "max": 3642506100761159,
+        "backwards": 0,
+        "ties": 0
+      },
+      "local_utc_ns": {
+        "first": 1793502746598141502,
+        "last": 1793506346676290737,
+        "min": 1793502746598141502,
+        "max": 1793506346676290737,
+        "backwards": 0,
+        "ties": 0
+      },
+      "start_utc": "2026-11-01T03:12:26.598141+00:00",
+      "end_utc": "2026-11-01T04:12:26.676291+00:00"
+    }
+  },
+  "time_basis": "local monotonic availability; UTC only for display",
+  "review_only": {
+    "/home/ubuntu/reports/binance_depth5_ws/full_var_20261101T031206Z/strategy_depth_1h/summary.json": {
+      "sha256": "6cfdbce5a84ca6de778b54eb83b19ba1994f7544214c66f266ac9e66762e11fa"
+    },
+    "/home/ubuntu/reports/binance_depth5_ws/depth_strategy_1h.py": {
+      "sha256": "27c171ee26da120e86aa75eb126565bebc7b55ee7b51dfaf54e10a4d55a707e0"
+    }
+  },
+  "old_summary_untrusted": {
+    "best": {
+      "bid1_min": 0.5,
+      "ratio_in": 2.0,
+      "ratio_out": 1.2
+    },
+    "in_sample": {
+      "n": 19,
+      "total": 1.0304,
+      "win_pct": 57.89473684210527,
+      "avg": 0.05423157894736842,
+      "mdd": -0.00029999999999996696,
+      "hold_s": 53.307440511421056,
+      "avg_win": 0.09374545454545455,
+      "avg_loss": -0.0001
+    },
+    "out_sample": {
+      "n": 7,
+      "total": 0.37939360000000005,
+      "win_pct": 57.14285714285714,
+      "avg": 0.05419908571428572,
+      "mdd": -0.1001,
+      "hold_s": 32.699169795,
+      "avg_win": 0.127625,
+      "avg_loss": -0.04370213333333333
+    },
+    "full_hour": {
+      "n": 26,
+      "total": 1.4941936,
+      "win_pct": 57.692307692307686,
+      "avg": 0.05746898461538462,
+      "mdd": -0.10010000000000008,
+      "hold_s": 57.5129067395,
+      "avg_win": 0.10840666666666667,
+      "avg_loss": -0.011991490909090909
+    },
+    "buy_hold": -0.5844,
+    "states": 35739,
+    "rejected": {
+      "stale": 0,
+      "gap": 0
+    },
+    "spread_median_usd": 0.01
+  },
+  "reconstruction": {
+    "counts": {
+      "stale": 1,
+      "sequence_gap": 0,
+      "timeout": 0,
+      "session_mismatch": 0,
+      "invalid_book": 0,
+      "uncovered": 0,
+      "snapshots": 1,
+      "resyncs": 0,
+      "ignored_unsynced": 0,
+      "buffered": 1,
+      "bridges": 1
+    },
+    "valid_states": 35739,
+    "window_states": 35735,
+    "first_valid_utc": "2026-11-01T03:12:26.715261+00:00",
+    "last_valid_utc": "2026-11-01T04:12:27.017037+00:00",
+    "valid_coverage_seconds": 3600.301776511,
+    "snapshot_price_range_policy": "fixed original snapshot floor/ceiling; outside levels never executable"
+  },
+  "aligned_crosscheck_not_execution_source": {
+    "compared": 3600,
+    "best_price_mismatch": 0,
+    "uid_mismatch": 0,
+    "unavailable": 0
+  }
+}

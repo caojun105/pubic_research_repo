@@ -1,0 +1,62 @@
+Auditing and hashing inputs...
+Reconstructing causal book...
+Training parameter grid (test data excluded)...
+Evaluating fixed parameters: 4 latencies x 5 fees...
+{
+  "selected_params": {
+    "bid1_min": 0.5,
+    "ratio_in": 2.0,
+    "ratio_out": 1.0
+  },
+  "test": {
+    "trades": 17,
+    "gross_pnl": 0.5765957000004711,
+    "fees": 0.0,
+    "net_pnl": 0.5765957000004711,
+    "mean_net_pnl": 0.03391739411767476,
+    "win_rate": 0.5294117647058824,
+    "average_win": 0.0786891222222443,
+    "average_loss": -0.016450799999965966,
+    "payoff_ratio": 4.783300643276139,
+    "profit_factor": 5.381213223685656,
+    "flat_trades": 0,
+    "mtm_max_drawdown": 0.10020000000004076,
+    "mean_hold_seconds": 23.964109130941175,
+    "max_hold_seconds": 30.298777658,
+    "break_even_fee_bps_per_side": 0.21804076387782168,
+    "turnover_quote": 26444.399191500004,
+    "capital_return": null,
+    "capital": null,
+    "rejections": {},
+    "unresolved": null,
+    "valid_complete_result": true,
+    "terminal_mtm": 0.5765957000004711,
+    "reconciliation_residual": 0.0
+  },
+  "buy_hold": {
+    "trades": 1,
+    "gross_pnl": -0.6315999999998895,
+    "fees": 0.0,
+    "net_pnl": -0.6315999999998895,
+    "mean_net_pnl": -0.6315999999998895,
+    "win_rate": 0.0,
+    "average_win": null,
+    "average_loss": -0.6315999999998895,
+    "payoff_ratio": null,
+    "profit_factor": 0.0,
+    "flat_trades": 0,
+    "mtm_max_drawdown": 1.1486000000000058,
+    "mean_hold_seconds": 1197.899902897,
+    "max_hold_seconds": 1197.899902897,
+    "break_even_fee_bps_per_side": -4.060460488105728,
+    "turnover_quote": 1555.4886,
+    "capital_return": null,
+    "capital": null,
+    "rejections": {},
+    "unresolved": null,
+    "valid_complete_result": true,
+    "terminal_mtm": -0.6315999999998895,
+    "reconciliation_residual": 0.0
+  },
+  "output": "/home/ubuntu/depth-pnl-research/results"
+}
