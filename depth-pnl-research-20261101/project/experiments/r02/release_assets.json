@@ -1,0 +1,102 @@
+{
+  "tag": "btc-ws-data-20261103-batch01",
+  "url": "https://github.com/caojun105/pubic_research_repo/releases/tag/btc-ws-data-20261103-batch01",
+  "assets": [
+    {
+      "name": "chunk_20261102T113628_859619Z.tar.gz",
+      "size": 7713284,
+      "digest": "sha256:17f0767012e451f0644d9c96ef9e0a7de63ec0d0d48ee0b16328b89794adfcba",
+      "browser_download_url": "https://github.com/caojun105/pubic_research_repo/releases/download/btc-ws-data-20261103-batch01/chunk_20261102T113628_859619Z.tar.gz"
+    },
+    {
+      "name": "chunk_20261102T123632_178875Z.tar.gz",
+      "size": 10485656,
+      "digest": "sha256:98f2cac6e0b0fb32db6a4d17db9d77041472540efa2d84d7cbf2857919051d91",
+      "browser_download_url": "https://github.com/caojun105/pubic_research_repo/releases/download/btc-ws-data-20261103-batch01/chunk_20261102T123632_178875Z.tar.gz"
+    },
+    {
+      "name": "chunk_20261102T133634_471928Z.tar.gz",
+      "size": 19329541,
+      "digest": "sha256:a9eb2316384ead9f6873c88a408a81d7f6a5996796b2a3e374c5c3b0b3880a9f",
+      "browser_download_url": "https://github.com/caojun105/pubic_research_repo/releases/download/btc-ws-data-20261103-batch01/chunk_20261102T133634_471928Z.tar.gz"
+    },
+    {
+      "name": "chunk_20261102T143637_638634Z.tar.gz",
+      "size": 18810865,
+      "digest": "sha256:4c837754cf7aaea43dbad8f939cdf7c250f84339b77582f8c05a715a4991bf01",
+      "browser_download_url": "https://github.com/caojun105/pubic_research_repo/releases/download/btc-ws-data-20261103-batch01/chunk_20261102T143637_638634Z.tar.gz"
+    },
+    {
+      "name": "chunk_20261102T153640_265143Z.tar.gz",
+      "size": 17203216,
+      "digest": "sha256:4f6052af49ee9313440e41b1c58c878fbd5976051f3b964421b96973cf634462",
+      "browser_download_url": "https://github.com/caojun105/pubic_research_repo/releases/download/btc-ws-data-20261103-batch01/chunk_20261102T153640_265143Z.tar.gz"
+    },
+    {
+      "name": "chunk_20261102T163642_453417Z.tar.gz",
+      "size": 12409291,
+      "digest": "sha256:18ab8798fac59c464c7a517f794ca9a5b2656d0849573b111881b5627584f587",
+      "browser_download_url": "https://github.com/caojun105/pubic_research_repo/releases/download/btc-ws-data-20261103-batch01/chunk_20261102T163642_453417Z.tar.gz"
+    },
+    {
+      "name": "chunk_20261102T173644_643840Z.tar.gz",
+      "size": 15965694,
+      "digest": "sha256:639d1f47c4212350a8d82b66b5ae769684858d40e9aa64c6214c48d1b9be7a96",
+      "browser_download_url": "https://github.com/caojun105/pubic_research_repo/releases/download/btc-ws-data-20261103-batch01/chunk_20261102T173644_643840Z.tar.gz"
+    },
+    {
+      "name": "chunk_20261102T183647_775567Z.tar.gz",
+      "size": 11268574,
+      "digest": "sha256:5cf3c5b06d8d6a1eebc0eba98fdae5c8c5076dd54b7c5d6d9c3087f1c1646a3a",
+      "browser_download_url": "https://github.com/caojun105/pubic_research_repo/releases/download/btc-ws-data-20261103-batch01/chunk_20261102T183647_775567Z.tar.gz"
+    },
+    {
+      "name": "chunk_20261102T193650_992093Z.tar.gz",
+      "size": 15749110,
+      "digest": "sha256:5425ad5f4fad26d12cc10bc117c757dd07c2acf3aae3b83522e65cdee05fef89",
+      "browser_download_url": "https://github.com/caojun105/pubic_research_repo/releases/download/btc-ws-data-20261103-batch01/chunk_20261102T193650_992093Z.tar.gz"
+    },
+    {
+      "name": "chunk_20261102T203654_148760Z.tar.gz",
+      "size": 11495992,
+      "digest": "sha256:99aac8a265ae8ccab4f2fe30d7aa866c89511afb826e2b5c642ededcb01375cd",
+      "browser_download_url": "https://github.com/caojun105/pubic_research_repo/releases/download/btc-ws-data-20261103-batch01/chunk_20261102T203654_148760Z.tar.gz"
+    },
+    {
+      "name": "chunk_20261102T213657_353010Z.tar.gz",
+      "size": 7283181,
+      "digest": "sha256:f01eee3e07d4884f2faa68a42e8b07ac4f579ec5ef72ace95bbc0632e43ada9a",
+      "browser_download_url": "https://github.com/caojun105/pubic_research_repo/releases/download/btc-ws-data-20261103-batch01/chunk_20261102T213657_353010Z.tar.gz"
+    },
+    {
+      "name": "chunk_20261102T223659_504398Z.tar.gz",
+      "size": 7956519,
+      "digest": "sha256:e71e29f68579087c6db465e6e097ddacfe4834b6af665b2260ffdf19e3ce37e9",
+      "browser_download_url": "https://github.com/caojun105/pubic_research_repo/releases/download/btc-ws-data-20261103-batch01/chunk_20261102T223659_504398Z.tar.gz"
+    },
+    {
+      "name": "chunk_20261102T233702_640554Z.tar.gz",
+      "size": 8039693,
+      "digest": "sha256:507460e7535a14194fc193952e582bf6cffdad5d11d2c21427f10db44980bd71",
+      "browser_download_url": "https://github.com/caojun105/pubic_research_repo/releases/download/btc-ws-data-20261103-batch01/chunk_20261102T233702_640554Z.tar.gz"
+    },
+    {
+      "name": "MANIFEST.json",
+      "size": 34369,
+      "digest": "sha256:8278b0657933db968207cb8603423d245fbe89546667b53ff5641c63dcec5d33",
+      "browser_download_url": "https://github.com/caojun105/pubic_research_repo/releases/download/btc-ws-data-20261103-batch01/MANIFEST.json"
+    },
+    {
+      "name": "README.md",
+      "size": 1075,
+      "digest": "sha256:bf92d276e86e48d078dc9e25234f75773896988f4c5e8ca5d2e1f2a6ae254170",
+      "browser_download_url": "https://github.com/caojun105/pubic_research_repo/releases/download/btc-ws-data-20261103-batch01/README.md"
+    },
+    {
+      "name": "SHA256SUMS",
+      "size": 1495,
+      "digest": "sha256:06f4b244e8622be8efbf84186d59c85fa694a95fb75924ee0c2c1c51b59f1ce4",
+      "browser_download_url": "https://github.com/caojun105/pubic_research_repo/releases/download/btc-ws-data-20261103-batch01/SHA256SUMS"
+    }
+  ]
+}

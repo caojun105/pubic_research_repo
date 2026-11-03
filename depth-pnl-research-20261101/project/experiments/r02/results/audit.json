@@ -1,0 +1,588 @@
+[
+  {
+    "chunk": "chunk_20261102T113628_859619Z",
+    "start_utc": "2026-11-02T11:36:30+00:00",
+    "end_utc": "2026-11-02T12:36:30+00:00",
+    "gap_before_s": null,
+    "input_hashes": {
+      "aligned_1s.jsonl": "9e480fe90ac13a5eb7a85312e053fd29d8e5407cf8bf5699bd4277a9443cd870",
+      "binance_raw.jsonl": "aefc7731f4598db1f681d0e7b637c563676b9e1cba4721daa583e875843c3212",
+      "binance_snapshots.jsonl": "9b0355e93caf43a3fdb6fb1af4484c1c4862d815c9bef76624a81f87fd345627",
+      "clock_probes.jsonl": "974647056785cc2e3c6b4aab6af3c3f4eb21d66b801c0e5de4f94bc46b50fe31",
+      "connections.jsonl": "0cc68c079031addb0ad4f97cc7c80f326a86d36b036d33eed940130400cf4f63",
+      "metadata.jsonl": "e9be7e4bbd5cc3af16ccf37d0eec043ed6ce46ef07804ef2fc5f88ea69f6ab2e",
+      "schedule.json": "374e49a94f7525948e4e28e291b131422510a7281366e57684330852290e7105",
+      "status.json": "618c1243709324b4aba44ac7ee372e86cb2d6d80fbee8c7ee0662ccb55ed14a9",
+      "var_quotes.jsonl": "ff73fcaec3cddb12b3ae3926df1e04c781c3a0d517ee355e3aa0ed6b587f884b",
+      "var_ws_raw.jsonl": "68c3d012e8a5118e43988d2fce783347b3f93a0bce7121121643f01b7077aabc"
+    },
+    "raw_counts": {
+      "depthUpdate": 35958,
+      "trade": 81424
+    },
+    "reconstruction": {
+      "stale": 1,
+      "sequence_gap": 0,
+      "timeout": 1,
+      "session_mismatch": 0,
+      "invalid_book": 0,
+      "uncovered": 0,
+      "snapshots": 1,
+      "resyncs": 0,
+      "ignored_unsynced": 33162,
+      "buffered": 1,
+      "bridges": 1
+    },
+    "crosscheck": {
+      "compared": 287,
+      "mismatch": 7,
+      "publication_lag_explained": 7,
+      "unavailable": 3313
+    },
+    "clean_hour": false,
+    "first_valid_offset_s": -0.484726893,
+    "last_valid_offset_s": -3320.684419208,
+    "valid_seconds_span": 279.800307685,
+    "first_invalid": [
+      {
+        "utc": "2026-11-02T11:41:16.159562+00:00",
+        "reason": "timeout"
+      }
+    ]
+  },
+  {
+    "chunk": "chunk_20261102T123632_178875Z",
+    "start_utc": "2026-11-02T12:36:33+00:00",
+    "end_utc": "2026-11-02T13:36:33+00:00",
+    "gap_before_s": 3.0,
+    "input_hashes": {
+      "aligned_1s.jsonl": "3fce493f94dd0d5bb95303f0c9c7d59e13dcc231d3562c7b37263904dab1b428",
+      "binance_raw.jsonl": "3d93b86ea537128314a1631dbbef7fa5e83dcfbd7374a1a6ecd59885374f8404",
+      "binance_snapshots.jsonl": "d089b32d623d6886e65c0dc26b691448e736994be72823edd9175ea2733dd7a3",
+      "clock_probes.jsonl": "9e4cfca957ec9caae41622088ee4e0d1c87340c83e3bca721fde93d339169319",
+      "connections.jsonl": "262f3678cad40f5bda6198028d3d26f1af25ae89be570005c5011962ee107423",
+      "metadata.jsonl": "ca0eb2096c3b765a4326b5d0eb8cfc773359b5819110fff55d8d679e6a8955a1",
+      "schedule.json": "84e9768a2c0ab4be6a5b3b897d57c11734322035661d691432a7d2f4ff174c43",
+      "status.json": "c8f3212cc3c20156dc8049c50a53a2a9454d77046ef744e44ea7ba1b275b5f60",
+      "var_quotes.jsonl": "af435a70d0a2ac6696c7ee2484cc9cda91f5f1ea6feaa83d6afd6a4cd7a63d6f",
+      "var_ws_raw.jsonl": "67e3327156317d074dada398f9c898257df3efb053d3b27462fd39a55dec6320"
+    },
+    "raw_counts": {
+      "depthUpdate": 35947,
+      "trade": 139832
+    },
+    "reconstruction": {
+      "stale": 1,
+      "sequence_gap": 0,
+      "timeout": 0,
+      "session_mismatch": 0,
+      "invalid_book": 0,
+      "uncovered": 0,
+      "snapshots": 1,
+      "resyncs": 0,
+      "ignored_unsynced": 0,
+      "buffered": 1,
+      "bridges": 1
+    },
+    "crosscheck": {
+      "compared": 3600,
+      "mismatch": 2,
+      "publication_lag_explained": 2
+    },
+    "clean_hour": true,
+    "first_valid_offset_s": -0.384307328,
+    "last_valid_offset_s": -0.984437545,
+    "valid_seconds_span": 3599.399869783,
+    "first_invalid": []
+  },
+  {
+    "chunk": "chunk_20261102T133634_471928Z",
+    "start_utc": "2026-11-02T13:36:36+00:00",
+    "end_utc": "2026-11-02T14:36:36+00:00",
+    "gap_before_s": 3.0,
+    "input_hashes": {
+      "aligned_1s.jsonl": "86338521e15a57cf8b6086ffa13f4809a695bd5ce7c6447a916995f1037d0d6f",
+      "binance_raw.jsonl": "2ef5d5856f8e2016a47cfd40eb7dbc08d9b4e9afb4d7378b98344d3e653d7cd0",
+      "binance_snapshots.jsonl": "3785e83e27fd66f9f699b7a8277ac5502e0a6ba69fe892f1ad7226bcc0a99c5f",
+      "clock_probes.jsonl": "1117b11d898a060544f48ba3b9c033fbaae3ac0eef8899c8eb8fcef35088aadc",
+      "connections.jsonl": "fea9b8ba6ab2c9f8563b7640d306ffec547c98f6d2010a02fe1b78f022a9db49",
+      "metadata.jsonl": "8394bc241bd58b003f1a74d9414f53360ff01ed8b2492c8bb439b1d6e8ab76f9",
+      "schedule.json": "a800d0437290563bf521dbf205c0beaaff26933d993ac777e488db8b23a6d630",
+      "status.json": "e8832fbe797db9b3415061e5e2d9bf8b25bed1c1f0ca666c1f1202f84c47d4c3",
+      "var_quotes.jsonl": "1f2b8ea772d09bc13648447c6b21305f1040804260333bc64d1b3ee9a80996f9",
+      "var_ws_raw.jsonl": "3eabe2702d7abd8029888b5343bf5e02eb12c2577b398f4c56c2aa59638d72b8"
+    },
+    "raw_counts": {
+      "depthUpdate": 35988,
+      "trade": 335677
+    },
+    "reconstruction": {
+      "stale": 1,
+      "sequence_gap": 0,
+      "timeout": 0,
+      "session_mismatch": 0,
+      "invalid_book": 0,
+      "uncovered": 0,
+      "snapshots": 1,
+      "resyncs": 0,
+      "ignored_unsynced": 0,
+      "buffered": 1,
+      "bridges": 1
+    },
+    "crosscheck": {
+      "compared": 3600,
+      "mismatch": 1,
+      "publication_lag_explained": 1
+    },
+    "clean_hour": true,
+    "first_valid_offset_s": -1.183800969,
+    "last_valid_offset_s": -0.982587367,
+    "valid_seconds_span": 3600.201213602,
+    "first_invalid": []
+  },
+  {
+    "chunk": "chunk_20261102T143637_638634Z",
+    "start_utc": "2026-11-02T14:36:39+00:00",
+    "end_utc": "2026-11-02T15:36:39+00:00",
+    "gap_before_s": 3.0,
+    "input_hashes": {
+      "aligned_1s.jsonl": "c5e42f72ea46fb08a8024c9ab720b03cda2b64695c12cd3e5609bd037a35cce1",
+      "binance_raw.jsonl": "f9911716ba4c2af9b644d721b3d1c607819235e975407b44c00d579065463a9a",
+      "binance_snapshots.jsonl": "89baab3451de6d8bc9048bae233c43f20c4fa5143c8af79bdadde34fb687b164",
+      "clock_probes.jsonl": "f1a2c914468c60d96ee5f6bbac009780cb15a595b9363dd7096212c43c0acc04",
+      "connections.jsonl": "9c87fd2ec964c806baf57c970d0a8870ba7ac5a59c79daae0f47ed5aad0c8f80",
+      "metadata.jsonl": "8f687afa3bd6b93d4f4a89c531640769c1b0ed2dc5e6f58a2410359d9efb8b7b",
+      "schedule.json": "7f1c62f08ab725c2dbf56a22ee2136ba31f3872f52897b5cae7df52d47facc61",
+      "status.json": "eaa4371020ee378c33fa73b137d0871f49503319119a525165f6f8c6e56f5050",
+      "var_quotes.jsonl": "8680639374897704861a2c6af558e2806d36a4a21685ce0159cd2c1463b2e615",
+      "var_ws_raw.jsonl": "2ef93e7d66e70610af4d0f414d5a0ffdd2bd869944ffb2e5792a5f933b391cc9"
+    },
+    "raw_counts": {
+      "depthUpdate": 35993,
+      "trade": 309764
+    },
+    "reconstruction": {
+      "stale": 1,
+      "sequence_gap": 0,
+      "timeout": 0,
+      "session_mismatch": 0,
+      "invalid_book": 0,
+      "uncovered": 0,
+      "snapshots": 1,
+      "resyncs": 0,
+      "ignored_unsynced": 0,
+      "buffered": 1,
+      "bridges": 1
+    },
+    "crosscheck": {
+      "compared": 3600,
+      "mismatch": 1,
+      "publication_lag_explained": 1
+    },
+    "clean_hour": true,
+    "first_valid_offset_s": -0.884359085,
+    "last_valid_offset_s": -0.984115641,
+    "valid_seconds_span": 3599.900243444,
+    "first_invalid": []
+  },
+  {
+    "chunk": "chunk_20261102T153640_265143Z",
+    "start_utc": "2026-11-02T15:36:41+00:00",
+    "end_utc": "2026-11-02T16:36:41+00:00",
+    "gap_before_s": 2.0,
+    "input_hashes": {
+      "aligned_1s.jsonl": "0380895c627a42fc58d693b529f846228af5f29fa4060ea511e8a27afeb33166",
+      "binance_raw.jsonl": "17ecfa8de1427037d44ec5e15b4a422bda6e11f9b6d555ad8a96c1c1f75cc075",
+      "binance_snapshots.jsonl": "9f63789391312c01b01657e282122564fe4ae0facc59dbd8785f6d01b6d32ffd",
+      "clock_probes.jsonl": "70fe4983da790e62131216dc6e48387f8172f2222ae67eb4221a6fb874c8e823",
+      "connections.jsonl": "206eb0fb4ffb5d3397ed9ab2430b87999c9a36a472cf0c752033320e40dca591",
+      "metadata.jsonl": "5e8d0e0087c1f228f4fdf3846e2c0a5341eb877da98a58b7be838a19cbcbc594",
+      "schedule.json": "6b8032372b9db15901279cb4b197c1f946e09962e593cc89857c406f0e540c2c",
+      "status.json": "d665398fa6ef250d14d233330972d50734bb248027b1e1e188d79ad9e5adccf8",
+      "var_quotes.jsonl": "cd7e4b0af9de9e4d06a7084d94c682d66241a5156356ea41632af34268c686f9",
+      "var_ws_raw.jsonl": "04d23e23fe0a3cddc6d5b3b322a82a1b83a051e2fd46c32221664ead62d76726"
+    },
+    "raw_counts": {
+      "depthUpdate": 35990,
+      "trade": 255105
+    },
+    "reconstruction": {
+      "stale": 1,
+      "sequence_gap": 0,
+      "timeout": 0,
+      "session_mismatch": 0,
+      "invalid_book": 0,
+      "uncovered": 0,
+      "snapshots": 1,
+      "resyncs": 0,
+      "ignored_unsynced": 0,
+      "buffered": 1,
+      "bridges": 1
+    },
+    "crosscheck": {
+      "compared": 3600,
+      "mismatch": 1,
+      "publication_lag_explained": 1
+    },
+    "clean_hour": true,
+    "first_valid_offset_s": -0.384769539,
+    "last_valid_offset_s": -0.98451146,
+    "valid_seconds_span": 3599.400258079,
+    "first_invalid": []
+  },
+  {
+    "chunk": "chunk_20261102T163642_453417Z",
+    "start_utc": "2026-11-02T16:36:43+00:00",
+    "end_utc": "2026-11-02T17:36:43+00:00",
+    "gap_before_s": 2.0,
+    "input_hashes": {
+      "aligned_1s.jsonl": "29bfd4f455f0d65490bb98e7a7467ccdfd94ea790eb959399d7e9c0d59c9ae34",
+      "binance_raw.jsonl": "52931208f7580d0ac4815c904d9a5094f679e94f5001dd1b152249d6a3d29edb",
+      "binance_snapshots.jsonl": "cf4e0abe683d62a256e883595568b63f264b2e401c482e24ad0ece9142375a13",
+      "clock_probes.jsonl": "0b88d404743a148628e7cb808f70233e20e6e12381b6e4e8ea967812881674aa",
+      "connections.jsonl": "d9cf065bcbf87049a4a662ca06119634583289247ffea33a83c44ca55f28d1b3",
+      "metadata.jsonl": "87b833a458f3ed51b6d7c1ae7b6264b58c576d4de9dbf5199833eaae389864c0",
+      "schedule.json": "51145318b7869ccae7160c41f82b2a71aa477e028a34951f2593bd89ef98494c",
+      "status.json": "4b4bcffa0f714552225a277bf2cc11b41dcfdf3673960ff944c3142afec36821",
+      "var_quotes.jsonl": "db501d73a34bf2352692fd9238b6f9a921ef3984cc7f6c94424e9bf4172cb536",
+      "var_ws_raw.jsonl": "87f62ac4921bf685b59d04b2d6e1ea8d1e35c4d388cdaf5f50fa984ddbfc8ca5"
+    },
+    "raw_counts": {
+      "depthUpdate": 35980,
+      "trade": 146836
+    },
+    "reconstruction": {
+      "stale": 1,
+      "sequence_gap": 0,
+      "timeout": 0,
+      "session_mismatch": 0,
+      "invalid_book": 0,
+      "uncovered": 0,
+      "snapshots": 1,
+      "resyncs": 0,
+      "ignored_unsynced": 0,
+      "buffered": 1,
+      "bridges": 1
+    },
+    "crosscheck": {
+      "compared": 3600,
+      "mismatch": 0
+    },
+    "clean_hour": true,
+    "first_valid_offset_s": -0.18469314,
+    "last_valid_offset_s": -0.98374019,
+    "valid_seconds_span": 3599.20095295,
+    "first_invalid": []
+  },
+  {
+    "chunk": "chunk_20261102T173644_643840Z",
+    "start_utc": "2026-11-02T17:36:46+00:00",
+    "end_utc": "2026-11-02T18:36:46+00:00",
+    "gap_before_s": 3.0,
+    "input_hashes": {
+      "aligned_1s.jsonl": "ed30a08e5e583aa31793959d0232fffd5f3abf9fe16641a5f6289e4ba55e5d03",
+      "binance_raw.jsonl": "2e029da964dbb51a35b2a710be50412613b07ec1874a3c72e992ec824c5d4d61",
+      "binance_snapshots.jsonl": "9d6281c2c332498674f2ca0b001040874a578587c81d36b696a97b12f4816e70",
+      "clock_probes.jsonl": "1ef31be8d5502ab9d2b264b6740f3f26634a6dc09226d4c403a02d2dbcb57330",
+      "connections.jsonl": "c4fa2b6ec97294ccf6091577196afaf872ad1d5145724030037a8204e12c64f2",
+      "metadata.jsonl": "feda1f5d24d5c94b8f48035f3a9188f67694e4a8a70f56c294a96d45a89a17ab",
+      "schedule.json": "ed830720ee7f5f612953812db539e3841c1c1ab068884db2b90efd8c13cf07da",
+      "status.json": "7287c18da09fa8273a3212c27a30e780de23c31db1abf91638491a5b49ad3b35",
+      "var_quotes.jsonl": "0273863daf0916e8f0b41f660769a3047e64ca246fc0243a9006aeb818d00873",
+      "var_ws_raw.jsonl": "aa866781ad5f87cdcbdb48c698922078d3726fcdd97ca648cd7721b4bee7a77a"
+    },
+    "raw_counts": {
+      "depthUpdate": 35989,
+      "trade": 233306
+    },
+    "reconstruction": {
+      "stale": 1,
+      "sequence_gap": 0,
+      "timeout": 0,
+      "session_mismatch": 0,
+      "invalid_book": 0,
+      "uncovered": 0,
+      "snapshots": 1,
+      "resyncs": 0,
+      "ignored_unsynced": 0,
+      "buffered": 1,
+      "bridges": 1
+    },
+    "crosscheck": {
+      "compared": 3600,
+      "mismatch": 0
+    },
+    "clean_hour": true,
+    "first_valid_offset_s": -0.983590029,
+    "last_valid_offset_s": -0.98404065,
+    "valid_seconds_span": 3599.999549379,
+    "first_invalid": []
+  },
+  {
+    "chunk": "chunk_20261102T183647_775567Z",
+    "start_utc": "2026-11-02T18:36:49+00:00",
+    "end_utc": "2026-11-02T19:36:49+00:00",
+    "gap_before_s": 3.0,
+    "input_hashes": {
+      "aligned_1s.jsonl": "ff875146f6c0b80312b5272aaf67646920eaa2954c486bae9730d4955b6d6a60",
+      "binance_raw.jsonl": "3a1cb50176230e1ee819f8ca56558a410e583544eb4caf56f850c7e42cfab485",
+      "binance_snapshots.jsonl": "ae4eec933cb04834d2cba621abb6a71d751aa2cd626fcf5b18f3ca6bc97db275",
+      "clock_probes.jsonl": "aeb4393462b9ef649ce1842a14feba047f02682da91fdcff4a2961fa9b183db4",
+      "connections.jsonl": "3df665d3ec3c20781c80466fdbd0db45b80dd31cbc5018890d71abd6090c6083",
+      "metadata.jsonl": "1d682211e9b24a2c0aa14df25a50c37b2cdf32e80d0c23e74e3009b7b45ee710",
+      "schedule.json": "ea020beb6cbde40df201c91b94f4d0d2b8a099a08e69032c5893bd534c3f38c4",
+      "status.json": "727125915d2ad1fd06aa710d375b1975047c6d42da204dd0f9766dc402f3e791",
+      "var_quotes.jsonl": "23c49125990de0b2e52745b8f73dcc82c95d47f5f4923f399c62ea8946fb91f2",
+      "var_ws_raw.jsonl": "491df5565711400eb87b1067268377bf7140932149063e7e6317ae3f092c1582"
+    },
+    "raw_counts": {
+      "trade": 140039,
+      "depthUpdate": 35982
+    },
+    "reconstruction": {
+      "stale": 1,
+      "sequence_gap": 0,
+      "timeout": 0,
+      "session_mismatch": 0,
+      "invalid_book": 0,
+      "uncovered": 0,
+      "snapshots": 1,
+      "resyncs": 0,
+      "ignored_unsynced": 0,
+      "buffered": 1,
+      "bridges": 1
+    },
+    "crosscheck": {
+      "compared": 3600,
+      "mismatch": 1,
+      "publication_lag_explained": 1
+    },
+    "clean_hour": true,
+    "first_valid_offset_s": -0.784334312,
+    "last_valid_offset_s": -0.984310337,
+    "valid_seconds_span": 3599.800023975,
+    "first_invalid": []
+  },
+  {
+    "chunk": "chunk_20261102T193650_992093Z",
+    "start_utc": "2026-11-02T19:36:53+00:00",
+    "end_utc": "2026-11-02T20:36:53+00:00",
+    "gap_before_s": 4.0,
+    "input_hashes": {
+      "aligned_1s.jsonl": "63f462d49f920e3d2297f2cd2e6207fd064c6bb1f744db87bf8cbec5676b8410",
+      "binance_raw.jsonl": "7cc535c81308cad6dee572db7664c5a6fe665b030a22156e4574c21210c1886d",
+      "binance_snapshots.jsonl": "42ec2e79b47770f5301d0a2c3bc0461da8ba53c16217cddfba4091ca55fab2e6",
+      "clock_probes.jsonl": "e2095fa050713fd1450ae5b05aa62c9f5ca6150d32f0249f64842533317ed572",
+      "connections.jsonl": "614c39c4a9b2aa3a78bb3fda58ed77bd1330184f493fbb4b31c3278bfb4da4a0",
+      "metadata.jsonl": "22311d2be58795a45be6c01fed275190b870fcdf813bd1f97140327b2b2f01e0",
+      "schedule.json": "d12a41f6b753965f1b78a3c10ad864f42a35c005ca8a273e51eb5fb8c857205b",
+      "status.json": "0f2d7af344038fdb25d0e1e201e76b81b99965e792f2539ef0bad191a2fc2e22",
+      "var_quotes.jsonl": "f55804158f5775c981292a6c22aeae0cfcfbe79b620c546e346032822b7ed6ed",
+      "var_ws_raw.jsonl": "17fb6b7c953b48f0d92e0208db994e9b665cdc65211393a6c9348d86e2590db6"
+    },
+    "raw_counts": {
+      "depthUpdate": 35998,
+      "trade": 218858
+    },
+    "reconstruction": {
+      "stale": 1,
+      "sequence_gap": 0,
+      "timeout": 0,
+      "session_mismatch": 0,
+      "invalid_book": 0,
+      "uncovered": 0,
+      "snapshots": 1,
+      "resyncs": 0,
+      "ignored_unsynced": 0,
+      "buffered": 1,
+      "bridges": 1
+    },
+    "crosscheck": {
+      "compared": 3600,
+      "mismatch": 1,
+      "publication_lag_explained": 1
+    },
+    "clean_hour": true,
+    "first_valid_offset_s": -1.584130263,
+    "last_valid_offset_s": -0.983821326,
+    "valid_seconds_span": 3600.600308937,
+    "first_invalid": []
+  },
+  {
+    "chunk": "chunk_20261102T203654_148760Z",
+    "start_utc": "2026-11-02T20:36:56+00:00",
+    "end_utc": "2026-11-02T21:36:56+00:00",
+    "gap_before_s": 3.0,
+    "input_hashes": {
+      "aligned_1s.jsonl": "279bc2d7e0ae40c04d08d34b913717a9f636c69711db4d11c898024360a16fe8",
+      "binance_raw.jsonl": "9dcdc6bc0e04d4c8dc1d9eb6c1a124158f9b708e7c428cf8ab71b3dd44c6b39a",
+      "binance_snapshots.jsonl": "837ed2ac254add90ed00cfdcc88b3038dcf969625054df05d17b3145f3f7bf3e",
+      "clock_probes.jsonl": "152abef647f19761ff318337bb0eb2e2e5185494446e50e6635e1c4726fa6d9d",
+      "connections.jsonl": "18d8e96bc2e3a7bbd37d6ca8f65ec286ea1f230a2c2c3625220b325fca046b4b",
+      "metadata.jsonl": "4ad70a2a7ec8e9d1e2996e9d2511d9a29d42c690e489bfa3f75320116448c7d5",
+      "schedule.json": "791ab370d322305c07df29d1a3cc023056bcdbd1081713f42b546468b8b9a734",
+      "status.json": "5682c6b972d6643ae8d64d43be828f3fc1db8134267c417ae46998da23accad4",
+      "var_quotes.jsonl": "6579d475639159334db9a328df65e8099b6dc6592554e7dd361f11d6669a3400",
+      "var_ws_raw.jsonl": "4aa51eae884574975290c4de80a1a4f5191287e2d61c13fad8e854ff90ae956b"
+    },
+    "raw_counts": {
+      "depthUpdate": 35979,
+      "trade": 132852
+    },
+    "reconstruction": {
+      "stale": 1,
+      "sequence_gap": 0,
+      "timeout": 0,
+      "session_mismatch": 0,
+      "invalid_book": 0,
+      "uncovered": 0,
+      "snapshots": 1,
+      "resyncs": 0,
+      "ignored_unsynced": 0,
+      "buffered": 1,
+      "bridges": 1
+    },
+    "crosscheck": {
+      "compared": 3600,
+      "mismatch": 1,
+      "publication_lag_explained": 1
+    },
+    "clean_hour": true,
+    "first_valid_offset_s": -1.48443248,
+    "last_valid_offset_s": -0.983777306,
+    "valid_seconds_span": 3600.500655174,
+    "first_invalid": []
+  },
+  {
+    "chunk": "chunk_20261102T213657_353010Z",
+    "start_utc": "2026-11-02T21:36:58+00:00",
+    "end_utc": "2026-11-02T22:36:58+00:00",
+    "gap_before_s": 2.0,
+    "input_hashes": {
+      "aligned_1s.jsonl": "7585902975c0b0af5c2fb5381763a14d67dc3f92c651433be20a147ef11049be",
+      "binance_raw.jsonl": "5cfbffb340b72db9185ba3a805f57ff6629e42ca8ee5e3134bdd52cce13912b6",
+      "binance_snapshots.jsonl": "92288deef4c7d72aeec27948fde0387fbf1ad39b5513a4ff6f00ba4a978f440d",
+      "clock_probes.jsonl": "147f19a5b9e0ca29006cb87fa944ecfd0524cbacdcb2be2c9bd75849334c2133",
+      "connections.jsonl": "fb0503830c7430d48d882bf8df074c533e8c8a3e865cbb62e03020345ddfc72d",
+      "metadata.jsonl": "83c4122c934fa04c6497c90bdb032c2d57726db59da8b27ea3a8a50aaf6090df",
+      "schedule.json": "d48a2cb71b02a39929ee54b6a048d02367e30374b9b7ad322a49d42c20fe93f2",
+      "status.json": "6a8f2a19ad7b39feebf8391aab4200cd13ebd8cf7f01aae35474d6d8f9b73aa5",
+      "var_quotes.jsonl": "949057c93d09682f25f0e101658d4842bfc3cca5e117a7296d55e8d21a31b0f5",
+      "var_ws_raw.jsonl": "1f6328e3d01acc808f1a8581651fcb91e9ad4f031f09d0df2902ca80ae2ad079"
+    },
+    "raw_counts": {
+      "depthUpdate": 35918,
+      "trade": 60117
+    },
+    "reconstruction": {
+      "stale": 1,
+      "sequence_gap": 0,
+      "timeout": 0,
+      "session_mismatch": 0,
+      "invalid_book": 0,
+      "uncovered": 0,
+      "snapshots": 1,
+      "resyncs": 0,
+      "ignored_unsynced": 0,
+      "buffered": 1,
+      "bridges": 1
+    },
+    "crosscheck": {
+      "compared": 3600,
+      "mismatch": 0
+    },
+    "clean_hour": true,
+    "first_valid_offset_s": -0.184664792,
+    "last_valid_offset_s": -0.983994565,
+    "valid_seconds_span": 3599.200670227,
+    "first_invalid": []
+  },
+  {
+    "chunk": "chunk_20261102T223659_504398Z",
+    "start_utc": "2026-11-02T22:37:01+00:00",
+    "end_utc": "2026-11-02T23:37:01+00:00",
+    "gap_before_s": 3.0,
+    "input_hashes": {
+      "aligned_1s.jsonl": "f43aafb8c9ef1d87f842f50849c6a32717419b44fbc37bd66cc7abfb7fb5cc71",
+      "binance_raw.jsonl": "ecb5a64be572adfd9bd12a4c53e49c040211b075b3641f946d427423fe90f63b",
+      "binance_snapshots.jsonl": "adb741916b1f58ca96d04e33001b0a844bbb0cb72f4a4799633814e40d94c96b",
+      "clock_probes.jsonl": "6c513bee2aba016d1e1c1ae93fb0ec96060f748692d1344731d2c7138a8d0a64",
+      "connections.jsonl": "d3d654085a61eb1b5e7f45c4d8248264d9c3340f740e5bfa3648c633874b2907",
+      "metadata.jsonl": "77274a6944ded832f373a8e8d2c7710b0018956c73295af664b59ec218a87532",
+      "schedule.json": "d807f444e065da6a4eec62020be947049fa43850ec8c5daca00610154faf3aa8",
+      "status.json": "4bc858ff82582abea160422143c7d8249795ef82df0916874617ac15681f0531",
+      "var_quotes.jsonl": "bc06f6f3d9ca661bd651679fa4c56ccf8e708b5f468a548f47571bc11bf277eb",
+      "var_ws_raw.jsonl": "7c04bc368b2e6890b413743ab9a90a3591bb8128ba9524a4e0637467170b9f3c"
+    },
+    "raw_counts": {
+      "depthUpdate": 35921,
+      "trade": 75079
+    },
+    "reconstruction": {
+      "stale": 1,
+      "sequence_gap": 0,
+      "timeout": 0,
+      "session_mismatch": 0,
+      "invalid_book": 0,
+      "uncovered": 0,
+      "snapshots": 1,
+      "resyncs": 0,
+      "ignored_unsynced": 0,
+      "buffered": 1,
+      "bridges": 1
+    },
+    "crosscheck": {
+      "compared": 3600,
+      "mismatch": 0
+    },
+    "clean_hour": true,
+    "first_valid_offset_s": -1.084769755,
+    "last_valid_offset_s": -0.984050503,
+    "valid_seconds_span": 3600.100719252,
+    "first_invalid": []
+  },
+  {
+    "chunk": "chunk_20261102T233702_640554Z",
+    "start_utc": "2026-11-02T23:37:04+00:00",
+    "end_utc": "2026-11-03T00:37:04+00:00",
+    "gap_before_s": 3.0,
+    "input_hashes": {
+      "aligned_1s.jsonl": "4477f9b20db0f2706a6a00a29e334a3be4889d6a6973e56965065250a56021be",
+      "binance_raw.jsonl": "9c82ecc7e70dc0919b4d7fc70b44cb67537f8aff3d37838b618e1f435d297b13",
+      "binance_snapshots.jsonl": "2a9b2e2496ae9f804de7d102016a52c57c6b3065451e8b438802f11faf8293ae",
+      "clock_probes.jsonl": "826156c4d64ec5c6894c2da7c9a37fd7dcc5aea433a49a3024251d74e23b8d69",
+      "connections.jsonl": "8e2055061dacbb8d6a57744bc582daf1c4287374ebda70b4f934f861dc73a62a",
+      "metadata.jsonl": "6f77317cb97f392abdcb3b638bc5f30e362ed57a5262fbb9bd395f21d6f6977e",
+      "schedule.json": "1de0dd1be773f1ebfc3129dfe7cc99b642812a3a5ba4cb8ca2d65f8c4d9a54d0",
+      "status.json": "88734bfb19fa36e82f9eee66f478d357cf6f81332bd53ad716f2ddbf0eb19db0",
+      "var_quotes.jsonl": "b8fadc914b28f9bd0468fb9b69a502e62f0938b2d4835ef0546e6679a27e9daf",
+      "var_ws_raw.jsonl": "6acbc9d35d6659ed8dde5673e19edfa158d15c347447de1f595c05943e224641"
+    },
+    "raw_counts": {
+      "depthUpdate": 35918,
+      "trade": 76132
+    },
+    "reconstruction": {
+      "stale": 1,
+      "sequence_gap": 0,
+      "timeout": 0,
+      "session_mismatch": 0,
+      "invalid_book": 0,
+      "uncovered": 0,
+      "snapshots": 1,
+      "resyncs": 0,
+      "ignored_unsynced": 0,
+      "buffered": 1,
+      "bridges": 1
+    },
+    "crosscheck": {
+      "compared": 3600,
+      "mismatch": 0
+    },
+    "clean_hour": true,
+    "first_valid_offset_s": -0.779893458,
+    "last_valid_offset_s": -0.983174758,
+    "valid_seconds_span": 3599.7967187,
+    "first_invalid": []
+  }
+]
