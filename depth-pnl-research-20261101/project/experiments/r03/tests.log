@@ -1,0 +1,37 @@
+test_book_pressure_equivalent_to_qi (test_exploration.FeatureTests.test_book_pressure_equivalent_to_qi) ... ok
+test_generic_signal_fee_and_latency_accounting (test_exploration.FeatureTests.test_generic_signal_fee_and_latency_accounting) ... ok
+test_ofi_add_cancel_and_quote_moves (test_exploration.FeatureTests.test_ofi_add_cancel_and_quote_moves) ... ok
+test_prediction_uses_future_and_never_crosses_split (test_exploration.FeatureTests.test_prediction_uses_future_and_never_crosses_split) ... ok
+test_prefix_causal_no_input_mutation (test_exploration.FeatureTests.test_prefix_causal_no_input_mutation) ... ok
+test_rolling_flow_expires_and_discontinuity_resets (test_exploration.FeatureTests.test_rolling_flow_expires_and_discontinuity_resets) ... ok
+test_baseline_matches_original_including_fees_and_mid_marks (test_refinement.RefinementTests.test_baseline_matches_original_including_fees_and_mid_marks) ... ok
+test_extra_features_are_prefix_causal (test_refinement.RefinementTests.test_extra_features_are_prefix_causal) ... ok
+test_liquidation_marks_charge_both_sides_and_aggregate_drawdown (test_refinement.RefinementTests.test_liquidation_marks_charge_both_sides_and_aggregate_drawdown) ... ok
+test_stop_observed_then_delayed_and_cooldown_enforced (test_refinement.RefinementTests.test_stop_observed_then_delayed_and_cooldown_enforced) ... ok
+test_test_rows_never_influence_selection_and_cash_fallback (test_refinement.RefinementTests.test_test_rows_never_influence_selection_and_cash_fallback) ... ok
+test_boundary_closes_inside_segment (test_research.ExecutionTests.test_boundary_closes_inside_segment) ... ok
+test_boundary_no_future_fill_or_position_silently_dropped (test_research.ExecutionTests.test_boundary_no_future_fill_or_position_silently_dropped) ... ok
+test_future_data_cannot_change_training (test_research.ExecutionTests.test_future_data_cannot_change_training) ... ok
+test_gap_with_open_position_not_fabricated_exit (test_research.ExecutionTests.test_gap_with_open_position_not_fabricated_exit) ... ok
+test_insufficient_entry_depth_rejected (test_research.ExecutionTests.test_insufficient_entry_depth_rejected) ... ok
+test_insufficient_exit_preserves_position (test_research.ExecutionTests.test_insufficient_exit_preserves_position) ... ok
+test_mark_to_market_drawdown_captures_open_loss (test_research.ExecutionTests.test_mark_to_market_drawdown_captures_open_loss) ... ok
+test_max_hold_independent_of_weak_signal_and_fees_reconcile (test_research.ExecutionTests.test_max_hold_independent_of_weak_signal_and_fees_reconcile) ... ok
+test_signal_delay_and_no_overlapping_positions (test_research.ExecutionTests.test_signal_delay_and_no_overlapping_positions) ... ok
+test_sustained_signal_resets_across_gap (test_research.ExecutionTests.test_sustained_signal_resets_across_gap) ... ok
+test_test_segment_starts_flat_and_cannot_inherit_signal (test_research.ExecutionTests.test_test_segment_starts_flat_and_cannot_inherit_signal) ... ok
+test_walk_all_or_none_and_vwap (test_research.ExecutionTests.test_walk_all_or_none_and_vwap) ... ok
+test_zero_latency_does_not_fill_on_signal_event (test_research.ExecutionTests.test_zero_latency_does_not_fill_on_signal_event) ... ok
+test_crossed_and_session_changes_fail_closed (test_research.ReconstructionTests.test_crossed_and_session_changes_fail_closed) ... ok
+test_exact_one_dollar_boundaries (test_research.ReconstructionTests.test_exact_one_dollar_boundaries) ... ok
+test_fractional_mid_exactness (test_research.ReconstructionTests.test_fractional_mid_exactness) ... ok
+test_gap_requires_new_snapshot_even_if_missing_update_arrives_later (test_research.ReconstructionTests.test_gap_requires_new_snapshot_even_if_missing_update_arrives_later) ... ok
+test_snapshot_bounds_not_extended_by_increment (test_research.ReconstructionTests.test_snapshot_bounds_not_extended_by_increment) ... ok
+test_snapshot_not_available_before_arrival_and_buffer (test_research.ReconstructionTests.test_snapshot_not_available_before_arrival_and_buffer) ... ok
+test_stale_update_does_not_rewrite_depth (test_research.ReconstructionTests.test_stale_update_does_not_rewrite_depth) ... ok
+test_timeout_invalidates_until_resnapshot (test_research.ReconstructionTests.test_timeout_invalidates_until_resnapshot) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.091s
+
+OK

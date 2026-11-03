@@ -1,0 +1,3770 @@
+{
+  "plan_sha256": "fd815a4cc647203405f5d6e4bef9122a5f6e72fd06fb3b991af2627b76b062d5",
+  "models_sha256": "7efbcc0db7dc0c9afa8a9b3253ecc467aeadbaffcc59f1aff1951f52bf45ed62",
+  "selections": [
+    {
+      "fee_bps": 0.0,
+      "chosen": "qi_r02",
+      "ranking": [
+        {
+          "id": "obi6_r02",
+          "eligible": true,
+          "score": 23.545362250008548,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 516,
+              "net_pnl": 30.659573100008274,
+              "gross_pnl": 30.659573100008274,
+              "turnover": 797102.3009441,
+              "return_pct": 3.0659573100008277,
+              "liquidation_mdd": 0.6909858999999414,
+              "positive_hours": 2,
+              "worst_hour": 11.79109470000185,
+              "break_even_fee_bps": 0.38463786974011505,
+              "net_per_trade": 0.05941777732559743,
+              "without_top3": 28.289473100008326,
+              "top3_pnl": 2.370099999999948,
+              "win_rate": 0.4496124031007752
+            },
+            {
+              "hours": 2,
+              "trades": 508,
+              "net_pnl": 23.968245800008443,
+              "gross_pnl": 23.968245800008447,
+              "turnover": 784746.0621422001,
+              "return_pct": 2.3968245800008443,
+              "liquidation_mdd": 0.8457670999997928,
+              "positive_hours": 2,
+              "worst_hour": 9.099364200001872,
+              "break_even_fee_bps": 0.30542677378437455,
+              "net_per_trade": 0.04718158622048906,
+              "without_top3": 21.77084580000839,
+              "top3_pnl": 2.1974000000000524,
+              "win_rate": 0.421259842519685
+            }
+          ]
+        },
+        {
+          "id": "qi_r02",
+          "eligible": true,
+          "score": 24.20375810000864,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 632,
+              "net_pnl": 32.730678500009674,
+              "gross_pnl": 32.730678500009674,
+              "turnover": 976276.7399549,
+              "return_pct": 3.273067850000967,
+              "liquidation_mdd": 0.639423699999897,
+              "positive_hours": 2,
+              "worst_hour": 13.185354400000943,
+              "break_even_fee_bps": 0.33526025112020696,
+              "net_per_trade": 0.05178904825950898,
+              "without_top3": 30.381178500009554,
+              "top3_pnl": 2.3495000000001167,
+              "win_rate": 0.39082278481012656
+            },
+            {
+              "hours": 2,
+              "trades": 616,
+              "net_pnl": 24.57495810000852,
+              "gross_pnl": 24.574958100008516,
+              "turnover": 951604.1392105,
+              "return_pct": 2.457495810000852,
+              "liquidation_mdd": 0.7423999999997613,
+              "positive_hours": 2,
+              "worst_hour": 9.86999690000128,
+              "break_even_fee_bps": 0.25824770077605136,
+              "net_per_trade": 0.03989441250001383,
+              "without_top3": 22.377558100008464,
+              "top3_pnl": 2.1974000000000524,
+              "win_rate": 0.3685064935064935
+            }
+          ]
+        },
+        {
+          "id": "hysteresis_0.4_30",
+          "eligible": true,
+          "score": 16.396016900006728,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 364,
+              "net_pnl": 23.353445300005554,
+              "gross_pnl": 23.35344530000555,
+              "turnover": 562297.6390589,
+              "return_pct": 2.335344530000555,
+              "liquidation_mdd": 1.2123236999998332,
+              "positive_hours": 2,
+              "worst_hour": 9.043577700001332,
+              "break_even_fee_bps": 0.415321774053533,
+              "net_per_trade": 0.06415781675825702,
+              "without_top3": 20.983345300005602,
+              "top3_pnl": 2.370099999999948,
+              "win_rate": 0.5137362637362637
+            },
+            {
+              "hours": 2,
+              "trades": 351,
+              "net_pnl": 17.138316900006615,
+              "gross_pnl": 17.138316900006615,
+              "turnover": 542235.4767825,
+              "return_pct": 1.7138316900006616,
+              "liquidation_mdd": 1.4845999999997732,
+              "positive_hours": 2,
+              "worst_hour": 6.482957400001906,
+              "break_even_fee_bps": 0.31606779035745547,
+              "net_per_trade": 0.04882711367523252,
+              "without_top3": 14.94521690000649,
+              "top3_pnl": 2.193100000000122,
+              "win_rate": 0.48717948717948717
+            }
+          ]
+        },
+        {
+          "id": "hysteresis_0.4_90",
+          "eligible": true,
+          "score": 15.018994600006627,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 340,
+              "net_pnl": 21.8273453000054,
+              "gross_pnl": 21.827345300005398,
+              "turnover": 525178.9909589001,
+              "return_pct": 2.18273453000054,
+              "liquidation_mdd": 1.2123236999998332,
+              "positive_hours": 2,
+              "worst_hour": 7.771277700001375,
+              "break_even_fee_bps": 0.4156172595585336,
+              "net_per_trade": 0.06419807441178059,
+              "without_top3": 19.346805000005553,
+              "top3_pnl": 2.480540299999848,
+              "win_rate": 0.5029411764705882
+            },
+            {
+              "hours": 2,
+              "trades": 326,
+              "net_pnl": 15.761294600006513,
+              "gross_pnl": 15.761294600006513,
+              "turnover": 503567.1136048,
+              "return_pct": 1.5761294600006512,
+              "liquidation_mdd": 1.4845999999997732,
+              "positive_hours": 2,
+              "worst_hour": 5.3961351000019935,
+              "break_even_fee_bps": 0.312992929327311,
+              "net_per_trade": 0.04834752944787274,
+              "without_top3": 13.568194600006391,
+              "top3_pnl": 2.193100000000122,
+              "win_rate": 0.4754601226993865
+            }
+          ]
+        },
+        {
+          "id": "hysteresis_0.7_30",
+          "eligible": true,
+          "score": 17.5017516000045,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 291,
+              "net_pnl": 23.92888470000442,
+              "gross_pnl": 23.92888470000442,
+              "turnover": 449578.41318170005,
+              "return_pct": 2.392888470000442,
+              "liquidation_mdd": 1.0644432000000954,
+              "positive_hours": 2,
+              "worst_hour": 9.973875100001461,
+              "break_even_fee_bps": 0.5322516383884608,
+              "net_per_trade": 0.0822298443299121,
+              "without_top3": 21.60488470000433,
+              "top3_pnl": 2.3240000000000873,
+              "win_rate": 0.5910652920962199
+            },
+            {
+              "hours": 2,
+              "trades": 282,
+              "net_pnl": 18.279901600004376,
+              "gross_pnl": 18.279901600004376,
+              "turnover": 435682.692013,
+              "return_pct": 1.8279901600004378,
+              "liquidation_mdd": 1.5562999999997542,
+              "positive_hours": 2,
+              "worst_hour": 7.197034500001464,
+              "break_even_fee_bps": 0.419569148261206,
+              "net_per_trade": 0.0648223460993063,
+              "without_top3": 16.046801600004255,
+              "top3_pnl": 2.233100000000122,
+              "win_rate": 0.5567375886524822
+            }
+          ]
+        },
+        {
+          "id": "hysteresis_0.7_90",
+          "eligible": true,
+          "score": 16.5582209000046,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 269,
+              "net_pnl": 22.898760600004465,
+              "gross_pnl": 22.898760600004465,
+              "turnover": 415558.3655058,
+              "return_pct": 2.2898760600004464,
+              "liquidation_mdd": 1.1211432000000787,
+              "positive_hours": 2,
+              "worst_hour": 9.197551000001695,
+              "break_even_fee_bps": 0.5510359675260794,
+              "net_per_trade": 0.08512550408923593,
+              "without_top3": 20.429020300004485,
+              "top3_pnl": 2.469740299999976,
+              "win_rate": 0.5836431226765799
+            },
+            {
+              "hours": 2,
+              "trades": 261,
+              "net_pnl": 17.372970900004585,
+              "gross_pnl": 17.372970900004585,
+              "turnover": 403211.3031437,
+              "return_pct": 1.7372970900004585,
+              "liquidation_mdd": 1.6294999999999709,
+              "positive_hours": 2,
+              "worst_hour": 6.5803038000018566,
+              "break_even_fee_bps": 0.43086517576649014,
+              "net_per_trade": 0.06656310689656929,
+              "without_top3": 15.139870900004462,
+              "top3_pnl": 2.233100000000122,
+              "win_rate": 0.5555555555555556
+            }
+          ]
+        },
+        {
+          "id": "smooth_1_0.4",
+          "eligible": true,
+          "score": 7.442941050005176,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 201,
+              "net_pnl": 11.820538500004481,
+              "gross_pnl": 11.820538500004478,
+              "turnover": 310491.2165887,
+              "return_pct": 1.182053850000448,
+              "liquidation_mdd": 2.784799999998795,
+              "positive_hours": 2,
+              "worst_hour": 2.6541973000012518,
+              "break_even_fee_bps": 0.38070444084938,
+              "net_per_trade": 0.05880864925375364,
+              "without_top3": 8.847538500004449,
+              "top3_pnl": 2.973000000000029,
+              "win_rate": 0.47761194029850745
+            },
+            {
+              "hours": 2,
+              "trades": 198,
+              "net_pnl": 8.843788600004775,
+              "gross_pnl": 8.843788600004773,
+              "turnover": 305852.1453632,
+              "return_pct": 0.8843788600004775,
+              "liquidation_mdd": 2.801695099999197,
+              "positive_hours": 2,
+              "worst_hour": 2.208112700001221,
+              "break_even_fee_bps": 0.2891524134807934,
+              "net_per_trade": 0.0446655989899231,
+              "without_top3": 6.015388600004663,
+              "top3_pnl": 2.828400000000111,
+              "win_rate": 0.46464646464646464
+            }
+          ]
+        },
+        {
+          "id": "smooth_1_0.6",
+          "eligible": true,
+          "score": 6.516304700003675,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 171,
+              "net_pnl": 10.559618500003417,
+              "gross_pnl": 10.559618500003417,
+              "turnover": 264187.92122210003,
+              "return_pct": 1.0559618500003416,
+              "liquidation_mdd": 1.8278574999992272,
+              "positive_hours": 2,
+              "worst_hour": 3.964939800000575,
+              "break_even_fee_bps": 0.39970103292973996,
+              "net_per_trade": 0.06175215497078022,
+              "without_top3": 8.391218500003307,
+              "top3_pnl": 2.1684000000001107,
+              "win_rate": 0.5087719298245614
+            },
+            {
+              "hours": 2,
+              "trades": 166,
+              "net_pnl": 7.6545975000034385,
+              "gross_pnl": 7.6545975000034385,
+              "turnover": 256468.14634170002,
+              "return_pct": 0.7654597500003438,
+              "liquidation_mdd": 2.276585599999527,
+              "positive_hours": 2,
+              "worst_hour": 2.5263222000008683,
+              "break_even_fee_bps": 0.29846191853412446,
+              "net_per_trade": 0.046112033132550835,
+              "without_top3": 5.500897500003339,
+              "top3_pnl": 2.153700000000099,
+              "win_rate": 0.45180722891566266
+            }
+          ]
+        },
+        {
+          "id": "smooth_5_0.4",
+          "eligible": false,
+          "score": -6.323771549998492,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 79,
+              "net_pnl": -1.560463799998251,
+              "gross_pnl": -1.5604637999982511,
+              "turnover": 122087.6383538,
+              "return_pct": -0.1560463799998251,
+              "liquidation_mdd": 5.4128081999997075,
+              "positive_hours": 1,
+              "worst_hour": -3.0704999999991553,
+              "break_even_fee_bps": -0.1278150532714995,
+              "net_per_trade": -0.019752706329091783,
+              "without_top3": -4.2733637999981875,
+              "top3_pnl": 2.7128999999999364,
+              "win_rate": 0.4177215189873418
+            },
+            {
+              "hours": 2,
+              "trades": 78,
+              "net_pnl": -3.263772799998697,
+              "gross_pnl": -3.2637727999986965,
+              "turnover": 120536.7092026,
+              "return_pct": -0.3263772799998697,
+              "liquidation_mdd": 6.119997499999591,
+              "positive_hours": 1,
+              "worst_hour": -4.194290199999523,
+              "break_even_fee_bps": -0.2707700269560948,
+              "net_per_trade": -0.04184324102562432,
+              "without_top3": -5.79997279999865,
+              "top3_pnl": 2.5361999999999534,
+              "win_rate": 0.3974358974358974
+            }
+          ]
+        },
+        {
+          "id": "smooth_5_0.6",
+          "eligible": false,
+          "score": -2.6208350999988035,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 50,
+              "net_pnl": -0.5098549999989337,
+              "gross_pnl": -0.5098549999989336,
+              "turnover": 77337.188345,
+              "return_pct": -0.05098549999989337,
+              "liquidation_mdd": 2.6801999999996045,
+              "positive_hours": 1,
+              "worst_hour": -1.3114999999993597,
+              "break_even_fee_bps": -0.06592623948577989,
+              "net_per_trade": -0.010197099999978674,
+              "without_top3": -2.692354999998934,
+              "top3_pnl": 2.1825,
+              "win_rate": 0.48
+            },
+            {
+              "hours": 2,
+              "trades": 50,
+              "net_pnl": -1.1662850999989316,
+              "gross_pnl": -1.1662850999989316,
+              "turnover": 77336.73871490001,
+              "return_pct": -0.11662850999989316,
+              "liquidation_mdd": 2.909099999999744,
+              "positive_hours": 1,
+              "worst_hour": -1.5507999999994355,
+              "break_even_fee_bps": -0.15080608768601078,
+              "net_per_trade": -0.023325701999978632,
+              "without_top3": -3.3144850999990014,
+              "top3_pnl": 2.14820000000007,
+              "win_rate": 0.48
+            }
+          ]
+        },
+        {
+          "id": "consensus_qi_30",
+          "eligible": true,
+          "score": 17.349457900006527,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 349,
+              "net_pnl": 24.719086900005642,
+              "gross_pnl": 24.719086900005642,
+              "turnover": 539113.1584127,
+              "return_pct": 2.4719086900005642,
+              "liquidation_mdd": 1.2203236999998626,
+              "positive_hours": 2,
+              "worst_hour": 10.078394200001494,
+              "break_even_fee_bps": 0.4585138855223929,
+              "net_per_trade": 0.0708283292263772,
+              "without_top3": 22.348986900005695,
+              "top3_pnl": 2.370099999999948,
+              "win_rate": 0.5300859598853869
+            },
+            {
+              "hours": 2,
+              "trades": 338,
+              "net_pnl": 18.0440079000064,
+              "gross_pnl": 18.0440079000064,
+              "turnover": 522137.78809150006,
+              "return_pct": 1.80440079000064,
+              "liquidation_mdd": 1.3890999999997438,
+              "positive_hours": 2,
+              "worst_hour": 7.386857400001755,
+              "break_even_fee_bps": 0.34557942963600147,
+              "net_per_trade": 0.05338463875741538,
+              "without_top3": 15.850907900006277,
+              "top3_pnl": 2.193100000000122,
+              "win_rate": 0.5
+            }
+          ]
+        },
+        {
+          "id": "consensus_qi_90",
+          "eligible": true,
+          "score": 16.1169356000064,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 325,
+              "net_pnl": 23.42128690000551,
+              "gross_pnl": 23.421286900005505,
+              "turnover": 501994.88341270003,
+              "return_pct": 2.3421286900005507,
+              "liquidation_mdd": 1.2203236999998626,
+              "positive_hours": 2,
+              "worst_hour": 9.034394200001554,
+              "break_even_fee_bps": 0.46656425541195,
+              "net_per_trade": 0.07206549815386311,
+              "without_top3": 20.94074660000566,
+              "top3_pnl": 2.480540299999848,
+              "win_rate": 0.5230769230769231
+            },
+            {
+              "hours": 2,
+              "trades": 315,
+              "net_pnl": 16.81148560000627,
+              "gross_pnl": 16.81148560000627,
+              "turnover": 486567.64221380005,
+              "return_pct": 1.681148560000627,
+              "liquidation_mdd": 1.3890999999997438,
+              "positive_hours": 2,
+              "worst_hour": 6.444535100001813,
+              "break_even_fee_bps": 0.34551178790921794,
+              "net_per_trade": 0.053369795555575465,
+              "without_top3": 14.61838560000615,
+              "top3_pnl": 2.193100000000122,
+              "win_rate": 0.49523809523809526
+            }
+          ]
+        },
+        {
+          "id": "consensus_ofi_30",
+          "eligible": true,
+          "score": 14.424614300005706,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 287,
+              "net_pnl": 20.583070100005425,
+              "gross_pnl": 20.583070100005425,
+              "turnover": 443386.53279910004,
+              "return_pct": 2.0583070100005427,
+              "liquidation_mdd": 1.021623699999618,
+              "positive_hours": 2,
+              "worst_hour": 8.061458700001094,
+              "break_even_fee_bps": 0.46422407036281554,
+              "net_per_trade": 0.07171801428573318,
+              "without_top3": 18.311070100005455,
+              "top3_pnl": 2.271999999999971,
+              "win_rate": 0.5574912891986062
+            },
+            {
+              "hours": 2,
+              "trades": 279,
+              "net_pnl": 15.293547800005182,
+              "gross_pnl": 15.293547800005182,
+              "turnover": 431031.21119,
+              "return_pct": 1.5293547800005183,
+              "liquidation_mdd": 1.7378669999989524,
+              "positive_hours": 2,
+              "worst_hour": 5.846212000001105,
+              "break_even_fee_bps": 0.3548130020047141,
+              "net_per_trade": 0.054815583512563375,
+              "without_top3": 13.156747800005105,
+              "top3_pnl": 2.1368000000000755,
+              "win_rate": 0.5089605734767025
+            }
+          ]
+        },
+        {
+          "id": "consensus_ofi_90",
+          "eligible": true,
+          "score": 14.06224760000616,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 269,
+              "net_pnl": 20.133370100005706,
+              "gross_pnl": 20.133370100005706,
+              "turnover": 415546.96149909997,
+              "return_pct": 2.0133370100005705,
+              "liquidation_mdd": 1.164200000000129,
+              "positive_hours": 2,
+              "worst_hour": 7.865558700001565,
+              "break_even_fee_bps": 0.4845028833173002,
+              "net_per_trade": 0.07484524200745615,
+              "without_top3": 17.6593298000058,
+              "top3_pnl": 2.4740402999999063,
+              "win_rate": 0.5539033457249071
+            },
+            {
+              "hours": 2,
+              "trades": 260,
+              "net_pnl": 15.0970811000056,
+              "gross_pnl": 15.0970811000056,
+              "turnover": 401642.44605669996,
+              "return_pct": 1.50970811000056,
+              "liquidation_mdd": 2.0696669999988817,
+              "positive_hours": 2,
+              "worst_hour": 5.93994530000171,
+              "break_even_fee_bps": 0.37588360613345984,
+              "net_per_trade": 0.05806569653848308,
+              "without_top3": 12.95448110000536,
+              "top3_pnl": 2.1426000000002388,
+              "win_rate": 0.5038461538461538
+            }
+          ]
+        },
+        {
+          "id": "consensus_qi_ofi_30",
+          "eligible": true,
+          "score": 14.332033600005596,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 278,
+              "net_pnl": 20.78347010000536,
+              "gross_pnl": 20.78347010000536,
+              "turnover": 429473.3007991,
+              "return_pct": 2.078347010000536,
+              "liquidation_mdd": 1.1285000000000576,
+              "positive_hours": 2,
+              "worst_hour": 8.27935870000103,
+              "break_even_fee_bps": 0.4839292701393677,
+              "net_per_trade": 0.07476068381296892,
+              "without_top3": 18.51147010000539,
+              "top3_pnl": 2.271999999999971,
+              "win_rate": 0.5575539568345323
+            },
+            {
+              "hours": 2,
+              "trades": 273,
+              "net_pnl": 15.332705100005114,
+              "gross_pnl": 15.332705100005114,
+              "turnover": 421756.8132327,
+              "return_pct": 1.5332705100005113,
+              "liquidation_mdd": 2.0013429999990366,
+              "positive_hours": 2,
+              "worst_hour": 6.097745300000969,
+              "break_even_fee_bps": 0.3635437441420882,
+              "net_per_trade": 0.056163754945073675,
+              "without_top3": 13.195905100005039,
+              "top3_pnl": 2.1368000000000755,
+              "win_rate": 0.5018315018315018
+            }
+          ]
+        },
+        {
+          "id": "consensus_qi_ofi_90",
+          "eligible": true,
+          "score": 13.904133600005952,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 261,
+              "net_pnl": 20.348570100005603,
+              "gross_pnl": 20.3485701000056,
+              "turnover": 403184.84629909997,
+              "return_pct": 2.03485701000056,
+              "liquidation_mdd": 1.2830000000000297,
+              "positive_hours": 2,
+              "worst_hour": 8.098258700001463,
+              "break_even_fee_bps": 0.5046958060747687,
+              "net_per_trade": 0.077963870114964,
+              "without_top3": 17.874529800005693,
+              "top3_pnl": 2.4740402999999063,
+              "win_rate": 0.5555555555555556
+            },
+            {
+              "hours": 2,
+              "trades": 256,
+              "net_pnl": 15.070705100005434,
+              "gross_pnl": 15.070705100005434,
+              "turnover": 395468.3946327,
+              "return_pct": 1.5070705100005433,
+              "liquidation_mdd": 2.3331429999989632,
+              "positive_hours": 2,
+              "worst_hour": 6.125945300001477,
+              "break_even_fee_bps": 0.3810849439435655,
+              "net_per_trade": 0.058869941796896225,
+              "without_top3": 12.883105100005341,
+              "top3_pnl": 2.187600000000093,
+              "win_rate": 0.5
+            }
+          ]
+        },
+        {
+          "id": "trend_10_30",
+          "eligible": true,
+          "score": 9.366645750002206,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 206,
+              "net_pnl": 14.049668100002599,
+              "gross_pnl": 14.0496681000026,
+              "turnover": 318276.5820203,
+              "return_pct": 1.40496681000026,
+              "liquidation_mdd": 1.130019800000009,
+              "positive_hours": 2,
+              "worst_hour": 6.585646800000539,
+              "break_even_fee_bps": 0.4414295268228845,
+              "net_per_trade": 0.0682022723301097,
+              "without_top3": 12.064168100002572,
+              "top3_pnl": 1.9855000000000294,
+              "win_rate": 0.5436893203883495
+            },
+            {
+              "hours": 2,
+              "trades": 200,
+              "net_pnl": 10.204838700001854,
+              "gross_pnl": 10.204838700001856,
+              "turnover": 309023.8142287,
+              "return_pct": 1.0204838700001855,
+              "liquidation_mdd": 1.6763858999992958,
+              "positive_hours": 2,
+              "worst_hour": 4.682985000000335,
+              "break_even_fee_bps": 0.33022822935094365,
+              "net_per_trade": 0.05102419350000927,
+              "without_top3": 8.306338700001943,
+              "top3_pnl": 1.8984999999999128,
+              "win_rate": 0.5
+            }
+          ]
+        },
+        {
+          "id": "trend_10_90",
+          "eligible": true,
+          "score": 9.447695750002385,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 191,
+              "net_pnl": 14.231794000002703,
+              "gross_pnl": 14.2317940000027,
+              "turnover": 295087.7584944,
+              "return_pct": 1.4231794000002702,
+              "liquidation_mdd": 1.130019800000009,
+              "positive_hours": 2,
+              "worst_hour": 6.635472700000974,
+              "break_even_fee_bps": 0.4822902201235428,
+              "net_per_trade": 0.07451201047121833,
+              "without_top3": 12.108753700002854,
+              "top3_pnl": 2.1230402999998477,
+              "win_rate": 0.5340314136125655
+            },
+            {
+              "hours": 2,
+              "trades": 186,
+              "net_pnl": 10.28623870000214,
+              "gross_pnl": 10.28623870000214,
+              "turnover": 287374.9646287,
+              "return_pct": 1.0286238700002142,
+              "liquidation_mdd": 1.6770858999995104,
+              "positive_hours": 2,
+              "worst_hour": 5.013085000000865,
+              "break_even_fee_bps": 0.3579378848568933,
+              "net_per_trade": 0.055302358602162045,
+              "without_top3": 8.320738700002112,
+              "top3_pnl": 1.9655000000000293,
+              "win_rate": 0.489247311827957
+            }
+          ]
+        },
+        {
+          "id": "trend_30_30",
+          "eligible": true,
+          "score": 9.043424000001977,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 180,
+              "net_pnl": 11.68753590000226,
+              "gross_pnl": 11.68753590000226,
+              "turnover": 278174.9482599,
+              "return_pct": 1.168753590000226,
+              "liquidation_mdd": 1.410621999999858,
+              "positive_hours": 2,
+              "worst_hour": 3.121567100000248,
+              "break_even_fee_bps": 0.42015055536498375,
+              "net_per_trade": 0.06493075500001255,
+              "without_top3": 9.379835900002218,
+              "top3_pnl": 2.307700000000041,
+              "win_rate": 0.5166666666666667
+            },
+            {
+              "hours": 2,
+              "trades": 178,
+              "net_pnl": 9.841474000001908,
+              "gross_pnl": 9.84147400000191,
+              "turnover": 275084.301126,
+              "return_pct": 0.9841474000001907,
+              "liquidation_mdd": 1.5960999999998604,
+              "positive_hours": 2,
+              "worst_hour": 2.193712299999752,
+              "break_even_fee_bps": 0.35776211000474745,
+              "net_per_trade": 0.055289179775291616,
+              "without_top3": 7.625174000001716,
+              "top3_pnl": 2.2163000000001922,
+              "win_rate": 0.5056179775280899
+            }
+          ]
+        },
+        {
+          "id": "trend_30_90",
+          "eligible": true,
+          "score": 8.357174000002342,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 167,
+              "net_pnl": 11.28263590000235,
+              "gross_pnl": 11.282635900002353,
+              "turnover": 258064.31235990004,
+              "return_pct": 1.1282635900002351,
+              "liquidation_mdd": 1.6440219999998225,
+              "positive_hours": 2,
+              "worst_hour": 2.970467100000532,
+              "break_even_fee_bps": 0.43720248634252973,
+              "net_per_trade": 0.06756069401199012,
+              "without_top3": 8.862395600002346,
+              "top3_pnl": 2.420240300000005,
+              "win_rate": 0.49700598802395207
+            },
+            {
+              "hours": 2,
+              "trades": 164,
+              "net_pnl": 9.290774000002274,
+              "gross_pnl": 9.290774000002276,
+              "turnover": 253424.414426,
+              "return_pct": 0.9290774000002274,
+              "liquidation_mdd": 1.8671999999998654,
+              "positive_hours": 2,
+              "worst_hour": 1.9332123000003052,
+              "break_even_fee_bps": 0.3666092716854312,
+              "net_per_trade": 0.05665106097562363,
+              "without_top3": 7.074474000002083,
+              "top3_pnl": 2.2163000000001922,
+              "win_rate": 0.5
+            }
+          ]
+        },
+        {
+          "id": "hold_30_0.4",
+          "eligible": false,
+          "score": -1.123148649996874,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 190,
+              "net_pnl": 0.33140050000263743,
+              "gross_pnl": 0.33140050000263743,
+              "turnover": 293627.3503547,
+              "return_pct": 0.033140050000263745,
+              "liquidation_mdd": 2.9090982999990227,
+              "positive_hours": 1,
+              "worst_hour": -1.7491982999992612,
+              "break_even_fee_bps": 0.011286431580787952,
+              "net_per_trade": 0.0017442131579086181,
+              "without_top3": -1.8024994999975024,
+              "top3_pnl": 2.1339000000001396,
+              "win_rate": 0.5105263157894737
+            },
+            {
+              "hours": 2,
+              "trades": 186,
+              "net_pnl": 1.3406564000027714,
+              "gross_pnl": 1.3406564000027719,
+              "turnover": 287435.4059308,
+              "return_pct": 0.13406564000027713,
+              "liquidation_mdd": 3.8943999999992958,
+              "positive_hours": 1,
+              "worst_hour": -0.9382469999995372,
+              "break_even_fee_bps": 0.04664200625045943,
+              "net_per_trade": 0.007207830107541782,
+              "without_top3": -1.0084435999972627,
+              "top3_pnl": 2.3491000000000346,
+              "win_rate": 0.5053763440860215
+            }
+          ]
+        },
+        {
+          "id": "hold_30_0.7",
+          "eligible": true,
+          "score": 4.776011050004017,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 172,
+              "net_pnl": 5.713710600003542,
+              "gross_pnl": 5.713710600003543,
+              "turnover": 265811.0944648,
+              "return_pct": 0.5713710600003542,
+              "liquidation_mdd": 1.8753990999990489,
+              "positive_hours": 2,
+              "worst_hour": 1.4525009000013236,
+              "break_even_fee_bps": 0.21495380437403755,
+              "net_per_trade": 0.0332192476744392,
+              "without_top3": 3.6573106000034024,
+              "top3_pnl": 2.0564000000001394,
+              "win_rate": 0.5348837209302325
+            },
+            {
+              "hours": 2,
+              "trades": 170,
+              "net_pnl": 6.15912730000302,
+              "gross_pnl": 6.15912730000302,
+              "turnover": 262722.82003390003,
+              "return_pct": 0.6159127300003019,
+              "liquidation_mdd": 1.9585619999992199,
+              "positive_hours": 2,
+              "worst_hour": 1.246446700001107,
+              "break_even_fee_bps": 0.23443442405224968,
+              "net_per_trade": 0.036230160588253055,
+              "without_top3": 3.9116273000028743,
+              "top3_pnl": 2.2475000000001453,
+              "win_rate": 0.5352941176470588
+            }
+          ]
+        },
+        {
+          "id": "hold_60_0.4",
+          "eligible": false,
+          "score": -4.558368949997311,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 120,
+              "net_pnl": -1.4120314999973935,
+              "gross_pnl": -1.4120314999973922,
+              "turnover": 185427.4287183,
+              "return_pct": -0.14120314999973935,
+              "liquidation_mdd": 5.621955399999279,
+              "positive_hours": 1,
+              "worst_hour": -3.850330299998605,
+              "break_even_fee_bps": -0.07615008792159547,
+              "net_per_trade": -0.011766929166644947,
+              "without_top3": -3.5744314999974445,
+              "top3_pnl": 2.1624000000000523,
+              "win_rate": 0.45
+            },
+            {
+              "hours": 2,
+              "trades": 119,
+              "net_pnl": -1.9964407999976537,
+              "gross_pnl": -1.996440799997654,
+              "turnover": 183887.7840408,
+              "return_pct": -0.19964407999976536,
+              "liquidation_mdd": 5.123856299999315,
+              "positive_hours": 1,
+              "worst_hour": -3.415592199998791,
+              "break_even_fee_bps": -0.10856842994827186,
+              "net_per_trade": -0.016776813445358436,
+              "without_top3": -4.202440799997712,
+              "top3_pnl": 2.206000000000058,
+              "win_rate": 0.4369747899159664
+            }
+          ]
+        },
+        {
+          "id": "hold_60_0.7",
+          "eligible": false,
+          "score": -3.9048508499986205,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 114,
+              "net_pnl": 0.36611570000212,
+              "gross_pnl": 0.3661157000021198,
+              "turnover": 176145.6244743,
+              "return_pct": 0.036611570000212,
+              "liquidation_mdd": 4.669471399999311,
+              "positive_hours": 1,
+              "worst_hour": -1.5385830999987955,
+              "break_even_fee_bps": 0.020784830795245603,
+              "net_per_trade": 0.003211541228088772,
+              "without_top3": -1.8114842999979734,
+              "top3_pnl": 2.1776000000000932,
+              "win_rate": 0.4473684210526316
+            },
+            {
+              "hours": 2,
+              "trades": 114,
+              "net_pnl": -1.454797999998846,
+              "gross_pnl": -1.4547979999988458,
+              "turnover": 176158.844198,
+              "return_pct": -0.1454797999998846,
+              "liquidation_mdd": 4.900105699999549,
+              "positive_hours": 1,
+              "worst_hour": -2.952505699999893,
+              "break_even_fee_bps": -0.08258444284316908,
+              "net_per_trade": -0.012761385964902158,
+              "without_top3": -3.886691599998885,
+              "top3_pnl": 2.4318936000000395,
+              "win_rate": 0.4298245614035088
+            }
+          ]
+        },
+        {
+          "id": "hold_120_0.4",
+          "eligible": false,
+          "score": -5.491622349998506,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 84,
+              "net_pnl": -1.741095599998807,
+              "gross_pnl": -1.7410955999988074,
+              "turnover": 129789.1321044,
+              "return_pct": -0.1741095599998807,
+              "liquidation_mdd": 6.38539999999979,
+              "positive_hours": 1,
+              "worst_hour": -3.0721999999997203,
+              "break_even_fee_bps": -0.13414802701649178,
+              "net_per_trade": -0.020727328571414367,
+              "without_top3": -3.87919559999893,
+              "top3_pnl": 2.1381000000001222,
+              "win_rate": 0.39285714285714285
+            },
+            {
+              "hours": 2,
+              "trades": 85,
+              "net_pnl": -2.2546441999987294,
+              "gross_pnl": -2.254644199998729,
+              "turnover": 131332.851253,
+              "return_pct": -0.22546441999987293,
+              "liquidation_mdd": 6.4739562999995535,
+              "positive_hours": 1,
+              "worst_hour": -3.076499999999214,
+              "break_even_fee_bps": -0.17167404640103148,
+              "net_per_trade": -0.026525225882337994,
+              "without_top3": -4.611487899998756,
+              "top3_pnl": 2.356843700000027,
+              "win_rate": 0.4
+            }
+          ]
+        },
+        {
+          "id": "hold_120_0.7",
+          "eligible": false,
+          "score": -2.417087899998442,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 80,
+              "net_pnl": 0.44830440000106986,
+              "gross_pnl": 0.4483044000010703,
+              "turnover": 123617.4449044,
+              "return_pct": 0.04483044000010699,
+              "liquidation_mdd": 5.690499999999739,
+              "positive_hours": 1,
+              "worst_hour": -2.110999999999622,
+              "break_even_fee_bps": 0.03626546401664976,
+              "net_per_trade": 0.005603805000013373,
+              "without_top3": -1.7340955999988363,
+              "top3_pnl": 2.182399999999907,
+              "win_rate": 0.425
+            },
+            {
+              "hours": 2,
+              "trades": 79,
+              "net_pnl": 0.3695121000013022,
+              "gross_pnl": 0.3695121000013024,
+              "turnover": 122075.3936967,
+              "return_pct": 0.036951210000130214,
+              "liquidation_mdd": 5.573199999999488,
+              "positive_hours": 1,
+              "worst_hour": -1.935199999999313,
+              "break_even_fee_bps": 0.030269171272907493,
+              "net_per_trade": 0.004677368354446863,
+              "without_top3": -2.0890878999987037,
+              "top3_pnl": 2.458600000000006,
+              "win_rate": 0.4430379746835443
+            }
+          ]
+        },
+        {
+          "id": "ridge_10_2.5",
+          "eligible": false,
+          "score": 0.0,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            },
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            }
+          ]
+        },
+        {
+          "id": "ridge_10_4.0",
+          "eligible": false,
+          "score": 0.0,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            },
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            }
+          ]
+        },
+        {
+          "id": "ridge_30_2.5",
+          "eligible": false,
+          "score": 0.0,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            },
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            }
+          ]
+        },
+        {
+          "id": "ridge_30_4.0",
+          "eligible": false,
+          "score": 0.0,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            },
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            }
+          ]
+        },
+        {
+          "id": "ridge_60_2.5",
+          "eligible": false,
+          "score": 0.0,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            },
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            }
+          ]
+        },
+        {
+          "id": "ridge_60_4.0",
+          "eligible": false,
+          "score": 0.0,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            },
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fee_bps": 0.2,
+      "chosen": "hysteresis_0.7_30",
+      "ranking": [
+        {
+          "id": "obi6_r02",
+          "eligible": true,
+          "score": 7.19805518110661,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 516,
+              "net_pnl": 14.717527081126272,
+              "gross_pnl": 30.659573100008274,
+              "turnover": 797102.3009441,
+              "return_pct": 1.4717527081126272,
+              "liquidation_mdd": 1.0953088541261442,
+              "positive_hours": 2,
+              "worst_hour": 4.423658572911849,
+              "break_even_fee_bps": 0.38463786974011505,
+              "net_per_trade": 0.02852233930450828,
+              "without_top3": 12.439957083126325,
+              "top3_pnl": 2.2775699979999477,
+              "win_rate": 0.3953488372093023
+            },
+            {
+              "hours": 2,
+              "trades": 508,
+              "net_pnl": 8.273324557164441,
+              "gross_pnl": 23.968245800008447,
+              "turnover": 784746.0621422001,
+              "return_pct": 0.8273324557164442,
+              "liquidation_mdd": 2.150538752115663,
+              "positive_hours": 2,
+              "worst_hour": 1.8249612819698728,
+              "break_even_fee_bps": 0.30542677378437455,
+              "net_per_trade": 0.01628607196292213,
+              "without_top3": 6.168432161164391,
+              "top3_pnl": 2.1048923960000523,
+              "win_rate": 0.3543307086614173
+            }
+          ]
+        },
+        {
+          "id": "qi_r02",
+          "eligible": true,
+          "score": 4.351466847289408,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 632,
+              "net_pnl": 13.20514370091167,
+              "gross_pnl": 32.730678500009674,
+              "turnover": 976276.7399549,
+              "return_pct": 1.320514370091167,
+              "liquidation_mdd": 1.276933445616672,
+              "positive_hours": 2,
+              "worst_hour": 4.301257171716941,
+              "break_even_fee_bps": 0.33526025112020696,
+              "net_per_trade": 0.02089421471663239,
+              "without_top3": 10.948183474911554,
+              "top3_pnl": 2.2569602260001167,
+              "win_rate": 0.34177215189873417
+            },
+            {
+              "hours": 2,
+              "trades": 616,
+              "net_pnl": 5.542875315798515,
+              "gross_pnl": 24.574958100008516,
+              "turnover": 951604.1392105,
+              "return_pct": 0.5542875315798514,
+              "liquidation_mdd": 2.382816937018214,
+              "positive_hours": 2,
+              "worst_hour": 1.1712946280632779,
+              "break_even_fee_bps": 0.25824770077605136,
+              "net_per_trade": 0.008998174213958628,
+              "without_top3": 3.4379829197984626,
+              "top3_pnl": 2.1048923960000523,
+              "win_rate": 0.32305194805194803
+            }
+          ]
+        },
+        {
+          "id": "hysteresis_0.4_30",
+          "eligible": true,
+          "score": 5.0469110690276455,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 364,
+              "net_pnl": 12.10749251882755,
+              "gross_pnl": 23.35344530000555,
+              "turnover": 562297.6390589,
+              "return_pct": 1.210749251882755,
+              "liquidation_mdd": 1.6124772135258332,
+              "positive_hours": 2,
+              "worst_hour": 3.874365230823333,
+              "break_even_fee_bps": 0.415321774053533,
+              "net_per_trade": 0.033262342084691074,
+              "without_top3": 9.829922520827603,
+              "top3_pnl": 2.2775699979999477,
+              "win_rate": 0.4697802197802198
+            },
+            {
+              "hours": 2,
+              "trades": 351,
+              "net_pnl": 6.293607364356611,
+              "gross_pnl": 17.138316900006615,
+              "turnover": 542235.4767825,
+              "return_pct": 0.6293607364356611,
+              "liquidation_mdd": 2.493392590657932,
+              "positive_hours": 2,
+              "worst_hour": 1.5299622791499055,
+              "break_even_fee_bps": 0.31606779035745547,
+              "net_per_trade": 0.017930505311557297,
+              "without_top3": 4.193015054356489,
+              "top3_pnl": 2.1005923100001223,
+              "win_rate": 0.43874643874643876
+            }
+          ]
+        },
+        {
+          "id": "hysteresis_0.4_90",
+          "eligible": true,
+          "score": 4.095234141581326,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 340,
+              "net_pnl": 11.323765480827397,
+              "gross_pnl": 21.827345300005398,
+              "turnover": 525178.9909589001,
+              "return_pct": 1.1323765480827397,
+              "liquidation_mdd": 2.0599487401330014,
+              "positive_hours": 2,
+              "worst_hour": 3.2520286528233737,
+              "break_even_fee_bps": 0.4156172595585336,
+              "net_per_trade": 0.03330519259066882,
+              "without_top3": 8.935859711633551,
+              "top3_pnl": 2.387905769193848,
+              "win_rate": 0.45588235294117646
+            },
+            {
+              "hours": 2,
+              "trades": 326,
+              "net_pnl": 5.689952327910512,
+              "gross_pnl": 15.761294600006513,
+              "turnover": 503567.1136048,
+              "return_pct": 0.5689952327910512,
+              "liquidation_mdd": 3.1894363726583723,
+              "positive_hours": 2,
+              "worst_hour": 1.124096974703992,
+              "break_even_fee_bps": 0.312992929327311,
+              "net_per_trade": 0.01745384149665801,
+              "without_top3": 3.5893600179103906,
+              "top3_pnl": 2.1005923100001223,
+              "win_rate": 0.4294478527607362
+            }
+          ]
+        },
+        {
+          "id": "hysteresis_0.7_30",
+          "eligible": true,
+          "score": 8.424130326745118,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 291,
+              "net_pnl": 14.93731643637042,
+              "gross_pnl": 23.92888470000442,
+              "turnover": 449578.41318170005,
+              "return_pct": 1.493731643637042,
+              "liquidation_mdd": 1.4891948128638655,
+              "positive_hours": 2,
+              "worst_hour": 5.67111445677146,
+              "break_even_fee_bps": 0.5322516383884608,
+              "net_per_trade": 0.051330984317424125,
+              "without_top3": 12.70582674437033,
+              "top3_pnl": 2.2314896920000873,
+              "win_rate": 0.5429553264604811
+            },
+            {
+              "hours": 2,
+              "trades": 282,
+              "net_pnl": 9.566247759744376,
+              "gross_pnl": 18.279901600004376,
+              "turnover": 435682.692013,
+              "return_pct": 0.9566247759744376,
+              "liquidation_mdd": 2.2842348659985166,
+              "positive_hours": 2,
+              "worst_hour": 2.987115332691463,
+              "break_even_fee_bps": 0.419569148261206,
+              "net_per_trade": 0.033922864396256656,
+              "without_top3": 7.425654649744255,
+              "top3_pnl": 2.1405931100001223,
+              "win_rate": 0.5070921985815603
+            }
+          ]
+        },
+        {
+          "id": "hysteresis_0.7_90",
+          "eligible": true,
+          "score": 8.07073370813129,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 269,
+              "net_pnl": 14.587593289888463,
+              "gross_pnl": 22.898760600004465,
+              "turnover": 415558.3655058,
+              "return_pct": 1.4587593289888463,
+              "liquidation_mdd": 1.4609783348640804,
+              "positive_hours": 2,
+              "worst_hour": 5.482781770289695,
+              "break_even_fee_bps": 0.5510359675260794,
+              "net_per_trade": 0.054228971337875326,
+              "without_top3": 12.210608544694486,
+              "top3_pnl": 2.376984745193976,
+              "win_rate": 0.5353159851301115
+            },
+            {
+              "hours": 2,
+              "trades": 261,
+              "net_pnl": 9.308744837130584,
+              "gross_pnl": 17.372970900004585,
+              "turnover": 403211.3031437,
+              "return_pct": 0.9308744837130585,
+              "liquidation_mdd": 2.4760222579985913,
+              "positive_hours": 2,
+              "worst_hour": 2.927402142077857,
+              "break_even_fee_bps": 0.43086517576649014,
+              "net_per_trade": 0.035665689031151665,
+              "without_top3": 7.168151727130462,
+              "top3_pnl": 2.1405931100001223,
+              "win_rate": 0.49808429118773945
+            }
+          ]
+        },
+        {
+          "id": "smooth_1_0.4",
+          "eligible": false,
+          "score": 0.5853107957901731,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 201,
+              "net_pnl": 5.610714168230476,
+              "gross_pnl": 11.820538500004478,
+              "turnover": 310491.2165887,
+              "return_pct": 0.5610714168230476,
+              "liquidation_mdd": 4.327752219998795,
+              "positive_hours": 1,
+              "worst_hour": -0.03881917605274905,
+              "break_even_fee_bps": 0.38070444084938,
+              "net_per_trade": 0.027914000836967545,
+              "without_top3": 2.7303396042304473,
+              "top3_pnl": 2.880374564000029,
+              "win_rate": 0.43781094527363185
+            },
+            {
+              "hours": 2,
+              "trades": 198,
+              "net_pnl": 2.7267456927407716,
+              "gross_pnl": 8.843788600004773,
+              "turnover": 305852.1453632,
+              "return_pct": 0.2726745692740771,
+              "liquidation_mdd": 4.282869793901197,
+              "positive_hours": 1,
+              "worst_hour": -0.39210450174477995,
+              "break_even_fee_bps": 0.2891524134807934,
+              "net_per_trade": 0.013771442892630159,
+              "without_top3": -0.009028379259338203,
+              "top3_pnl": 2.7357740720001105,
+              "win_rate": 0.4090909090909091
+            }
+          ]
+        },
+        {
+          "id": "smooth_1_0.6",
+          "eligible": true,
+          "score": 0.7932838413137033,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 171,
+              "net_pnl": 5.2758600755614165,
+              "gross_pnl": 10.559618500003417,
+              "turnover": 264187.92122210003,
+              "return_pct": 0.5275860075561417,
+              "liquidation_mdd": 3.0309616231492034,
+              "positive_hours": 2,
+              "worst_hour": 1.550255646796575,
+              "break_even_fee_bps": 0.39970103292973996,
+              "net_per_trade": 0.03085298289801998,
+              "without_top3": 3.2001016035613055,
+              "top3_pnl": 2.0757584720001105,
+              "win_rate": 0.4678362573099415
+            },
+            {
+              "hours": 2,
+              "trades": 166,
+              "net_pnl": 2.5252345731694374,
+              "gross_pnl": 7.6545975000034385,
+              "turnover": 256468.14634170002,
+              "return_pct": 0.25252345731694376,
+              "liquidation_mdd": 3.4639014637114682,
+              "positive_hours": 2,
+              "worst_hour": 0.17350182244486823,
+              "break_even_fee_bps": 0.29846191853412446,
+              "net_per_trade": 0.01521225646487613,
+              "without_top3": 0.4643333511693384,
+              "top3_pnl": 2.060901222000099,
+              "win_rate": 0.4036144578313253
+            }
+          ]
+        },
+        {
+          "id": "smooth_5_0.4",
+          "eligible": false,
+          "score": -9.399101854025492,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 79,
+              "net_pnl": -4.002216567074252,
+              "gross_pnl": -1.5604637999982511,
+              "turnover": 122087.6383538,
+              "return_pct": -0.40022165670742527,
+              "liquidation_mdd": 6.248619442931103,
+              "positive_hours": 1,
+              "worst_hour": -4.278146957999157,
+              "break_even_fee_bps": -0.1278150532714995,
+              "net_per_trade": -0.050660969203471545,
+              "without_top3": -6.622236425074188,
+              "top3_pnl": 2.620019857999936,
+              "win_rate": 0.3670886075949367
+            },
+            {
+              "hours": 2,
+              "trades": 78,
+              "net_pnl": -5.674506984050696,
+              "gross_pnl": -3.2637727999986965,
+              "turnover": 120536.7092026,
+              "return_pct": -0.5674506984050696,
+              "liquidation_mdd": 7.44918973994959,
+              "positive_hours": 0,
+              "worst_hour": -5.370918565803523,
+              "break_even_fee_bps": -0.2707700269560948,
+              "net_per_trade": -0.07275008953911148,
+              "without_top3": -8.11802146805065,
+              "top3_pnl": 2.4435144839999534,
+              "win_rate": 0.3333333333333333
+            }
+          ]
+        },
+        {
+          "id": "smooth_5_0.6",
+          "eligible": false,
+          "score": -4.531189533296775,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 50,
+              "net_pnl": -2.056598766898934,
+              "gross_pnl": -0.5098549999989336,
+              "turnover": 77337.188345,
+              "return_pct": -0.20565987668989338,
+              "liquidation_mdd": 3.3927194839996044,
+              "positive_hours": 1,
+              "worst_hour": -2.27192543399936,
+              "break_even_fee_bps": -0.06592623948577989,
+              "net_per_trade": -0.041131975337978674,
+              "without_top3": -4.1462192128989335,
+              "top3_pnl": 2.089620446,
+              "win_rate": 0.42
+            },
+            {
+              "hours": 2,
+              "trades": 50,
+              "net_pnl": -2.713019874296932,
+              "gross_pnl": -1.1662850999989316,
+              "turnover": 77336.73871490001,
+              "return_pct": -0.2713019874296932,
+              "liquidation_mdd": 3.6363393179996866,
+              "positive_hours": 0,
+              "worst_hour": -2.511218031999436,
+              "break_even_fee_bps": -0.15080608768601078,
+              "net_per_trade": -0.05426039748593864,
+              "without_top3": -4.768339634297002,
+              "top3_pnl": 2.05531976000007,
+              "win_rate": 0.4
+            }
+          ]
+        },
+        {
+          "id": "consensus_qi_30",
+          "eligible": true,
+          "score": 6.330249332087202,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 349,
+              "net_pnl": 13.936823731751641,
+              "gross_pnl": 24.719086900005642,
+              "turnover": 539113.1584127,
+              "return_pct": 1.3936823731751642,
+              "liquidation_mdd": 1.6204770535258621,
+              "positive_hours": 2,
+              "worst_hour": 5.218486079153493,
+              "break_even_fee_bps": 0.4585138855223929,
+              "net_per_trade": 0.03993359235458923,
+              "without_top3": 11.659253733751692,
+              "top3_pnl": 2.2775699979999477,
+              "win_rate": 0.4871060171919771
+            },
+            {
+              "hours": 2,
+              "trades": 338,
+              "net_pnl": 7.601252138176399,
+              "gross_pnl": 18.0440079000064,
+              "turnover": 522137.78809150006,
+              "return_pct": 0.7601252138176399,
+              "liquidation_mdd": 2.542005612178394,
+              "positive_hours": 2,
+              "worst_hour": 2.650657745149754,
+              "break_even_fee_bps": 0.34557942963600147,
+              "net_per_trade": 0.022488911651409465,
+              "without_top3": 5.500659828176277,
+              "top3_pnl": 2.1005923100001223,
+              "win_rate": 0.44970414201183434
+            }
+          ]
+        },
+        {
+          "id": "consensus_qi_90",
+          "eligible": true,
+          "score": 5.481982762641036,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 325,
+              "net_pnl": 13.381389231751507,
+              "gross_pnl": 23.421286900005505,
+              "turnover": 501994.88341270003,
+              "return_pct": 1.3381389231751508,
+              "liquidation_mdd": 1.658535751584476,
+              "positive_hours": 2,
+              "worst_hour": 4.824442039153553,
+              "break_even_fee_bps": 0.46656425541195,
+              "net_per_trade": 0.04117350532846618,
+              "without_top3": 10.99348346255766,
+              "top3_pnl": 2.387905769193848,
+              "win_rate": 0.47692307692307695
+            },
+            {
+              "hours": 2,
+              "trades": 315,
+              "net_pnl": 7.080132755730271,
+              "gross_pnl": 16.81148560000627,
+              "turnover": 486567.64221380005,
+              "return_pct": 0.7080132755730271,
+              "liquidation_mdd": 3.19629998617847,
+              "positive_hours": 2,
+              "worst_hour": 2.3273280947038124,
+              "break_even_fee_bps": 0.34551178790921794,
+              "net_per_trade": 0.022476611922953242,
+              "without_top3": 4.979540445730149,
+              "top3_pnl": 2.1005923100001223,
+              "win_rate": 0.4444444444444444
+            }
+          ]
+        },
+        {
+          "id": "consensus_ofi_30",
+          "eligible": true,
+          "score": 4.631710205875887,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 287,
+              "net_pnl": 11.715339444023424,
+              "gross_pnl": 20.583070100005425,
+              "turnover": 443386.53279910004,
+              "return_pct": 1.1715339444023425,
+              "liquidation_mdd": 2.3314807763220498,
+              "positive_hours": 2,
+              "worst_hour": 4.005956125847094,
+              "break_even_fee_bps": 0.46422407036281554,
+              "net_per_trade": 0.04081999806279939,
+              "without_top3": 9.535945572023454,
+              "top3_pnl": 2.179393871999971,
+              "win_rate": 0.5052264808362369
+            },
+            {
+              "hours": 2,
+              "trades": 279,
+              "net_pnl": 6.6729235762051795,
+              "gross_pnl": 15.293547800005182,
+              "turnover": 431031.21119,
+              "return_pct": 0.667292357620518,
+              "liquidation_mdd": 4.082426740658585,
+              "positive_hours": 2,
+              "worst_hour": 1.8835235402411046,
+              "break_even_fee_bps": 0.3548130020047141,
+              "net_per_trade": 0.023917288803602794,
+              "without_top3": 4.628727172205104,
+              "top3_pnl": 2.0441964040000755,
+              "win_rate": 0.46236559139784944
+            }
+          ]
+        },
+        {
+          "id": "consensus_ofi_90",
+          "eligible": true,
+          "score": 4.9393403835422545,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 269,
+              "net_pnl": 11.822430870023705,
+              "gross_pnl": 20.133370100005706,
+              "turnover": 415546.96149909997,
+              "return_pct": 1.1822430870023706,
+              "liquidation_mdd": 2.549784724322343,
+              "positive_hours": 2,
+              "worst_hour": 4.2744380118475656,
+              "break_even_fee_bps": 0.4845028833173002,
+              "net_per_trade": 0.04394955713763459,
+              "without_top3": 9.441146038829798,
+              "top3_pnl": 2.381284831193906,
+              "win_rate": 0.5018587360594795
+            },
+            {
+              "hours": 2,
+              "trades": 260,
+              "net_pnl": 7.064232178871597,
+              "gross_pnl": 15.0970811000056,
+              "turnover": 401642.44605669996,
+              "return_pct": 0.7064232178871598,
+              "liquidation_mdd": 4.249783590658685,
+              "positive_hours": 2,
+              "worst_hour": 2.4726218749077082,
+              "break_even_fee_bps": 0.37588360613345984,
+              "net_per_trade": 0.02717012376489076,
+              "without_top3": 5.014339842871359,
+              "top3_pnl": 2.0498923360002386,
+              "win_rate": 0.46153846153846156
+            }
+          ]
+        },
+        {
+          "id": "consensus_qi_ofi_30",
+          "eligible": true,
+          "score": 4.7945920062617695,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 278,
+              "net_pnl": 12.194004084023362,
+              "gross_pnl": 20.78347010000536,
+              "turnover": 429473.3007991,
+              "return_pct": 1.2194004084023362,
+              "liquidation_mdd": 2.3419353823223874,
+              "positive_hours": 2,
+              "worst_hour": 4.378674199847031,
+              "break_even_fee_bps": 0.4839292701393677,
+              "net_per_trade": 0.0438633240432495,
+              "without_top3": 10.01461021202339,
+              "top3_pnl": 2.179393871999971,
+              "win_rate": 0.5107913669064749
+            },
+            {
+              "hours": 2,
+              "trades": 273,
+              "net_pnl": 6.897568835351112,
+              "gross_pnl": 15.332705100005114,
+              "turnover": 421756.8132327,
+              "return_pct": 0.6897568835351112,
+              "liquidation_mdd": 4.205953658178686,
+              "positive_hours": 2,
+              "worst_hour": 2.228064990906969,
+              "break_even_fee_bps": 0.3635437441420882,
+              "net_per_trade": 0.025265819909711034,
+              "without_top3": 4.853372431351038,
+              "top3_pnl": 2.0441964040000755,
+              "win_rate": 0.4652014652014652
+            }
+          ]
+        },
+        {
+          "id": "consensus_qi_ofi_90",
+          "eligible": true,
+          "score": 4.9846821532620424,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 261,
+              "net_pnl": 12.284873174023598,
+              "gross_pnl": 20.3485701000056,
+              "turnover": 403184.84629909997,
+              "return_pct": 1.2284873174023598,
+              "liquidation_mdd": 2.650682866322347,
+              "positive_hours": 2,
+              "worst_hour": 4.630933749847459,
+              "break_even_fee_bps": 0.5046958060747687,
+              "net_per_trade": 0.04706847959396015,
+              "without_top3": 9.903588342829693,
+              "top3_pnl": 2.381284831193906,
+              "win_rate": 0.5057471264367817
+            },
+            {
+              "hours": 2,
+              "trades": 256,
+              "net_pnl": 7.161337207351433,
+              "gross_pnl": 15.070705100005434,
+              "turnover": 395468.3946327,
+              "return_pct": 0.7161337207351434,
+              "liquidation_mdd": 4.353310108178782,
+              "positive_hours": 2,
+              "worst_hour": 2.689623094907476,
+              "break_even_fee_bps": 0.3810849439435655,
+              "net_per_trade": 0.027973973466216537,
+              "without_top3": 5.066490975351341,
+              "top3_pnl": 2.0948462320000933,
+              "win_rate": 0.4609375
+            }
+          ]
+        },
+        {
+          "id": "trend_10_30",
+          "eligible": true,
+          "score": 2.414960157767208,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 206,
+              "net_pnl": 7.6841364595966,
+              "gross_pnl": 14.0496681000026,
+              "turnover": 318276.5820203,
+              "return_pct": 0.7684136459596601,
+              "liquidation_mdd": 1.985911350803251,
+              "positive_hours": 2,
+              "worst_hour": 3.736891560204541,
+              "break_even_fee_bps": 0.4414295268228845,
+              "net_per_trade": 0.03730163329901262,
+              "without_top3": 5.791200057596571,
+              "top3_pnl": 1.8929364020000292,
+              "win_rate": 0.5145631067961165
+            },
+            {
+              "hours": 2,
+              "trades": 200,
+              "net_pnl": 4.024362415427856,
+              "gross_pnl": 10.204838700001856,
+              "turnover": 309023.8142287,
+              "return_pct": 0.40243624154278557,
+              "liquidation_mdd": 3.2188045153212954,
+              "positive_hours": 2,
+              "worst_hour": 1.8342329357003353,
+              "break_even_fee_bps": 0.33022822935094365,
+              "net_per_trade": 0.020121812077139277,
+              "without_top3": 2.2184355774279427,
+              "top3_pnl": 1.805926837999913,
+              "win_rate": 0.475
+            }
+          ]
+        },
+        {
+          "id": "trend_10_90",
+          "eligible": true,
+          "score": 2.9941759847674523,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 191,
+              "net_pnl": 8.330038830114699,
+              "gross_pnl": 14.2317940000027,
+              "turnover": 295087.7584944,
+              "return_pct": 0.8330038830114699,
+              "liquidation_mdd": 2.0408545408034313,
+              "positive_hours": 2,
+              "worst_hour": 4.127284908722974,
+              "break_even_fee_bps": 0.4822902201235428,
+              "net_per_trade": 0.043612768744056014,
+              "without_top3": 6.299725062920853,
+              "top3_pnl": 2.030313767193848,
+              "win_rate": 0.5026178010471204
+            },
+            {
+              "hours": 2,
+              "trades": 186,
+              "net_pnl": 4.538739407428141,
+              "gross_pnl": 10.28623870000214,
+              "turnover": 287374.9646287,
+              "return_pct": 0.45387394074281406,
+              "liquidation_mdd": 3.0891268453213767,
+              "positive_hours": 2,
+              "worst_hour": 2.033838917727276,
+              "break_even_fee_bps": 0.3579378848568933,
+              "net_per_trade": 0.024401824771119036,
+              "without_top3": 2.6659170734281115,
+              "top3_pnl": 1.8728223340000292,
+              "win_rate": 0.46236559139784944
+            }
+          ]
+        },
+        {
+          "id": "trend_30_30",
+          "eligible": false,
+          "score": 3.0684777204820626,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 180,
+              "net_pnl": 6.124036934804258,
+              "gross_pnl": 11.68753590000226,
+              "turnover": 278174.9482599,
+              "return_pct": 0.6124036934804259,
+              "liquidation_mdd": 2.2516647068036852,
+              "positive_hours": 2,
+              "worst_hour": 0.5202026266102479,
+              "break_even_fee_bps": 0.42015055536498375,
+              "net_per_trade": 0.03402242741557921,
+              "without_top3": 3.908942348804217,
+              "top3_pnl": 2.215094586000041,
+              "win_rate": 0.4722222222222222
+            },
+            {
+              "hours": 2,
+              "trades": 178,
+              "net_pnl": 4.339787977481908,
+              "gross_pnl": 9.84147400000191,
+              "turnover": 275084.301126,
+              "return_pct": 0.4339787977481908,
+              "liquidation_mdd": 2.542620513999691,
+              "positive_hours": 1,
+              "worst_hour": -0.3767799617542481,
+              "break_even_fee_bps": 0.35776211000474745,
+              "net_per_trade": 0.024380831334168022,
+              "without_top3": 2.216003515481716,
+              "top3_pnl": 2.123784462000192,
+              "win_rate": 0.46629213483146065
+            }
+          ]
+        },
+        {
+          "id": "trend_30_90",
+          "eligible": false,
+          "score": 2.8259012894823874,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 167,
+              "net_pnl": 6.12134965280435,
+              "gross_pnl": 11.282635900002353,
+              "turnover": 258064.31235990004,
+              "return_pct": 0.612134965280435,
+              "liquidation_mdd": 2.5563905508037843,
+              "positive_hours": 2,
+              "worst_hour": 0.678905804610532,
+              "break_even_fee_bps": 0.43720248634252973,
+              "net_per_trade": 0.03665478834014581,
+              "without_top3": 3.793865897610346,
+              "top3_pnl": 2.327483755194005,
+              "win_rate": 0.4550898203592814
+            },
+            {
+              "hours": 2,
+              "trades": 164,
+              "net_pnl": 4.222285711482274,
+              "gross_pnl": 9.290774000002276,
+              "turnover": 253424.414426,
+              "return_pct": 0.4222285711482274,
+              "liquidation_mdd": 2.7927688439997738,
+              "positive_hours": 1,
+              "worst_hour": -0.2964924957536954,
+              "break_even_fee_bps": 0.3666092716854312,
+              "net_per_trade": 0.02574564458220899,
+              "without_top3": 2.0985012494820827,
+              "top3_pnl": 2.123784462000192,
+              "win_rate": 0.4573170731707317
+            }
+          ]
+        },
+        {
+          "id": "hold_30_0.4",
+          "eligible": false,
+          "score": -8.735727661649731,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 190,
+              "net_pnl": -5.541146507091363,
+              "gross_pnl": 0.33140050000263743,
+              "turnover": 293627.3503547,
+              "return_pct": -0.5541146507091363,
+              "liquidation_mdd": 6.389162309116736,
+              "positive_hours": 0,
+              "worst_hour": -4.783734123117261,
+              "break_even_fee_bps": 0.011286431580787952,
+              "net_per_trade": -0.029163928984691383,
+              "without_top3": -7.582637461091503,
+              "top3_pnl": 2.04149095400014,
+              "win_rate": 0.47368421052631576
+            },
+            {
+              "hours": 2,
+              "trades": 186,
+              "net_pnl": -4.408051718613228,
+              "gross_pnl": 1.3406564000027719,
+              "turnover": 287435.4059308,
+              "return_pct": -0.44080517186132273,
+              "liquidation_mdd": 6.013376909999266,
+              "positive_hours": 0,
+              "worst_hour": -3.879845340939537,
+              "break_even_fee_bps": 0.04664200625045943,
+              "net_per_trade": -0.02369920278824316,
+              "without_top3": -6.664736364613264,
+              "top3_pnl": 2.2566846460000347,
+              "win_rate": 0.46236559139784944
+            }
+          ]
+        },
+        {
+          "id": "hold_30_0.7",
+          "eligible": false,
+          "score": -1.1165843778429574,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 172,
+              "net_pnl": 0.3974887107075413,
+              "gross_pnl": 5.713710600003543,
+              "turnover": 265811.0944648,
+              "return_pct": 0.03974887107075413,
+              "liquidation_mdd": 3.0281461771009974,
+              "positive_hours": 1,
+              "worst_hour": -1.3035421491006771,
+              "break_even_fee_bps": 0.21495380437403755,
+              "net_per_trade": 0.0023109808762066357,
+              "without_top3": -1.5663091172925983,
+              "top3_pnl": 1.9637978280001396,
+              "win_rate": 0.4941860465116279
+            },
+            {
+              "hours": 2,
+              "trades": 170,
+              "net_pnl": 0.9046708993250194,
+              "gross_pnl": 6.15912730000302,
+              "turnover": 262722.82003390003,
+              "return_pct": 0.09046708993250194,
+              "liquidation_mdd": 3.2991270899847858,
+              "positive_hours": 1,
+              "worst_hour": -1.478630451064894,
+              "break_even_fee_bps": 0.23443442405224968,
+              "net_per_trade": 0.005321593525441291,
+              "without_top3": -1.250246262675126,
+              "top3_pnl": 2.1549171620001455,
+              "win_rate": 0.49411764705882355
+            }
+          ]
+        },
+        {
+          "id": "hold_60_0.4",
+          "eligible": false,
+          "score": -9.060194878298018,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 120,
+              "net_pnl": -5.120580074363393,
+              "gross_pnl": -1.4120314999973922,
+              "turnover": 185427.4287183,
+              "return_pct": -0.5120580074363393,
+              "liquidation_mdd": 7.418542602890894,
+              "positive_hours": 1,
+              "worst_hour": -5.738978484388604,
+              "break_even_fee_bps": -0.07615008792159547,
+              "net_per_trade": -0.04267150061969494,
+              "without_top3": -7.190350946363445,
+              "top3_pnl": 2.0697708720000523,
+              "win_rate": 0.425
+            },
+            {
+              "hours": 2,
+              "trades": 119,
+              "net_pnl": -5.674196480813654,
+              "gross_pnl": -1.996440799997654,
+              "turnover": 183887.7840408,
+              "return_pct": -0.5674196480813654,
+              "liquidation_mdd": 6.77199679496873,
+              "positive_hours": 0,
+              "worst_hour": -5.273386899842792,
+              "break_even_fee_bps": -0.10856842994827186,
+              "net_per_trade": -0.04768232336818197,
+              "without_top3": -7.787574580813712,
+              "top3_pnl": 2.1133781000000584,
+              "win_rate": 0.40336134453781514
+            }
+          ]
+        },
+        {
+          "id": "hold_60_0.7",
+          "eligible": false,
+          "score": -8.449004909015622,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 114,
+              "net_pnl": -3.1567967894838818,
+              "gross_pnl": 0.3661157000021198,
+              "turnover": 176145.6244743,
+              "return_pct": -0.31567967894838816,
+              "liquidation_mdd": 5.440705293427312,
+              "positive_hours": 1,
+              "worst_hour": -3.2724232515087968,
+              "break_even_fee_bps": 0.020784830795245603,
+              "net_per_trade": -0.027691199907753348,
+              "without_top3": -5.241853657483974,
+              "top3_pnl": 2.085056868000093,
+              "win_rate": 0.4298245614035088
+            },
+            {
+              "hours": 2,
+              "trades": 114,
+              "net_pnl": -4.977974883958847,
+              "gross_pnl": -1.4547979999988458,
+              "turnover": 176158.844198,
+              "return_pct": -0.4977974883958848,
+              "liquidation_mdd": 6.94206005011355,
+              "positive_hours": 0,
+              "worst_hour": -4.717400638113894,
+              "break_even_fee_bps": -0.08258444284316908,
+              "net_per_trade": -0.043666446350516204,
+              "without_top3": -7.317199077830885,
+              "top3_pnl": 2.3392241938720395,
+              "win_rate": 0.41228070175438597
+            }
+          ]
+        },
+        {
+          "id": "hold_120_0.4",
+          "eligible": false,
+          "score": -8.581889610621507,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 84,
+              "net_pnl": -4.336878242086808,
+              "gross_pnl": -1.7410955999988074,
+              "turnover": 129789.1321044,
+              "return_pct": -0.4336878242086808,
+              "liquidation_mdd": 7.34344765599979,
+              "positive_hours": 1,
+              "worst_hour": -4.341655551999721,
+              "break_even_fee_bps": -0.13414802701649178,
+              "net_per_trade": -0.05162950288198581,
+              "without_top3": -6.38241502808693,
+              "top3_pnl": 2.045536786000122,
+              "win_rate": 0.39285714285714285
+            },
+            {
+              "hours": 2,
+              "trades": 85,
+              "net_pnl": -4.8813012250587295,
+              "gross_pnl": -2.254644199998729,
+              "turnover": 131332.851253,
+              "return_pct": -0.48813012250587295,
+              "liquidation_mdd": 7.401176771125555,
+              "positive_hours": 0,
+              "worst_hour": -4.315163665999215,
+              "break_even_fee_bps": -0.17167404640103148,
+              "net_per_trade": -0.05742707323598505,
+              "without_top3": -7.145549361932757,
+              "top3_pnl": 2.264248136874027,
+              "win_rate": 0.4
+            }
+          ]
+        },
+        {
+          "id": "hold_120_0.7",
+          "eligible": false,
+          "score": -5.317431043086801,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 80,
+              "net_pnl": -2.0240444980869308,
+              "gross_pnl": 0.4483044000010703,
+              "turnover": 123617.4449044,
+              "return_pct": -0.20240444980869307,
+              "liquidation_mdd": 6.586773089999739,
+              "positive_hours": 1,
+              "worst_hour": -3.3186839039996228,
+              "break_even_fee_bps": 0.03626546401664976,
+              "net_per_trade": -0.025300556226086634,
+              "without_top3": -4.114087046086836,
+              "top3_pnl": 2.0900425479999067,
+              "win_rate": 0.425
+            },
+            {
+              "hours": 2,
+              "trades": 79,
+              "net_pnl": -2.0719957739326986,
+              "gross_pnl": 0.3695121000013024,
+              "turnover": 122075.3936967,
+              "return_pct": -0.20719957739326988,
+              "liquidation_mdd": 6.469472875999489,
+              "positive_hours": 1,
+              "worst_hour": -3.1429163999993137,
+              "break_even_fee_bps": 0.030269171272907493,
+              "net_per_trade": -0.02622779460674302,
+              "without_top3": -4.437868145932704,
+              "top3_pnl": 2.365872372000006,
+              "win_rate": 0.43037974683544306
+            }
+          ]
+        },
+        {
+          "id": "ridge_10_2.5",
+          "eligible": false,
+          "score": 0.0,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            },
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            }
+          ]
+        },
+        {
+          "id": "ridge_10_4.0",
+          "eligible": false,
+          "score": 0.0,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            },
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            }
+          ]
+        },
+        {
+          "id": "ridge_30_2.5",
+          "eligible": false,
+          "score": 0.0,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            },
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            }
+          ]
+        },
+        {
+          "id": "ridge_30_4.0",
+          "eligible": false,
+          "score": 0.0,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            },
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            }
+          ]
+        },
+        {
+          "id": "ridge_60_2.5",
+          "eligible": false,
+          "score": 0.0,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            },
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            }
+          ]
+        },
+        {
+          "id": "ridge_60_4.0",
+          "eligible": false,
+          "score": 0.0,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            },
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fee_bps": 1.0,
+      "chosen": "cash",
+      "ranking": [
+        {
+          "id": "obi6_r02",
+          "eligible": false,
+          "score": -81.86335452631741,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 516,
+              "net_pnl": -49.050656994401734,
+              "gross_pnl": 30.659573100008274,
+              "turnover": 797102.3009441,
+              "return_pct": -4.905065699440173,
+              "liquidation_mdd": 49.331399394401835,
+              "positive_hours": 0,
+              "worst_hour": -25.046085935448154,
+              "break_even_fee_bps": 0.38463786974011505,
+              "net_per_trade": -0.09505941277984832,
+              "without_top3": -50.958106984401674,
+              "top3_pnl": 1.907449989999948,
+              "win_rate": 0.20155038759689922
+            },
+            {
+              "hours": 2,
+              "trades": 508,
+              "net_pnl": -54.50636041421156,
+              "gross_pnl": 23.968245800008447,
+              "turnover": 784746.0621422001,
+              "return_pct": -5.450636041421156,
+              "liquidation_mdd": 54.71398822421171,
+              "positive_hours": 0,
+              "worst_hour": -27.272650390158127,
+              "break_even_fee_bps": 0.30542677378437455,
+              "net_per_trade": -0.10729598506734558,
+              "without_top3": -56.24122239421161,
+              "top3_pnl": 1.7348619800000524,
+              "win_rate": 0.1830708661417323
+            }
+          ]
+        },
+        {
+          "id": "qi_r02",
+          "eligible": false,
+          "score": -105.98199763656234,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 632,
+              "net_pnl": -64.89699549548034,
+              "gross_pnl": 32.730678500009674,
+              "turnover": 976276.7399549,
+              "return_pct": -6.489699549548034,
+              "liquidation_mdd": 65.17773789548043,
+              "positive_hours": 0,
+              "worst_hour": -33.66186375406127,
+              "break_even_fee_bps": 0.33526025112020696,
+              "net_per_trade": -0.10268511945487395,
+              "without_top3": -66.78379662548045,
+              "top3_pnl": 1.8868011300001166,
+              "win_rate": 0.17088607594936708
+            },
+            {
+              "hours": 2,
+              "trades": 616,
+              "net_pnl": -70.58545582104149,
+              "gross_pnl": 24.574958100008516,
+              "turnover": 951604.1392105,
+              "return_pct": -7.058545582104149,
+              "liquidation_mdd": 70.79308363104168,
+              "positive_hours": 0,
+              "worst_hour": -36.96194136135277,
+              "break_even_fee_bps": 0.25824770077605136,
+              "net_per_trade": -0.11458677893026216,
+              "without_top3": -72.32031780104154,
+              "top3_pnl": 1.7348619800000524,
+              "win_rate": 0.14935064935064934
+            }
+          ]
+        },
+        {
+          "id": "hysteresis_0.4_30",
+          "eligible": false,
+          "score": -55.74599750736512,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 364,
+              "net_pnl": -32.87631860588445,
+              "gross_pnl": 23.35344530000555,
+              "turnover": 562297.6390589,
+              "return_pct": -3.2876318605884447,
+              "liquidation_mdd": 33.07622492588456,
+              "positive_hours": 0,
+              "worst_hour": -16.80248464588867,
+              "break_even_fee_bps": 0.415321774053533,
+              "net_per_trade": -0.09031955660957267,
+              "without_top3": -34.783768595884396,
+              "top3_pnl": 1.907449989999948,
+              "win_rate": 0.25274725274725274
+            },
+            {
+              "hours": 2,
+              "trades": 351,
+              "net_pnl": -37.085230778243385,
+              "gross_pnl": 17.138316900006615,
+              "turnover": 542235.4767825,
+              "return_pct": -3.7085230778243385,
+              "liquidation_mdd": 37.321533458243465,
+              "positive_hours": 0,
+              "worst_hour": -18.803212573985295,
+              "break_even_fee_bps": 0.31606779035745547,
+              "net_per_trade": -0.10565592814314355,
+              "without_top3": -38.81579232824351,
+              "top3_pnl": 1.7305615500001221,
+              "win_rate": 0.22507122507122507
+            }
+          ]
+        },
+        {
+          "id": "hysteresis_0.4_90",
+          "eligible": false,
+          "score": -51.98841561071022,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 340,
+              "net_pnl": -30.690553795884604,
+              "gross_pnl": 21.827345300005398,
+              "turnover": 525178.9909589001,
+              "return_pct": -3.0690553795884603,
+              "liquidation_mdd": 30.881134735884594,
+              "positive_hours": 0,
+              "worst_hour": -15.865586259995975,
+              "break_even_fee_bps": 0.4156172595585336,
+              "net_per_trade": -0.09026633469377825,
+              "without_top3": -32.70792144185445,
+              "top3_pnl": 2.017367645969848,
+              "win_rate": 0.25882352941176473
+            },
+            {
+              "hours": 2,
+              "trades": 326,
+              "net_pnl": -34.59541676047349,
+              "gross_pnl": 15.761294600006513,
+              "turnover": 503567.1136048,
+              "return_pct": -3.4595416760473494,
+              "liquidation_mdd": 34.78599770047346,
+              "positive_hours": 0,
+              "worst_hour": -18.63136123398548,
+              "break_even_fee_bps": 0.312992929327311,
+              "net_per_trade": -0.1061209103082009,
+              "without_top3": -36.32597831047361,
+              "top3_pnl": 1.7305615500001221,
+              "win_rate": 0.22392638036809817
+            }
+          ]
+        },
+        {
+          "id": "hysteresis_0.7_30",
+          "eligible": false,
+          "score": -38.050702741943475,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 291,
+              "net_pnl": -21.028956618165584,
+              "gross_pnl": 23.92888470000442,
+              "turnover": 449578.41318170005,
+              "return_pct": -2.102895661816558,
+              "liquidation_mdd": 21.228862938165683,
+              "positive_hours": 0,
+              "worst_hour": -11.539928116148541,
+              "break_even_fee_bps": 0.5322516383884608,
+              "net_per_trade": -0.07226445573252778,
+              "without_top3": -22.89040507816567,
+              "top3_pnl": 1.8614484600000873,
+              "win_rate": 0.2920962199312715
+            },
+            {
+              "hours": 2,
+              "trades": 282,
+              "net_pnl": -25.288367601295622,
+              "gross_pnl": 18.279901600004376,
+              "turnover": 435682.692013,
+              "return_pct": -2.5288367601295625,
+              "liquidation_mdd": 25.524670281295705,
+              "positive_hours": 0,
+              "worst_hour": -13.852561336548536,
+              "break_even_fee_bps": 0.419569148261206,
+              "net_per_trade": -0.08967506241594192,
+              "without_top3": -27.058933151295747,
+              "top3_pnl": 1.7705655500001223,
+              "win_rate": 0.26595744680851063
+            }
+          ]
+        },
+        {
+          "id": "hysteresis_0.7_90",
+          "eligible": false,
+          "score": -34.58748394654816,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 269,
+              "net_pnl": -18.65707595057554,
+              "gross_pnl": 22.898760600004465,
+              "turnover": 415558.3655058,
+              "return_pct": -1.8657075950575541,
+              "liquidation_mdd": 19.057658590575556,
+              "positive_hours": 0,
+              "worst_hour": -9.376295148558306,
+              "break_even_fee_bps": 0.5510359675260794,
+              "net_per_trade": -0.06935715966756706,
+              "without_top3": -20.663038476545516,
+              "top3_pnl": 2.005962525969976,
+              "win_rate": 0.2936802973977695
+            },
+            {
+              "hours": 2,
+              "trades": 261,
+              "net_pnl": -22.94815941436542,
+              "gross_pnl": 17.372970900004585,
+              "turnover": 403211.3031437,
+              "return_pct": -2.294815941436542,
+              "liquidation_mdd": 23.278649064365474,
+              "positive_hours": 0,
+              "worst_hour": -11.684204489618146,
+              "break_even_fee_bps": 0.43086517576649014,
+              "net_per_trade": -0.08792398243051885,
+              "without_top3": -24.71872496436554,
+              "top3_pnl": 1.7705655500001223,
+              "win_rate": 0.26053639846743293
+            }
+          ]
+        },
+        {
+          "id": "smooth_1_0.4",
+          "eligible": false,
+          "score": -32.63050206797281,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 201,
+              "net_pnl": -19.22858315886553,
+              "gross_pnl": 11.820538500004478,
+              "turnover": 310491.2165887,
+              "return_pct": -1.9228583158865529,
+              "liquidation_mdd": 19.27312634886558,
+              "positive_hours": 0,
+              "worst_hour": -10.810885080268752,
+              "break_even_fee_bps": 0.38070444084938,
+              "net_per_trade": -0.09566459283017677,
+              "without_top3": -21.738455978865552,
+              "top3_pnl": 2.5098728200000293,
+              "win_rate": 0.2736318407960199
+            },
+            {
+              "hours": 2,
+              "trades": 198,
+              "net_pnl": -21.74142593631523,
+              "gross_pnl": 8.843788600004773,
+              "turnover": 305852.1453632,
+              "return_pct": -2.1741425936315233,
+              "liquidation_mdd": 21.77815226331517,
+              "positive_hours": 0,
+              "worst_hour": -10.948452627586448,
+              "break_even_fee_bps": 0.2891524134807934,
+              "net_per_trade": -0.10980518149654157,
+              "without_top3": -24.106696296315338,
+              "top3_pnl": 2.3652703600001104,
+              "win_rate": 0.25252525252525254
+            }
+          ]
+        },
+        {
+          "id": "smooth_1_0.6",
+          "eligible": false,
+          "score": -27.069214191249905,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 171,
+              "net_pnl": -15.859173622206587,
+              "gross_pnl": 10.559618500003417,
+              "turnover": 264187.92122210003,
+              "return_pct": -1.5859173622206586,
+              "liquidation_mdd": 16.0209506022067,
+              "positive_hours": 0,
+              "worst_hour": -8.108480966019428,
+              "break_even_fee_bps": 0.39970103292973996,
+              "net_per_trade": -0.09274370539302097,
+              "without_top3": -17.564365982206695,
+              "top3_pnl": 1.7051923600001107,
+              "win_rate": 0.27485380116959063
+            },
+            {
+              "hours": 2,
+              "trades": 166,
+              "net_pnl": -17.992217134166566,
+              "gross_pnl": 7.6545975000034385,
+              "turnover": 256468.14634170002,
+              "return_pct": -1.7992217134166564,
+              "liquidation_mdd": 18.15399411416668,
+              "positive_hours": 0,
+              "worst_hour": -9.237779687779133,
+              "break_even_fee_bps": 0.29846191853412446,
+              "net_per_trade": -0.10838685020582269,
+              "without_top3": -19.68192324416666,
+              "top3_pnl": 1.689706110000099,
+              "win_rate": 0.25301204819277107
+            }
+          ]
+        },
+        {
+          "id": "smooth_5_0.4",
+          "eligible": false,
+          "score": -23.056157580388046,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 79,
+              "net_pnl": -13.769227635378252,
+              "gross_pnl": -1.5604637999982511,
+              "turnover": 122087.6383538,
+              "return_pct": -1.3769227635378252,
+              "liquidation_mdd": 13.935910965378236,
+              "positive_hours": 0,
+              "worst_hour": -9.108734789999156,
+              "break_even_fee_bps": -0.1278150532714995,
+              "net_per_trade": -0.17429402070099054,
+              "without_top3": -16.017726925378188,
+              "top3_pnl": 2.248499289999936,
+              "win_rate": 0.26582278481012656
+            },
+            {
+              "hours": 2,
+              "trades": 78,
+              "net_pnl": -15.317443720258696,
+              "gross_pnl": -3.2637727999986965,
+              "turnover": 120536.7092026,
+              "return_pct": -1.5317443720258697,
+              "liquidation_mdd": 15.477427720258696,
+              "positive_hours": 0,
+              "worst_hour": -10.077432029019523,
+              "break_even_fee_bps": -0.2707700269560948,
+              "net_per_trade": -0.1963774835930602,
+              "without_top3": -17.39021614025865,
+              "top3_pnl": 2.0727724199999535,
+              "win_rate": 0.2692307692307692
+            }
+          ]
+        },
+        {
+          "id": "smooth_5_0.6",
+          "eligible": false,
+          "score": -13.4299304572334,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 50,
+              "net_pnl": -8.243573834498935,
+              "gross_pnl": -0.5098549999989336,
+              "turnover": 77337.188345,
+              "return_pct": -0.8243573834498936,
+              "liquidation_mdd": 8.410257164498915,
+              "positive_hours": 0,
+              "worst_hour": -6.1136271699993605,
+              "break_even_fee_bps": -0.06592623948577989,
+              "net_per_trade": -0.1648714766899787,
+              "without_top3": -9.961676064498933,
+              "top3_pnl": 1.71810223,
+              "win_rate": 0.28
+            },
+            {
+              "hours": 2,
+              "trades": 50,
+              "net_pnl": -8.899958971488934,
+              "gross_pnl": -1.1662850999989316,
+              "turnover": 77336.73871490001,
+              "return_pct": -0.8899958971488934,
+              "liquidation_mdd": 9.059942971488933,
+              "positive_hours": 0,
+              "worst_hour": -6.352890159999437,
+              "break_even_fee_bps": -0.15080608768601078,
+              "net_per_trade": -0.17799917942977866,
+              "without_top3": -10.583757771489001,
+              "top3_pnl": 1.68379880000007,
+              "win_rate": 0.28
+            }
+          ]
+        },
+        {
+          "id": "consensus_qi_30",
+          "eligible": false,
+          "score": -51.37280770371545,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 349,
+              "net_pnl": -29.19222894126436,
+              "gross_pnl": 24.719086900005642,
+              "turnover": 539113.1584127,
+              "return_pct": -2.9192228941264364,
+              "liquidation_mdd": 29.392135261264457,
+              "positive_hours": 0,
+              "worst_hour": -14.971082537025854,
+              "break_even_fee_bps": 0.4585138855223929,
+              "net_per_trade": -0.08364535513256263,
+              "without_top3": -31.099678931264307,
+              "top3_pnl": 1.907449989999948,
+              "win_rate": 0.2664756446991404
+            },
+            {
+              "hours": 2,
+              "trades": 338,
+              "net_pnl": -34.16977090914361,
+              "gross_pnl": 18.0440079000064,
+              "turnover": 522137.78809150006,
+              "return_pct": -3.416977090914361,
+              "liquidation_mdd": 34.40607358914368,
+              "positive_hours": 0,
+              "worst_hour": -17.875630034885358,
+              "break_even_fee_bps": 0.34557942963600147,
+              "net_per_trade": -0.10109399677261423,
+              "without_top3": -35.900332459143726,
+              "top3_pnl": 1.7305615500001221,
+              "win_rate": 0.23964497041420119
+            }
+          ]
+        },
+        {
+          "id": "consensus_qi_90",
+          "eligible": false,
+          "score": -47.86320840206058,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 325,
+              "net_pnl": -26.778201441264496,
+              "gross_pnl": 23.421286900005505,
+              "turnover": 501994.88341270003,
+              "return_pct": -2.6778201441264495,
+              "liquidation_mdd": 26.968782381264482,
+              "positive_hours": 0,
+              "worst_hour": -14.762834837026048,
+              "break_even_fee_bps": 0.46656425541195,
+              "net_per_trade": -0.08239446597312153,
+              "without_top3": -28.79556908723434,
+              "top3_pnl": 2.017367645969848,
+              "win_rate": 0.27384615384615385
+            },
+            {
+              "hours": 2,
+              "trades": 315,
+              "net_pnl": -31.84527862137373,
+              "gross_pnl": 16.81148560000627,
+              "turnover": 486567.64221380005,
+              "return_pct": -3.1845278621373727,
+              "liquidation_mdd": 32.035859561373705,
+              "positive_hours": 0,
+              "worst_hour": -17.703778694885543,
+              "break_even_fee_bps": 0.34551178790921794,
+              "net_per_trade": -0.10109612260753564,
+              "without_top3": -33.57584017137385,
+              "top3_pnl": 1.7305615500001221,
+              "win_rate": 0.23492063492063492
+            }
+          ]
+        },
+        {
+          "id": "consensus_ofi_30",
+          "eligible": false,
+          "score": -41.83251131849228,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 287,
+              "net_pnl": -23.755583179904576,
+              "gross_pnl": 20.583070100005425,
+              "turnover": 443386.53279910004,
+              "return_pct": -2.375558317990458,
+              "liquidation_mdd": 23.955489499904676,
+              "positive_hours": 0,
+              "worst_hour": -12.216054170768906,
+              "break_even_fee_bps": 0.46422407036281554,
+              "net_per_trade": -0.0827720668289358,
+              "without_top3": -25.564552539904547,
+              "top3_pnl": 1.808969359999971,
+              "win_rate": 0.2682926829268293
+            },
+            {
+              "hours": 2,
+              "trades": 279,
+              "net_pnl": -27.809573318994822,
+              "gross_pnl": 15.293547800005182,
+              "turnover": 431031.21119,
+              "return_pct": -2.780957331899482,
+              "liquidation_mdd": 28.045875998994912,
+              "positive_hours": 0,
+              "worst_hour": -13.967230298798897,
+              "break_even_fee_bps": 0.3548130020047141,
+              "net_per_trade": -0.0996758900322395,
+              "without_top3": -29.483355338994897,
+              "top3_pnl": 1.6737820200000755,
+              "win_rate": 0.24372759856630824
+            }
+          ]
+        },
+        {
+          "id": "consensus_ofi_90",
+          "eligible": false,
+          "score": -37.6960357284966,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 269,
+              "net_pnl": -21.421326049904295,
+              "gross_pnl": 20.133370100005706,
+              "turnover": 415546.96149909997,
+              "return_pct": -2.1421326049904295,
+              "liquidation_mdd": 21.611906989904284,
+              "positive_hours": 0,
+              "worst_hour": -11.331281309135864,
+              "break_even_fee_bps": 0.4845028833173002,
+              "net_per_trade": -0.07963318234165165,
+              "without_top3": -23.4315890058742,
+              "top3_pnl": 2.010262955969906,
+              "win_rate": 0.27137546468401486
+            },
+            {
+              "hours": 2,
+              "trades": 260,
+              "net_pnl": -25.067163505664404,
+              "gross_pnl": 15.0970811000056,
+              "turnover": 401642.44605669996,
+              "return_pct": -2.5067163505664403,
+              "liquidation_mdd": 25.257744445664393,
+              "positive_hours": 0,
+              "worst_hour": -13.670491680196113,
+              "break_even_fee_bps": 0.37588360613345984,
+              "net_per_trade": -0.09641216732947848,
+              "without_top3": -26.746225185664642,
+              "top3_pnl": 1.6790616800002387,
+              "win_rate": 0.25
+            }
+          ]
+        },
+        {
+          "id": "consensus_qi_ofi_30",
+          "eligible": false,
+          "score": -40.38261567489738,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 278,
+              "net_pnl": -22.16385997990464,
+              "gross_pnl": 20.78347010000536,
+              "turnover": 429473.3007991,
+              "return_pct": -2.2163859979904643,
+              "liquidation_mdd": 22.36376629990474,
+              "positive_hours": 0,
+              "worst_hour": -11.22406380076897,
+              "break_even_fee_bps": 0.4839292701393677,
+              "net_per_trade": -0.0797261150356282,
+              "without_top3": -23.97282933990461,
+              "top3_pnl": 1.808969359999971,
+              "win_rate": 0.2733812949640288
+            },
+            {
+              "hours": 2,
+              "trades": 273,
+              "net_pnl": -26.84297622326489,
+              "gross_pnl": 15.332705100005114,
+              "turnover": 421756.8132327,
+              "return_pct": -2.684297622326489,
+              "liquidation_mdd": 27.079278903264978,
+              "positive_hours": 0,
+              "worst_hour": -13.592319977795858,
+              "break_even_fee_bps": 0.3635437441420882,
+              "net_per_trade": -0.09832592023173953,
+              "without_top3": -28.516758243264963,
+              "top3_pnl": 1.6737820200000755,
+              "win_rate": 0.2490842490842491
+            }
+          ]
+        },
+        {
+          "id": "consensus_qi_ofi_90",
+          "eligible": false,
+          "score": -36.80949201489685,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 261,
+              "net_pnl": -19.969914529904404,
+              "gross_pnl": 20.3485701000056,
+              "turnover": 403184.84629909997,
+              "return_pct": -1.9969914529904402,
+              "liquidation_mdd": 20.160495469904397,
+              "positive_hours": 0,
+              "worst_hour": -10.731548479135864,
+              "break_even_fee_bps": 0.5046958060747687,
+              "net_per_trade": -0.07651308249005519,
+              "without_top3": -21.980177485874307,
+              "top3_pnl": 2.010262955969906,
+              "win_rate": 0.2720306513409962
+            },
+            {
+              "hours": 2,
+              "trades": 256,
+              "net_pnl": -24.47613436326457,
+              "gross_pnl": 15.070705100005434,
+              "turnover": 395468.3946327,
+              "return_pct": -2.4476134363264572,
+              "liquidation_mdd": 24.66671530326455,
+              "positive_hours": 0,
+              "worst_hour": -13.420468637796045,
+              "break_even_fee_bps": 0.3810849439435655,
+              "net_per_trade": -0.09560989985650223,
+              "without_top3": -26.19996552326466,
+              "top3_pnl": 1.723831160000093,
+              "win_rate": 0.25
+            }
+          ]
+        },
+        {
+          "id": "trend_10_30",
+          "eligible": false,
+          "score": -31.164465424302257,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 206,
+              "net_pnl": -17.777990102027402,
+              "gross_pnl": 14.0496681000026,
+              "turnover": 318276.5820203,
+              "return_pct": -1.7777990102027401,
+              "liquidation_mdd": 17.977896422027495,
+              "positive_hours": 0,
+              "worst_hour": -10.11986070304794,
+              "break_even_fee_bps": 0.4414295268228845,
+              "net_per_trade": -0.08630092282537574,
+              "without_top3": -19.300672112027428,
+              "top3_pnl": 1.5226820100000293,
+              "win_rate": 0.2669902912621359
+            },
+            {
+              "hours": 2,
+              "trades": 200,
+              "net_pnl": -20.697542722868146,
+              "gross_pnl": 10.204838700001856,
+              "turnover": 309023.8142287,
+              "return_pct": -2.0697542722868145,
+              "liquidation_mdd": 20.933845402868226,
+              "positive_hours": 0,
+              "worst_hour": -11.13676740136848,
+              "break_even_fee_bps": 0.33022822935094365,
+              "net_per_trade": -0.10348771361434073,
+              "without_top3": -22.13317691286806,
+              "top3_pnl": 1.435634189999913,
+              "win_rate": 0.24
+            }
+          ]
+        },
+        {
+          "id": "trend_10_90",
+          "eligible": false,
+          "score": -27.75182914930182,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 191,
+              "net_pnl": -15.276981849437302,
+              "gross_pnl": 14.2317940000027,
+              "turnover": 295087.7584944,
+              "return_pct": -1.52769818494373,
+              "liquidation_mdd": 15.47696184943731,
+              "positive_hours": 0,
+              "worst_hour": -9.371515593048274,
+              "break_even_fee_bps": 0.4822902201235428,
+              "net_per_trade": -0.0799841981645932,
+              "without_top3": -16.936389485407148,
+              "top3_pnl": 1.659407635969848,
+              "win_rate": 0.28272251308900526
+            },
+            {
+              "hours": 2,
+              "trades": 186,
+              "net_pnl": -18.45125776286786,
+              "gross_pnl": 10.28623870000214,
+              "turnover": 287374.9646287,
+              "return_pct": -1.845125776286786,
+              "liquidation_mdd": 18.601142772867917,
+              "positive_hours": 0,
+              "worst_hour": -10.923420211368724,
+              "break_even_fee_bps": 0.3579378848568933,
+              "net_per_trade": -0.09920031055305302,
+              "without_top3": -19.953369432867888,
+              "top3_pnl": 1.5021116700000294,
+              "win_rate": 0.24731182795698925
+            }
+          ]
+        },
+        {
+          "id": "trend_30_30",
+          "eligible": false,
+          "score": -26.61858550889718,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 180,
+              "net_pnl": -16.129958925987744,
+              "gross_pnl": 11.68753590000226,
+              "turnover": 278174.9482599,
+              "return_pct": -1.6129958925987744,
+              "liquidation_mdd": 16.32986524598783,
+              "positive_hours": 0,
+              "worst_hour": -9.885255266949752,
+              "break_even_fee_bps": 0.42015055536498375,
+              "net_per_trade": -0.08961088292215413,
+              "without_top3": -17.974631855987784,
+              "top3_pnl": 1.8446729300000408,
+              "win_rate": 0.26666666666666666
+            },
+            {
+              "hours": 2,
+              "trades": 178,
+              "net_pnl": -17.666956112598093,
+              "gross_pnl": 9.84147400000191,
+              "turnover": 275084.301126,
+              "return_pct": -1.7666956112598096,
+              "liquidation_mdd": 17.903258792598173,
+              "positive_hours": 0,
+              "worst_hour": -10.65874900877025,
+              "break_even_fee_bps": 0.35776211000474745,
+              "net_per_trade": -0.09925256243032637,
+              "without_top3": -19.420678422598286,
+              "top3_pnl": 1.753722310000192,
+              "win_rate": 0.24719101123595505
+            }
+          ]
+        },
+        {
+          "id": "trend_30_90",
+          "eligible": false,
+          "score": -24.077501163896585,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 167,
+              "net_pnl": -14.52379533598765,
+              "gross_pnl": 11.282635900002353,
+              "turnover": 258064.31235990004,
+              "return_pct": -1.452379533598765,
+              "liquidation_mdd": 14.523795335987648,
+              "positive_hours": 0,
+              "worst_hour": -8.487339376949468,
+              "break_even_fee_bps": 0.43720248634252973,
+              "net_per_trade": -0.08696883434723143,
+              "without_top3": -16.480252911957653,
+              "top3_pnl": 1.956457575970005,
+              "win_rate": 0.281437125748503
+            },
+            {
+              "hours": 2,
+              "trades": 164,
+              "net_pnl": -16.051667442597726,
+              "gross_pnl": 9.290774000002276,
+              "turnover": 253424.414426,
+              "return_pct": -1.6051667442597723,
+              "liquidation_mdd": 16.051667442597722,
+              "positive_hours": 0,
+              "worst_hour": -9.215311678769694,
+              "break_even_fee_bps": 0.3666092716854312,
+              "net_per_trade": -0.09787602099144954,
+              "without_top3": -17.805389752597918,
+              "top3_pnl": 1.753722310000192,
+              "win_rate": 0.25609756097560976
+            }
+          ]
+        },
+        {
+          "id": "hold_30_0.4",
+          "eligible": false,
+          "score": -43.80438635320106,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 190,
+              "net_pnl": -29.03133453546736,
+              "gross_pnl": 0.33140050000263743,
+              "turnover": 293627.3503547,
+              "return_pct": -2.903133453546736,
+              "liquidation_mdd": 29.546103635467407,
+              "positive_hours": 0,
+              "worst_hour": -16.921877415589258,
+              "break_even_fee_bps": 0.011286431580787952,
+              "net_per_trade": -0.15279649755509137,
+              "without_top3": -30.703189305467504,
+              "top3_pnl": 1.6718547700001398,
+              "win_rate": 0.3105263157894737
+            },
+            {
+              "hours": 2,
+              "trades": 186,
+              "net_pnl": -27.402884193077234,
+              "gross_pnl": 1.3406564000027719,
+              "turnover": 287435.4059308,
+              "return_pct": -2.7402884193077233,
+              "liquidation_mdd": 27.917653293077276,
+              "positive_hours": 0,
+              "worst_hour": -15.64623870469954,
+              "break_even_fee_bps": 0.04664200625045943,
+              "net_per_trade": -0.14732733437138298,
+              "without_top3": -29.289907423077263,
+              "top3_pnl": 1.8870232300000347,
+              "win_rate": 0.3225806451612903
+            }
+          ]
+        },
+        {
+          "id": "hold_30_0.7",
+          "eligible": false,
+          "score": -31.406625302584743,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 172,
+              "net_pnl": -20.86739884647646,
+              "gross_pnl": 5.713710600003543,
+              "turnover": 265811.0944648,
+              "return_pct": -2.086739884647646,
+              "liquidation_mdd": 21.078452912216566,
+              "positive_hours": 0,
+              "worst_hour": -12.327714345508676,
+              "break_even_fee_bps": 0.21495380437403755,
+              "net_per_trade": -0.1213220863167236,
+              "without_top3": -22.4607879864766,
+              "top3_pnl": 1.5933891400001396,
+              "win_rate": 0.31976744186046513
+            },
+            {
+              "hours": 2,
+              "trades": 170,
+              "net_pnl": -20.113154703386982,
+              "gross_pnl": 6.15912730000302,
+              "turnover": 262722.82003390003,
+              "return_pct": -2.0113154703386984,
+              "liquidation_mdd": 20.324208769127097,
+              "positive_hours": 0,
+              "worst_hour": -12.378939055328896,
+              "break_even_fee_bps": 0.23443442405224968,
+              "net_per_trade": -0.11831267472580578,
+              "without_top3": -21.897740513387127,
+              "top3_pnl": 1.7845858100001455,
+              "win_rate": 0.31176470588235294
+            }
+          ]
+        },
+        {
+          "id": "hold_60_0.4",
+          "eligible": false,
+          "score": -30.933414543986544,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 120,
+              "net_pnl": -19.954774371827394,
+              "gross_pnl": -1.4120314999973922,
+              "turnover": 185427.4287183,
+              "return_pct": -1.9954774371827393,
+              "liquidation_mdd": 20.586011241827443,
+              "positive_hours": 0,
+              "worst_hour": -13.293571221948605,
+              "break_even_fee_bps": -0.07615008792159547,
+              "net_per_trade": -0.16628978643189496,
+              "without_top3": -21.654028731827445,
+              "top3_pnl": 1.6992543600000523,
+              "win_rate": 0.35833333333333334
+            },
+            {
+              "hours": 2,
+              "trades": 119,
+              "net_pnl": -20.385219204077657,
+              "gross_pnl": -1.996440799997654,
+              "turnover": 183887.7840408,
+              "return_pct": -2.038521920407766,
+              "liquidation_mdd": 21.096390679817773,
+              "positive_hours": 0,
+              "worst_hour": -12.704565699218795,
+              "break_even_fee_bps": -0.10856842994827186,
+              "net_per_trade": -0.1713043630594761,
+              "without_top3": -22.128109704077712,
+              "top3_pnl": 1.7428905000000583,
+              "win_rate": 0.3445378151260504
+            }
+          ]
+        },
+        {
+          "id": "hold_60_0.7",
+          "eligible": false,
+          "score": -28.961609367568332,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 114,
+              "net_pnl": -17.24844674742788,
+              "gross_pnl": 0.3661157000021198,
+              "turnover": 176145.6244743,
+              "return_pct": -1.7248446747427881,
+              "liquidation_mdd": 17.959618223167997,
+              "positive_hours": 0,
+              "worst_hour": -10.207783857548796,
+              "break_even_fee_bps": 0.020784830795245603,
+              "net_per_trade": -0.15130216445112177,
+              "without_top3": -18.963331087427974,
+              "top3_pnl": 1.714884340000093,
+              "win_rate": 0.38596491228070173
+            },
+            {
+              "hours": 2,
+              "trades": 114,
+              "net_pnl": -19.07068241979885,
+              "gross_pnl": -1.4547979999988458,
+              "turnover": 176158.844198,
+              "return_pct": -1.907068241979885,
+              "liquidation_mdd": 19.781853895538966,
+              "positive_hours": 0,
+              "worst_hour": -11.776980390569895,
+              "break_even_fee_bps": -0.08258444284316908,
+              "net_per_trade": -0.16728668789297235,
+              "without_top3": -21.039228989158886,
+              "top3_pnl": 1.9685465693600395,
+              "win_rate": 0.34210526315789475
+            }
+          ]
+        },
+        {
+          "id": "hold_120_0.4",
+          "eligible": false,
+          "score": -23.452217113438117,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 84,
+              "net_pnl": -14.72000881043881,
+              "gross_pnl": -1.7410955999988074,
+              "turnover": 129789.1321044,
+              "return_pct": -1.472000881043881,
+              "liquidation_mdd": 15.271174011418879,
+              "positive_hours": 0,
+              "worst_hour": -9.419477759999722,
+              "break_even_fee_bps": -0.13414802701649178,
+              "net_per_trade": -0.17523820012427155,
+              "without_top3": -16.39529274043893,
+              "top3_pnl": 1.675283930000122,
+              "win_rate": 0.34523809523809523
+            },
+            {
+              "hours": 2,
+              "trades": 85,
+              "net_pnl": -15.387929325298732,
+              "gross_pnl": -2.254644199998729,
+              "turnover": 131332.851253,
+              "return_pct": -1.5387929325298733,
+              "liquidation_mdd": 16.12857557627877,
+              "positive_hours": 0,
+              "worst_hour": -9.269818329999215,
+              "break_even_fee_bps": -0.17167404640103148,
+              "net_per_trade": -0.18103446265057332,
+              "without_top3": -17.281795209668758,
+              "top3_pnl": 1.893865884370027,
+              "win_rate": 0.36470588235294116
+            }
+          ]
+        },
+        {
+          "id": "hold_120_0.7",
+          "eligible": false,
+          "score": -18.150492261148415,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 80,
+              "net_pnl": -11.913440090438929,
+              "gross_pnl": 0.4483044000010703,
+              "turnover": 123617.4449044,
+              "return_pct": -1.1913440090438927,
+              "liquidation_mdd": 12.474104341418972,
+              "positive_hours": 0,
+              "worst_hour": -8.149419519999622,
+              "break_even_fee_bps": 0.03626546401664976,
+              "net_per_trade": -0.14891800113048662,
+              "without_top3": -13.634052830438836,
+              "top3_pnl": 1.7206127399999067,
+              "win_rate": 0.3625
+            },
+            {
+              "hours": 2,
+              "trades": 79,
+              "net_pnl": -11.838027269668698,
+              "gross_pnl": 0.3695121000013024,
+              "turnover": 122075.3936967,
+              "return_pct": -1.1838027269668698,
+              "liquidation_mdd": 12.57867352064874,
+              "positive_hours": 0,
+              "worst_hour": -7.973781999999313,
+              "break_even_fee_bps": 0.030269171272907493,
+              "net_per_trade": -0.1498484464515025,
+              "without_top3": -13.832989129668704,
+              "top3_pnl": 1.9949618600000059,
+              "win_rate": 0.35443037974683544
+            }
+          ]
+        },
+        {
+          "id": "ridge_10_2.5",
+          "eligible": false,
+          "score": 0.0,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            },
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            }
+          ]
+        },
+        {
+          "id": "ridge_10_4.0",
+          "eligible": false,
+          "score": 0.0,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            },
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            }
+          ]
+        },
+        {
+          "id": "ridge_30_2.5",
+          "eligible": false,
+          "score": 0.0,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            },
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            }
+          ]
+        },
+        {
+          "id": "ridge_30_4.0",
+          "eligible": false,
+          "score": 0.0,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            },
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            }
+          ]
+        },
+        {
+          "id": "ridge_60_2.5",
+          "eligible": false,
+          "score": 0.0,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            },
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            }
+          ]
+        },
+        {
+          "id": "ridge_60_4.0",
+          "eligible": false,
+          "score": 0.0,
+          "by_latency": [
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            },
+            {
+              "hours": 2,
+              "trades": 0,
+              "net_pnl": 0.0,
+              "gross_pnl": 0.0,
+              "turnover": 0.0,
+              "return_pct": 0.0,
+              "liquidation_mdd": 0.0,
+              "positive_hours": 0,
+              "worst_hour": 0.0,
+              "break_even_fee_bps": null,
+              "net_per_trade": null,
+              "without_top3": 0,
+              "top3_pnl": 0,
+              "win_rate": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selection_uses_test": false,
+  "previously_seen_data": true
+}

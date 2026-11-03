@@ -1,0 +1,203 @@
+{
+  "experiment": "R03",
+  "plan_sha256": "fd815a4cc647203405f5d6e4bef9122a5f6e72fd06fb3b991af2627b76b062d5",
+  "candidates": 32,
+  "run_count": 792,
+  "fee_scenarios": 2376,
+  "verification": {
+    "r02_equivalence_checks": 96,
+    "trades_checked": 59817
+  },
+  "selected": [
+    {
+      "fee_bps": 0.0,
+      "id": "qi_r02",
+      "provisional_test_pass": true,
+      "test": [
+        {
+          "split": "test",
+          "id": "qi_r02",
+          "group": "reference",
+          "latency_ms": 100,
+          "fee_bps": 0.0,
+          "hours": 6,
+          "trades": 1122,
+          "net_pnl": 74.14126580002369,
+          "gross_pnl": 74.14126580002369,
+          "turnover": 1726049.1695216,
+          "return_pct": 7.414126580002368,
+          "liquidation_mdd": 0.9246000000000634,
+          "positive_hours": 6,
+          "worst_hour": 7.206788700000471,
+          "break_even_fee_bps": 0.4295431851490826,
+          "net_per_trade": 0.066079559536563,
+          "without_top3": 70.56776580002348,
+          "top3_pnl": 3.573500000000204,
+          "win_rate": 0.4411764705882353
+        },
+        {
+          "split": "test",
+          "id": "qi_r02",
+          "group": "reference",
+          "latency_ms": 500,
+          "fee_bps": 0.0,
+          "hours": 6,
+          "trades": 1094,
+          "net_pnl": 62.3085529000238,
+          "gross_pnl": 62.308552900023784,
+          "turnover": 1682986.8869585004,
+          "return_pct": 6.23085529000238,
+          "liquidation_mdd": 0.8973000000001043,
+          "positive_hours": 6,
+          "worst_hour": 6.583262900000556,
+          "break_even_fee_bps": 0.3702260153234349,
+          "net_per_trade": 0.056954801553952286,
+          "without_top3": 58.92894870002361,
+          "top3_pnl": 3.3796042000001765,
+          "win_rate": 0.41042047531992687
+        }
+      ],
+      "extra_cost_stress": [
+        {
+          "latency_ms": 100,
+          "hours": 6,
+          "trades": 1122,
+          "net_pnl": 39.62028240959168,
+          "gross_pnl": 74.14126580002369,
+          "turnover": 1726049.1695216,
+          "return_pct": 3.962028240959168,
+          "liquidation_mdd": 1.9871857919990785,
+          "positive_hours": 6,
+          "worst_hour": 3.26958168251847,
+          "break_even_fee_bps": 0.4295431851490826,
+          "net_per_trade": 0.03531219466095515,
+          "without_top3": 36.13928250359148,
+          "top3_pnl": 3.480999906000204,
+          "win_rate": 0.3770053475935829
+        },
+        {
+          "latency_ms": 500,
+          "hours": 6,
+          "trades": 1094,
+          "net_pnl": 28.648815160853783,
+          "gross_pnl": 62.308552900023784,
+          "turnover": 1682986.8869585004,
+          "return_pct": 2.8648815160853784,
+          "liquidation_mdd": 2.1196689999988867,
+          "positive_hours": 6,
+          "worst_hour": 2.454212222450557,
+          "break_even_fee_bps": 0.3702260153234349,
+          "net_per_trade": 0.02618721678323015,
+          "without_top3": 25.36170717693761,
+          "top3_pnl": 3.2871079839161763,
+          "win_rate": 0.34186471663619744
+        }
+      ]
+    },
+    {
+      "fee_bps": 0.2,
+      "id": "hysteresis_0.7_30",
+      "provisional_test_pass": true,
+      "test": [
+        {
+          "split": "test",
+          "id": "hysteresis_0.7_30",
+          "group": "hysteresis",
+          "latency_ms": 100,
+          "fee_bps": 0.2,
+          "hours": 6,
+          "trades": 464,
+          "net_pnl": 39.3113828604699,
+          "gross_pnl": 53.5882054000099,
+          "turnover": 713841.126977,
+          "return_pct": 3.9311382860469894,
+          "liquidation_mdd": 0.9698844299999667,
+          "positive_hours": 6,
+          "worst_hour": 3.9216671227850255,
+          "break_even_fee_bps": 0.7507021292951717,
+          "net_per_trade": 0.08472280788894375,
+          "without_top3": 36.14269456646975,
+          "top3_pnl": 3.1686882940001513,
+          "win_rate": 0.5991379310344828
+        },
+        {
+          "split": "test",
+          "id": "hysteresis_0.7_30",
+          "group": "hysteresis",
+          "latency_ms": 500,
+          "fee_bps": 0.2,
+          "hours": 6,
+          "trades": 459,
+          "net_pnl": 31.69749822528065,
+          "gross_pnl": 45.82055330001065,
+          "turnover": 706152.7537364999,
+          "return_pct": 3.169749822528065,
+          "liquidation_mdd": 1.2864047458688184,
+          "positive_hours": 6,
+          "worst_hour": 2.9512064064191383,
+          "break_even_fee_bps": 0.6488759416083583,
+          "net_per_trade": 0.06905773033830206,
+          "without_top3": 28.677902749364566,
+          "top3_pnl": 3.0195954759160832,
+          "win_rate": 0.5533769063180828
+        }
+      ],
+      "extra_cost_stress": [
+        {
+          "latency_ms": 100,
+          "hours": 6,
+          "trades": 464,
+          "net_pnl": 25.034560320929902,
+          "gross_pnl": 53.5882054000099,
+          "turnover": 713841.126977,
+          "return_pct": 2.50345603209299,
+          "liquidation_mdd": 1.6193292498510692,
+          "positive_hours": 6,
+          "worst_hour": 1.8210046005528062,
+          "break_even_fee_bps": 0.7507021292951717,
+          "net_per_trade": 0.05395379379510755,
+          "without_top3": 21.958283732929747,
+          "top3_pnl": 3.0762765880001512,
+          "win_rate": 0.5107758620689655
+        },
+        {
+          "latency_ms": 500,
+          "hours": 6,
+          "trades": 459,
+          "net_pnl": 17.57444315055065,
+          "gross_pnl": 45.82055330001065,
+          "turnover": 706152.7537364999,
+          "return_pct": 1.7574443150550652,
+          "liquidation_mdd": 2.0869029917388193,
+          "positive_hours": 6,
+          "worst_hour": 0.7668919128371379,
+          "break_even_fee_bps": 0.6488759416083583,
+          "net_per_trade": 0.03828854716895566,
+          "without_top3": 14.647256398718568,
+          "top3_pnl": 2.9271867518320835,
+          "win_rate": 0.47058823529411764
+        }
+      ]
+    },
+    {
+      "fee_bps": 1.0,
+      "id": "cash",
+      "provisional_test_pass": false,
+      "test": [],
+      "extra_cost_stress": []
+    }
+  ],
+  "unseen_holdout": false,
+  "source_sha256": {
+    "depth_research/__main__.py": "3359597e6a9dd0b5aaa50a103fb816f1bda34103b2a3408e439576cb1b718f19",
+    "depth_research/refine.py": "8d54070eabecd99be4344fa868e82e4dcfaa7dd12704d48c959fef2ef6d8212a",
+    "depth_research/features.py": "549940f758e944b38ded07cb1b2f14ab8108e7a859f6ce558329e8e46d839e3c",
+    "depth_research/explore.py": "de4d035e55d1e76de84e096db1846ea572617a78f41e0806c7b7c9f4b8e71e62",
+    "depth_research/data.py": "7ebb2ca3e6c3621c60729245a60b79c23cb2909615740c86fc202794fbed881c",
+    "depth_research/release_test.py": "f560a457a8373166a1df809d53a8e331a0850864f49e4758de7e84686f97670f",
+    "depth_research/__init__.py": "672770694c8eabd090c2375ea93e0954377b8d5573d10b89531b81762722b1c2",
+    "depth_research/report.py": "429d0843293ef07a52d6cac75c8bb8cb872203bd9404c0330b99003ccfee1d7e",
+    "depth_research/backtest.py": "87e65904808b22b84320b1a42c39ebc67eaae109044fa3cfcb16a50a2fc94cf3"
+  },
+  "input_audit_sha256": "4b4602d4096791237041ca3329742fd12ec319670a837fec65967b93bcc7aaa9"
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "independent_checks": 568462,
+  "reconstructed_runs": 792,
+  "reconciled_trades": 59817,
+  "all_event_liquidation_curves_reconciled": true,
+  "source": "saved trades plus cached visible VWAP; no simulator calls"
+}
